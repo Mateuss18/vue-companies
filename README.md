@@ -1,2 +1,3 @@
-# vue-companies
-List of companies around the world that use vue.js
+# Vue Companies
+
+Website that lists companies using Vue.js around the world
