@@ -1,0 +1,64 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Mercado Eletrônico",
+      "slug": "mercado-eletronico",
+      "logo": "/logos/mercado-eletronico.png",
+      "country": "Brasil",
+      "city": "São Paulo",
+      "size": "medium",
+      "website": "https://institucional.me.com.br/",
+      "linkedin": "https://www.linkedin.com/company/mercado-eletronico/",
+      "description": "Compras B2B de forma simples, inteligente e sustentável.",
+      "tags": ["b2b", "procurement", "supply-chain", "e-procurement", "saas"],
+      "createdAt": "2026-02-14"
+    },
+    {
+      "id": 2,
+      "name": "Clicksign",
+      "slug": "clicksign",
+      "logo": "/logos/clicksign.png",
+      "country": "Brasil",
+      "city": "São Paulo",
+      "size": "medium",
+      "website": "https://www.clicksign.com/",
+      "linkedin": "https://www.linkedin.com/company/clicksign/",
+      "description": "Clicksign. O click que muda a sua vida.",
+      "tags": ["legaltech", "digital-signature", "saas", "security", "compliance"],
+      "createdAt": "2026-02-14"
+    },
+    {
+      "id": 3,
+      "name": "Mercado Bitcoin",
+      "slug": "mercado-bitcoin",
+      "logo": "/logos/mercado-bitcoin.png",
+      "country": "Brasil",
+      "city": "São Paulo",
+      "size": "large",
+      "website": "https://www.mercadobitcoin.com.br/",
+      "linkedin": "https://www.linkedin.com/company/mercado-bitcoin/",
+      "description": "Somos a maior plataforma de investimentos em ativos digitais da América Latina.",
+      "tags": ["fintech", "cripto", "exchange"],
+      "createdAt": "2026-02-14"
+    },
+    {
+      "id": 4,
+      "name": "Global TI",
+      "slug": "global-ti",
+      "logo": "/logos/global-ti.png",
+      "country": "Brasil",
+      "city": "São Paulo",
+      "size": "small",
+      "website": "https://www.globalti.com.br/",
+      "linkedin": "https://www.linkedin.com/company/global-ti/",
+      "description": "Há mais de 24 anos no mercado de tecnologia da informação atendendo grandes empresas.",
+      "tags": ["ti", "consultoria", "servicos", "tecnologia"],
+      "createdAt": "2026-02-14"
+    }
+  ],
+  "meta": {
+    "total": 4,
+    "lastUpdate": "2026-02-14"
+  }
+}
