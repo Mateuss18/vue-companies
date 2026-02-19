@@ -106,7 +106,7 @@
       "country": "Brasil",
       "city": "Brasília",
       "size": "Média",
-      "website": "https://www.registrodeimoveis.org.br/onr",
+      "website": "https://www.onr.org.br/",
       "linkedin": "https://www.linkedin.com/company/operador-nacional-do-registro-eletr-nico-de-im-veis-onr/",
       "description": "Responsável por implementar e operar o Sistema de Registro Eletrônico de Imóveis.",
       "tags": ["govtech", "legaltech", "registro", "imoveis", "srei"],
@@ -223,10 +223,94 @@
       "description": "Educação executiva continuada com plataforma digital que conecta e fortalece o ecossistema de startups, investidores e empresas.",
       "tags": ["educacao", "inovacao", "startups", "eventos", "conteudo"],
       "createdAt": "2026-02-16"
+    },
+    {
+      "id": 17,
+      "name": "Supranet",
+      "slug": "supranet",
+      "logo": "/logos/supranet.png",
+      "country": "Brasil",
+      "city": "Ipatinga",
+      "size": "Média",
+      "website": "https://supranet.com.br/",
+      "linkedin": "https://www.linkedin.com/company/supranet-telecom/",
+      "description": "Provedor de internet por fibra óptica com atuação no leste de Minas Gerais.",
+      "tags": ["telecom", "internet", "fibra-optica", "provedor", "isp"],
+      "createdAt": "2026-02-18"
+    },
+    {
+      "id": 18,
+      "name": "QUBE markets",
+      "slug": "qube-markets",
+      "logo": "/logos/qube-markets.png",
+      "country": "Austrália",
+      "city": "Barangaroo",
+      "size": "Pequena",
+      "website": "https://www.qbmarkets.com/",
+      "linkedin": "https://au.linkedin.com/company/qube-markets",
+      "description": "Ecossistema de trading com foco em CFDs, liquidez institucional e execução de baixa latência.",
+      "tags": ["fintech", "trading", "cfd", "investimentos", "web3"],
+      "createdAt": "2026-02-18"
+    },
+    {
+      "id": 19,
+      "name": "Privacy",
+      "slug": "privacy",
+      "logo": "/logos/privacy.png",
+      "country": "Brasil",
+      "city": "São Paulo",
+      "size": "Grande",
+      "website": "https://privacy.com.br/",
+      "linkedin": "https://br.linkedin.com/company/sejaprivacy",
+      "description": "Plataforma de monetização de conteúdo online para criadores na América Latina.",
+      "tags": ["creator-economy", "social", "conteudo", "assinaturas", "marketplace"],
+      "createdAt": "2026-02-18"
+    },
+    {
+      "id": 20,
+      "name": "Particula",
+      "slug": "particula",
+      "logo": "/logos/particula.png",
+      "country": "Alemanha",
+      "city": "Munique",
+      "size": "Pequena",
+      "website": "https://particula.io/",
+      "linkedin": "https://de.linkedin.com/company/particula-io",
+      "description": "Plataforma de ratings e monitoramento de risco para ativos digitais.",
+      "tags": ["fintech", "blockchain", "ativos-digitais", "ratings", "analytics"],
+      "createdAt": "2026-02-18"
+    },
+    {
+      "id": 21,
+      "name": "Nordhealth",
+      "slug": "nordhealth",
+      "logo": "/logos/nordhealth.png",
+      "country": "Finlândia",
+      "city": "Helsinque",
+      "size": "Média",
+      "website": "https://nordhealth.com/",
+      "linkedin": "https://www.linkedin.com/company/nordhealth/",
+      "description": "Desenvolvemos produtos que redefinem a saúde digital, com foco em software para clínicas e profissionais de saúde.",
+      "tags": ["healthtech", "saas", "software", "saude", "veterinaria"],
+      "createdAt": "2026-02-18"
+    },
+    {
+      "id": 22,
+      "name": "Ankix",
+      "slug": "ankix",
+      "logo": "/logos/ankix.png",
+      "country": "Portugal",
+      "city": "Lisboa",
+      "size": "Média",
+      "website": "https://www.ankix.com/",
+      "linkedin": "https://www.linkedin.com/company/ankixsystems/",
+      "description": "Consultoria e outsourcing de TI com soluções web e mobile e serviços de nearshoring.",
+      "tags": ["consultoria", "ti", "outsourcing", "nearshore", "software"],
+      "createdAt": "2026-02-18"
     }
   ],
   "meta": {
-    "total": 16,
-    "lastUpdate": "2026-02-16"
+    "total": 22,
+    "lastUpdate": "2026-02-18"
   }
 }
