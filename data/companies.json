@@ -193,7 +193,13 @@
       "website": "https://www.ayesa.com/",
       "linkedin": "https://www.linkedin.com/company/ayesa/",
       "description": "Provedora global de serviços tecnológicos e de engenharia.",
-      "tags": ["engenharia", "tecnologia", "consultoria", "infraestrutura", "transformacao-digital"],
+      "tags": [
+        "engenharia",
+        "tecnologia",
+        "consultoria",
+        "infraestrutura",
+        "transformacao-digital"
+      ],
       "createdAt": "2026-02-15"
     },
     {
