@@ -1,86 +1,88 @@
-@import "tailwindcss";
-@import "@nuxt/ui";
+@import 'tailwindcss';
+@import '@nuxt/ui';
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-Thin.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-ExtraLight.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-ExtraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-Light.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-Regular.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-Medium.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-SemiBold.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-Bold.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-ExtraBold.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Alexandria";
-  src: url("/fonts/alexandria/Alexandria-Black.ttf") format("truetype");
+  font-family: 'Alexandria';
+  src: url('/fonts/alexandria/Alexandria-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @theme {
-  --font-sans: "Alexandria", system-ui, sans-serif;
+  --font-sans: 'Alexandria', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-  --color-primary: #B8E178;
-  --color-secondary: #60AF61;
+  --color-primary: #b8e178;
+  --color-secondary: #60af61;
   --color-accent: #166553;
-  --color-bg: #0E1417;
-  --color-text: #FFFFFF;
-  --color-subtitle: #DEDEDE;
-  --color-neutral: #DEDEDE;
+  --color-bg: #0e1417;
+  --color-bg-secondary: #1a1f23;
+  --color-gray: #2d3338;
+  --color-text: #ffffff;
+  --color-subtitle: #dedede;
+  --color-neutral: #dedede;
 }
