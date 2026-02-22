@@ -1,13 +1,13 @@
 <template>
   <UCard
-    class="company-card w-md"
-    :ui="{ body: 'bg-bg-secondary border-gray border-2 rounded-md' }"
+    class="company-card w-md h-auto"
+    :ui="{ body: 'bg-bg-secondary border-gray border-2 rounded-md h-full flex flex-col' }"
   >
     <div class="head flex gap-5">
       <img
         :src="`https://img.logo.dev/name/${props.company.name}?token=${publicKey}&size=85`"
         alt=""
-        class="aside-left"
+        class="aside-left rounded-md"
         width="85"
         height="85"
       />
@@ -25,20 +25,12 @@
             {{ props.company.country }}
           </UBadge>
 
-          <UBadge
-            icon="i-lucide-building-2"
-            size="md"
-            color="primary"
-            variant="solid"
-            class="w-fit rounded-xl font-normal py-1 px-3"
-          >
-            {{ props.company.size }}
-          </UBadge>
+          <BagdeCompanySize :size="props.company.size" />
         </div>
       </div>
     </div>
 
-    <div class="body">
+    <div class="body flex-1">
       <p class="font-light my-5">
         {{ props.company.description }}
       </p>
