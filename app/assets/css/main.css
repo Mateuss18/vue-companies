@@ -79,10 +79,17 @@
   --color-primary: #b8e178;
   --color-secondary: #60af61;
   --color-accent: #166553;
+  --color-accent-dark: #125444;
   --color-bg: #0e1417;
   --color-bg-secondary: #1a1f23;
   --color-gray: #2d3338;
   --color-text: #ffffff;
   --color-subtitle: #dedede;
   --color-neutral: #dedede;
+
+  --color-purple: #7c3aed;
+  --color-blue: #2563eb;
+  --color-green: #00835a;
+  --color-orange: #ca4802;
+  --color-red: #dc2626;
 }

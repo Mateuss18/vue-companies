@@ -2,6 +2,7 @@
   <div class="home min-h-screen text-tex flex flex-col justify-center px-26">
     <HeroSection />
     <CompaniesList />
+    <FooterSimple />
   </div>
 </template>
 
