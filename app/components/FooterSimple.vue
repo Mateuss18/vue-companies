@@ -6,9 +6,7 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      Mateus Lopes
+      < Mateus Lopes />
     </a>
   </footer>
 </template>
-
-<script setup lang="ts"></script>
