@@ -92,4 +92,13 @@
   --color-green: #00835a;
   --color-orange: #ca4802;
   --color-red: #dc2626;
+
+  --breakpoint-xxl: 1750px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-md: 600px;
+  --breakpoint-sm: 375px;
+}
+
+body {
+  background: var(--color-bg) url(../imgs/background-layer-v2.svg) repeat center;
 }
