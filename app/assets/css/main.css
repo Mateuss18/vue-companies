@@ -91,11 +91,11 @@
   --color-blue: #2563eb;
   --color-green: #00835a;
   --color-orange: #ca4802;
-  --color-red: #dc2626;
+  --color-red: #a82222;
 
-  --breakpoint-xxl: 1750px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-md: 600px;
+  --breakpoint-xxl: 1550px;
+  --breakpoint-lg: 1350px;
+  --breakpoint-md: 550px;
   --breakpoint-sm: 375px;
 }
 
