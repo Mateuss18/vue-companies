@@ -1,14 +1,20 @@
 <template>
-  <div class="hero-section flex justify-center flex-col items-center py-24">
-    <IconsLogo class="mb-6" />
+  <div class="hero-section flex justify-center flex-col items-center py-12 sm:py-22 lg:w lg:py-34">
+    <IconsLogo
+      class="mb-4 w-[250px] h-[68px] sm:w-[300px] sm:h-auto sm:md-5 md:w-[350px] lg:w-[370px]"
+    />
 
-    <h1 class="font-light text-5xl mb-4">Trabalhe onde o Vue.js é valorizado</h1>
+    <h1 class="font-light text-xl mb-4 text-center sm:text-3xl md:text-4xl lg:text-4xl">
+      Trabalhe onde o Vue.js é valorizado
+    </h1>
 
-    <p class="font-light text-2xl/9 mb-7 w-2xl text-center color-(--color-subtitle)">
+    <p
+      class="font-light text-md mb-4 text-center color-(--color-subtitle) sm:mb-7 md:text-lg md:w-xl lg:text-2xl"
+    >
       Descubra empresas brasileiras e internacionais que desenvolvem com Vue
     </p>
 
-    <UButton class="p-5 text-lg gap-2">
+    <UButton class="p-3 text-md gap-2 cursor-pointer md:p-4" @click="emit('scrollToList')">
       Explorar empresas
       <PhArrowFatLinesDown :size="22" weight="fill" />
     </UButton>
@@ -17,4 +23,6 @@
 
 <script lang="ts" setup>
 import { PhArrowFatLinesDown } from '@phosphor-icons/vue'
+
+const emit = defineEmits<{ (e: 'scrollToList'): void }>()
 </script>

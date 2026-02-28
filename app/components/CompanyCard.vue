@@ -1,25 +1,27 @@
 <template>
   <UCard
-    class="company-card w-md h-auto"
-    :ui="{ body: 'bg-bg-secondary border-gray border-2 rounded-md h-full flex flex-col' }"
+    class="company-card w-md h-auto rounded-md lg:w-full"
+    :ui="{
+      body: 'bg-bg-secondary border-gray border-2 hover:border-primary rounded-md h-full flex flex-col p-3 sm:p-4 lg:p-4 xxl:p-5',
+    }"
   >
-    <div class="head flex gap-5">
+    <div class="head flex gap-3 items-center">
       <img
-        :src="`https://img.logo.dev/name/${props.company.name}?token=${publicKey}&size=85`"
-        alt=""
-        class="aside-left rounded-md"
+        :src="companyLogoSrc"
+        @error="handleLogoError"
+        :alt="`${props.company.name} logo`"
+        class="aside-left rounded-md w-[75px] h-auto sm:w-[85px]"
         width="85"
         height="85"
       />
 
       <div class="aside-right">
-        <h3 class="text-2xl font-normal mb-1">{{ props.company.name }}</h3>
-
+        <h3 class="text-md font-normal mb-1 sm:text-lg md:text-xl">{{ props.company.name }}</h3>
         <div class="flex flex-col">
           <UBadge
             icon="i-lucide-map-pin"
-            size="md"
-            class="text-sm font-light p-0 mb-2 bg-transparent text-white"
+            size="xs"
+            class="text-xs font-light p-0 mb-2 bg-transparent text-white"
           >
             {{ props.company.city }},
             {{ props.company.country }}
@@ -31,7 +33,7 @@
     </div>
 
     <div class="body flex-1">
-      <p class="font-light my-5">
+      <p class="font-light my-4 text-sm md:text-base xxl:my-5">
         {{ props.company.description }}
       </p>
     </div>
@@ -40,7 +42,7 @@
       <UButton
         :href="props.company.website"
         target="_blank"
-        class="w-full p-3 text-base font-normal justify-center bg-accent text-white hover:bg-accent-dark cursor-pointer duration-300 ease-in-out"
+        class="w-full p-2 text-base font-normal justify-center bg-accent text-white hover:bg-accent-dark cursor-pointer duration-300 ease-in-out sm:p-3"
         :ui="{ leadingIcon: 'size-5' }"
       >
         <PhGlobeSimple :size="24" />
@@ -50,8 +52,8 @@
       <UButton
         :href="props.company.linkedin"
         target="_blank"
-        class="w-full p-3 text-base font-normal justify-center bg-[#0A66C2] text-white hover:bg-[#06509a] cursor-pointer duration-300 ease-in-out"
-        :ui="{ leadingIcon: 'size- stroke-[1.5]' }"
+        class="w-full p-2 text-base font-normal justify-center bg-[#0A66C2] text-white hover:bg-[#06509a] cursor-pointer duration-300 ease-in-out sm:p-2.5"
+        :ui="{ leadingIcon: 'size-5' }"
       >
         <PhLinkedinLogo :size="24" />
         LinkedIn
@@ -66,8 +68,39 @@ import { PhLinkedinLogo, PhGlobeSimple } from '@phosphor-icons/vue'
 const config = useRuntimeConfig()
 const publicKey = config.public.logoDevPublicKey
 
-const props = defineProps<{
-  company: object
+type Company = {
+  id: number
+  name: string
+  slug: string
+  logo?: string
+  country: string
+  city: string
+  size: string
+  website: string
   domain: string
+  linkedin: string
+  description: string
+  tags: string[]
+  createdAt: string
+}
+
+const props = defineProps<{
+  company: Company
 }>()
+
+const companyLogoUrls = [
+  `${props.company.logo}`,
+  `https://img.logo.dev/${props.company.domain}?token=${publicKey}&size=85&fallback=404`,
+  `https://img.logo.dev/name/${props.company.name}?token=${publicKey}&size=85&fallback=404`,
+  '/imgs/placeholder-logo.svg',
+]
+
+const currentIndex = ref<number>(0)
+const companyLogoSrc = computed(() => companyLogoUrls[currentIndex.value])
+
+const handleLogoError = () => {
+  if (currentIndex.value < companyLogoUrls.length - 1) {
+    currentIndex.value++
+  }
+}
 </script>
