@@ -1,7 +1,7 @@
 <template>
-  <div class="hero-section flex justify-center flex-col items-center py-12 sm:py-22 lg:w lg:py-34">
+  <div class="hero-section flex justify-center flex-col items-center py-12 sm:py-22 lg:py-34">
     <IconsLogo
-      class="mb-4 w-[250px] h-[68px] sm:w-[300px] sm:h-auto sm:md-5 md:w-[350px] lg:w-[370px]"
+      class="mb-4 w-[250px] h-[68px] sm:w-[300px] sm:h-auto sm:mb-5 md:w-[350px] lg:w-[370px]"
     />
 
     <h1 class="font-light text-xl mb-4 text-center sm:text-3xl md:text-4xl lg:text-4xl">
