@@ -17,6 +17,10 @@ export default defineNuxtConfig({
         },
         { property: 'og:image', content: '/imgs/og-image.png' },
         { property: 'og:type', content: 'website' },
+        {
+          name: 'google-site-verification',
+          content: 'pGqHUvMe7RilAm4KtG-aA-2lNDNXEyryG2O_gQmc2nc',
+        },
       ],
     },
   },
