@@ -21,7 +21,13 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/ui'],
+  modules: ['@nuxt/eslint', '@nuxt/ui', 'nuxt-gtag'],
+  gtag: {
+    id: 'G-8J3T67YX11',
+    config: {
+      debug_mode: process.env.NODE_ENV === 'development',
+    },
+  },
   eslint: {
     config: {
       standalone: false,

@@ -27,7 +27,17 @@ const visibleCount = ref(step)
 
 const visibleCompanies = computed(() => companies.slice(0, visibleCount.value))
 
+const { gtag } = useGtag()
+
 const loadMore = () => {
+  const previousCount = visibleCount.value
   visibleCount.value = Math.min(visibleCount.value + step, companies.length)
+  gtag('event', 'select_content', {
+    content_type: 'load_more',
+    item_list_id: 'companies_list',
+    item_list_name: 'Companies List',
+    items_shown: visibleCount.value,
+    items_added: visibleCount.value - previousCount,
+  })
 }
 </script>

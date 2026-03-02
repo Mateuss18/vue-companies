@@ -13,6 +13,8 @@
         class="aside-left rounded-md w-[75px] h-auto sm:w-[85px]"
         width="85"
         height="85"
+        loading="lazy"
+        decoding="async"
       />
 
       <div class="aside-right">
@@ -42,8 +44,10 @@
       <UButton
         :href="props.company.website"
         target="_blank"
+        rel="noopener noreferrer"
         class="w-full p-2 text-base font-normal justify-center bg-accent text-white hover:bg-accent-dark cursor-pointer duration-300 ease-in-out sm:p-3"
         :ui="{ leadingIcon: 'size-5' }"
+        @click="trackCompanyClick('website')"
       >
         <PhGlobeSimple :size="24" />
         Site
@@ -52,8 +56,10 @@
       <UButton
         :href="props.company.linkedin"
         target="_blank"
+        rel="noopener noreferrer"
         class="w-full p-2 text-base font-normal justify-center bg-[#0A66C2] text-white hover:bg-[#06509a] cursor-pointer duration-300 ease-in-out sm:p-2.5"
         :ui="{ leadingIcon: 'size-5' }"
+        @click="trackCompanyClick('linkedin')"
       >
         <PhLinkedinLogo :size="24" />
         LinkedIn
@@ -64,6 +70,8 @@
 
 <script setup lang="ts">
 import { PhLinkedinLogo, PhGlobeSimple } from '@phosphor-icons/vue'
+
+const { gtag } = useGtag()
 
 const config = useRuntimeConfig()
 const publicKey = config.public.logoDevPublicKey
@@ -88,18 +96,30 @@ const props = defineProps<{
   company: Company
 }>()
 
-const companyLogoUrls = [
-  `${props.company.logo}`,
-  `https://img.logo.dev/${props.company.domain}?token=${publicKey}&size=85&fallback=404`,
-  `https://img.logo.dev/name/${props.company.name}?token=${publicKey}&size=85&fallback=404`,
-  '/imgs/placeholder-logo.svg',
-]
-
+const companyLogoUrls = computed(
+  () =>
+    [
+      props.company.logo,
+      `https://img.logo.dev/${props.company.domain}?token=${publicKey}&size=85&fallback=404`,
+      `https://img.logo.dev/name/${props.company.name}?token=${publicKey}&size=85&fallback=404`,
+      '/imgs/placeholder-logo.svg',
+    ].filter(Boolean) as string[],
+)
 const currentIndex = ref<number>(0)
-const companyLogoSrc = computed(() => companyLogoUrls[currentIndex.value])
+const companyLogoSrc = computed(() => companyLogoUrls.value[currentIndex.value])
+
+const trackCompanyClick = (type: 'website' | 'linkedin') => {
+  gtag('event', 'select_content', {
+    content_type: type,
+    item_id: props.company.slug,
+    item_name: props.company.name,
+    link_url: type === 'website' ? props.company.website : props.company.linkedin,
+    company_domain: props.company.domain,
+  })
+}
 
 const handleLogoError = () => {
-  if (currentIndex.value < companyLogoUrls.length - 1) {
+  if (currentIndex.value < companyLogoUrls.value.length - 1) {
     currentIndex.value++
   }
 }
