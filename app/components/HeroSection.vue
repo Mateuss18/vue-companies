@@ -14,7 +14,10 @@
       Descubra empresas brasileiras e internacionais que desenvolvem com Vue
     </p>
 
-    <UButton class="p-3 text-md gap-2 cursor-pointer md:p-4" @click="emit('scrollToList')">
+    <UButton
+      class="p-3 text-md gap-2 cursor-pointer bg-primary text-bg hover:bg-secondary md:p-4"
+      @click="emit('scrollToList')"
+    >
       Explorar empresas
       <PhArrowFatLinesDown :size="22" weight="fill" />
     </UButton>
