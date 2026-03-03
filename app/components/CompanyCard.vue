@@ -18,7 +18,7 @@
       />
 
       <div class="aside-right">
-        <h3 class="text-md font-normal mb-1 sm:text-lg md:text-xl">{{ props.company.name }}</h3>
+        <h2 class="text-md font-normal mb-1 sm:text-lg md:text-xl">{{ props.company.name }}</h2>
         <div class="flex flex-col">
           <UBadge
             icon="i-lucide-map-pin"

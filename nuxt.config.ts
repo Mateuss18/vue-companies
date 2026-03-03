@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'pt-BR',
+      },
       title: 'Vue Companies',
       meta: [
         {

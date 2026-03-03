@@ -9,7 +9,7 @@
     <UButton
       v-if="visibleCount < companies.length"
       @click="loadMore"
-      class="m-auto cursor-pointer"
+      class="m-auto cursor-pointer bg-primary text-bg hover:bg-secondary"
       trailing-icon="i-lucide-plus"
     >
       Carregar mais
