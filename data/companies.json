@@ -609,10 +609,54 @@
       "description": "Agência de desenvolvimento de apps e web que transforma ideias em produtos digitais para empresas e startups.",
       "tags": ["apps", "mobile", "web", "software"],
       "createdAt": "2026-02-25"
+    },
+    {
+      "id": 43,
+      "name": "Tech For TI",
+      "slug": "tech-for-ti",
+      "country": "Brasil",
+      "city": "São Paulo",
+      "size": "Pequena",
+      "website": "https://techforti.com.br/",
+      "domain": "techforti.com.br",
+      "linkedin": "https://www.linkedin.com/company/techforbr/",
+      "description": "Consultoria de Tecnologia da Informação especializada em soluções inteligentes, fábrica de software e outsourcing.",
+      "tags": ["consultoria", "ti", "outsourcing", "infraestrutura", "fabrica-de-software"],
+      "createdAt": "2026-03-02"
+    },
+    {
+      "id": 44,
+      "name": "HubStrom",
+      "slug": "hubstrom",
+      "country": "Brasil",
+      "city": "São Paulo",
+      "size": "Startup",
+      "website": "https://hubstrom.com.br/",
+      "domain": "hubstrom.com.br",
+      "linkedin": "https://www.linkedin.com/company/hubstrom/",
+      "description": "Hub de inovação e tecnologia focado em soluções digitais e desenvolvimento de produtos.",
+      "tags": ["tecnologia", "inovacao", "startup"],
+      "workModel": "Presencial",
+      "createdAt": "2026-03-02"
+    },
+    {
+      "id": 45,
+      "name": "New Rizon",
+      "slug": "new-rizon",
+      "country": "Brasil",
+      "city": "Barueri",
+      "size": "Pequena",
+      "website": "https://newrizon.global/",
+      "domain": "newrizon.global",
+      "linkedin": "https://www.linkedin.com/company/newrizonglobal/",
+      "description": "Especialistas em orquestração e implementação de IA que gera ROI e resultados reais para o seu negócio.",
+      "tags": ["inteligencia-artificial", "ia", "consultoria", "tecnologia"],
+      "workModel": "Híbrido",
+      "createdAt": "2026-03-02"
     }
   ],
   "meta": {
-    "total": 42,
-    "lastUpdate": "2026-02-25"
+    "total": 45,
+    "lastUpdate": "2026-03-02"
   }
 }
