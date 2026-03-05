@@ -653,10 +653,40 @@
       "tags": ["inteligencia-artificial", "ia", "consultoria", "tecnologia"],
       "workModel": "Híbrido",
       "createdAt": "2026-03-02"
+    },
+    {
+      "id": 46,
+      "name": "Dyflexis",
+      "slug": "dyflexis",
+      "country": "Países Baixos",
+      "city": "The Hague",
+      "size": "Pequena",
+      "website": "https://www.dyflexis.com/",
+      "domain": "dyflexis.com",
+      "linkedin": "https://www.linkedin.com/company/dyflexis/",
+      "description": "Software de workforce management para criar escalas e acompanhar horas trabalhadas com facilidade.",
+      "tags": ["workforce-management", "scheduling", "time-tracking", "saas"],
+      "workModel": "Híbrido",
+      "createdAt": "2026-03-04"
+    },
+    {
+      "id": 47,
+      "name": "AND Digital",
+      "slug": "and-digital",
+      "country": "Reino Unido",
+      "city": "London",
+      "size": "Grande",
+      "website": "https://www.and.digital/",
+      "domain": "and.digital",
+      "linkedin": "https://www.linkedin.com/company/and_digital/",
+      "description": "Aceleramos capacidades digitais e desenvolvemos produtos com times colaborativos.",
+      "tags": ["consultoria", "produto-digital", "software", "tecnologia"],
+      "workModel": "Híbrido",
+      "createdAt": "2026-03-04"
     }
   ],
   "meta": {
-    "total": 45,
-    "lastUpdate": "2026-03-02"
+    "total": 47,
+    "lastUpdate": "2026-03-04"
   }
 }
