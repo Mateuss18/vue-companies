@@ -16,7 +16,7 @@
 
     <UButton
       class="p-3 text-md gap-2 cursor-pointer bg-primary text-bg hover:bg-primary-dark md:p-4"
-      @click="emit('scrollToList')"
+      @click="handleExploreClick"
     >
       Explorar empresas
       <PhArrowFatLinesDown :size="22" weight="fill" />
@@ -28,4 +28,14 @@
 import { PhArrowFatLinesDown } from '@phosphor-icons/vue'
 
 const emit = defineEmits<{ (e: 'scrollToList'): void }>()
+
+const { gtag } = useGtag()
+
+const handleExploreClick = () => {
+  gtag('event', 'explore_companies_click', {
+    section: 'hero',
+    target: 'companies_list',
+  })
+  emit('scrollToList')
+}
 </script>
