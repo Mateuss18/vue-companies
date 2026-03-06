@@ -31,13 +31,18 @@ const { gtag } = useGtag()
 
 const loadMore = () => {
   const previousCount = visibleCount.value
-  visibleCount.value = Math.min(visibleCount.value + step, companies.length)
-  gtag('event', 'select_content', {
-    content_type: 'load_more',
+  const nextCount = Math.min(visibleCount.value + step, companies.length)
+  const loadMoreClickIndex = Math.ceil(previousCount / step)
+  visibleCount.value = nextCount
+  gtag('event', 'load_more_companies', {
+    section: 'companies_list',
     item_list_id: 'companies_list',
     item_list_name: 'Companies List',
+    load_more_click_index: loadMoreClickIndex,
+    items_before: previousCount,
     items_shown: visibleCount.value,
     items_added: visibleCount.value - previousCount,
+    items_total: companies.length,
   })
 }
 </script>
