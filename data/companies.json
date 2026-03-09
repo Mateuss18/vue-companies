@@ -13,6 +13,7 @@
       "linkedin": "https://www.linkedin.com/company/mercado-eletronico/",
       "description": "Compras B2B de forma simples, inteligente e sustentável.",
       "tags": ["b2b", "procurement", "supply-chain", "e-procurement", "saas"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-14"
     },
     {
@@ -28,6 +29,7 @@
       "linkedin": "https://www.linkedin.com/company/omie/",
       "description": "O sistema ERP que descomplica sua gestão.",
       "tags": ["erp", "saas", "gestao", "software", "fintech"],
+      "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-02-14"
     },
     {
@@ -38,11 +40,12 @@
       "country": "Brasil",
       "city": "São Paulo",
       "size": "Média",
-      "website": "https://privacy.com.br/",
+      "website": "https://privacy.com.br/About",
       "domain": "privacy.com.br",
       "linkedin": "https://br.linkedin.com/company/sejaprivacy",
       "description": "Plataforma de monetização de conteúdo online para criadores na América Latina.",
       "tags": ["creator-economy", "social", "conteudo", "assinaturas", "marketplace"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-18"
     },
     {
@@ -58,6 +61,7 @@
       "linkedin": "https://br.linkedin.com/company/lwsa-tech",
       "description": "Ecossistema de tecnologia que ajuda empresas a crescer e prosperar no digital.",
       "tags": ["tecnologia", "ecommerce", "cloud", "saas", "varejo"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-22"
     },
     {
@@ -73,6 +77,7 @@
       "linkedin": "https://www.linkedin.com/company/mercado-bitcoin/",
       "description": "Somos a maior plataforma de investimentos em ativos digitais da América Latina.",
       "tags": ["fintech", "cripto", "exchange"],
+      "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-02-14"
     },
     {
@@ -88,6 +93,7 @@
       "linkedin": "https://br.linkedin.com/company/linxretail",
       "description": "Especialista em tecnologia para o varejo, com software de gestão e soluções omnichannel.",
       "tags": ["varejo", "software", "erp", "pdv", "omnichannel"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-22"
     },
     {
@@ -103,6 +109,7 @@
       "linkedin": "https://www.linkedin.com/company/solfacil/",
       "description": "Principal ecossistema de soluções para geração de energia solar no Brasil e primeira plataforma de fintech solar na América Latina.",
       "tags": ["fintech", "energia-solar", "sustentabilidade", "financiamento"],
+      "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-02-15"
     },
     {
@@ -124,6 +131,7 @@
         "infraestrutura",
         "transformacao-digital"
       ],
+      "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-02-15"
     },
     {
@@ -139,6 +147,7 @@
       "linkedin": "https://br.linkedin.com/company/petlove",
       "description": "Maior ecossistema digital para pets do Brasil, com produtos, serviços e cuidado para tutores e veterinários.",
       "tags": ["pettech", "ecommerce", "saude-pet", "marketplace", "servicos"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-20"
     },
     {
@@ -154,6 +163,7 @@
       "linkedin": "https://www.linkedin.com/company/compass-uol",
       "description": "Empresa brasileira de tecnologia do grupo UOL focada em serviços e transformação digital.",
       "tags": ["consultoria", "ti", "outsourcing", "transformacao-digital", "cloud"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-20"
     },
     {
@@ -169,6 +179,7 @@
       "linkedin": "https://au.linkedin.com/company/qube-markets",
       "description": "Ecossistema de trading com foco em CFDs, liquidez institucional e execução de baixa latência.",
       "tags": ["fintech", "trading", "cfd", "investimentos", "web3"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-18"
     },
     {
@@ -184,12 +195,13 @@
       "linkedin": "https://www.linkedin.com/company/clicksign/",
       "description": "Plataforma brasileira de assinatura eletrônica que agiliza a assinatura e gestão de documentos com validade jurídica e autenticação segura para empresas.",
       "tags": ["legaltech", "digital-signature", "saas", "security", "compliance"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-14"
     },
     {
       "id": 13,
-      "name": "CPlug",
-      "slug": "cplug",
+      "name": "ConnectPlug",
+      "slug": "connectplug",
       "logo": "/imgs/logos/cplug.png",
       "country": "Brasil",
       "city": "Curitiba",
@@ -199,6 +211,7 @@
       "linkedin": "https://br.linkedin.com/company/connectplug",
       "description": "Sistema de gestão para varejo e restaurantes com PDV, ERP e autoatendimento.",
       "tags": ["erp", "pdv", "varejo", "food-service", "saas"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-22"
     },
     {
@@ -214,6 +227,7 @@
       "linkedin": "https://www.linkedin.com/company/supranet-telecom/",
       "description": "Provedor de internet por fibra óptica com atuação no leste de Minas Gerais.",
       "tags": ["telecom", "internet", "fibra-optica", "provedor", "isp"],
+      "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-02-18"
     },
     {
@@ -300,6 +314,7 @@
       "linkedin": "https://www.linkedin.com/company/operador-nacional-do-registro-eletr-nico-de-im-veis-onr/",
       "description": "Responsável por implementar e operar o Sistema de Registro Eletrônico de Imóveis.",
       "tags": ["govtech", "legaltech", "registro", "imoveis", "srei"],
+      "workModel": ["Remoto"],
       "createdAt": "2026-02-14"
     },
     {
@@ -337,7 +352,7 @@
       "country": "Brasil",
       "city": "Curitiba",
       "size": "Média",
-      "website": "https://watch.tv.br/",
+      "website": "https://descubra.watch.tv.br/sobre-a-watch/",
       "domain": "watch.tv.br",
       "linkedin": "https://www.linkedin.com/company/watch-brasil/",
       "description": "O maior e melhor hub de conteúdo do Brasil.",
@@ -636,7 +651,7 @@
       "linkedin": "https://www.linkedin.com/company/hubstrom/",
       "description": "Hub de inovação e tecnologia focado em soluções digitais e desenvolvimento de produtos.",
       "tags": ["tecnologia", "inovacao", "startup"],
-      "workModel": "Presencial",
+      "workModel": ["Presencial"],
       "createdAt": "2026-03-02"
     },
     {
@@ -651,7 +666,7 @@
       "linkedin": "https://www.linkedin.com/company/newrizonglobal/",
       "description": "Especialistas em orquestração e implementação de IA que gera ROI e resultados reais para o seu negócio.",
       "tags": ["inteligencia-artificial", "ia", "consultoria", "tecnologia"],
-      "workModel": "Híbrido",
+      "workModel": ["Híbrido"],
       "createdAt": "2026-03-02"
     },
     {
@@ -666,7 +681,7 @@
       "linkedin": "https://www.linkedin.com/company/dyflexis/",
       "description": "Software de workforce management para criar escalas e acompanhar horas trabalhadas com facilidade.",
       "tags": ["workforce-management", "scheduling", "time-tracking", "saas"],
-      "workModel": "Híbrido",
+      "workModel": ["Híbrido"],
       "createdAt": "2026-03-04"
     },
     {
@@ -681,7 +696,7 @@
       "linkedin": "https://www.linkedin.com/company/and_digital/",
       "description": "Aceleramos capacidades digitais e desenvolvemos produtos com times colaborativos.",
       "tags": ["consultoria", "produto-digital", "software", "tecnologia"],
-      "workModel": "Híbrido",
+      "workModel": ["Híbrido"],
       "createdAt": "2026-03-04"
     },
     {
@@ -696,7 +711,7 @@
       "linkedin": "https://www.linkedin.com/company/oowlish/",
       "description": "Squads remotos de tecnologia para inovação e desenvolvimento de produtos digitais.",
       "tags": ["software", "squads", "nearshore", "produto-digital"],
-      "workModel": "Remoto",
+      "workModel": ["Remoto"],
       "createdAt": "2026-03-05"
     },
     {
@@ -711,7 +726,7 @@
       "linkedin": "https://www.linkedin.com/company/act-digital/",
       "description": "Impactando negócios e empoderando pessoas.",
       "tags": ["consultoria", "transformacao-digital", "tecnologia", "ia"],
-      "workModel": "Remoto",
+      "workModel": ["Remoto"],
       "createdAt": "2026-03-07"
     },
     {
@@ -726,7 +741,7 @@
       "linkedin": "https://www.linkedin.com/company/konghq/",
       "description": "Plataforma unificada para construir, proteger e gerenciar APIs e conectividade de IA.",
       "tags": ["api", "api-gateway", "plataforma", "ia", "software"],
-      "workModel": "Remoto***",
+      "workModel": ["Remoto", "Híbrido", "Presencial"],
       "createdAt": "2026-03-07"
     },
     {
@@ -741,7 +756,7 @@
       "linkedin": "https://www.linkedin.com/company/wikimedia-foundation/",
       "description": "Organização sem fins lucrativos que hospeda e protege a Wikipedia e outros projetos Wikimedia.",
       "tags": ["nonprofit", "conhecimento-livre", "wikipedia", "tecnologia"],
-      "workModel": "Remoto",
+      "workModel": ["Remoto"],
       "createdAt": "2026-03-07"
     },
     {
@@ -756,7 +771,7 @@
       "linkedin": "https://www.linkedin.com/company/appnovation/",
       "description": "Parceiro digital global que entrega soluções digitais com IA para seus clientes.",
       "tags": ["consultoria", "transformacao-digital", "design", "produto-digital", "tecnologia"],
-      "workModel": "Híbrido*",
+      "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-03-07"
     },
     {
@@ -771,7 +786,7 @@
       "linkedin": "https://www.linkedin.com/company/vigilglobal/",
       "description": "Consultoria de tecnologia especializada em engenharia de software e transformação em nuvem.",
       "tags": ["consultoria", "software", "engenharia", "cloud", "produto-digital"],
-      "workModel": "Remoto",
+      "workModel": ["Remoto"],
       "createdAt": "2026-03-07"
     }
   ],
