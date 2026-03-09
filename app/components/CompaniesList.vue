@@ -1,5 +1,7 @@
 <template>
   <div class="companies-list flex flex-col">
+    <p class="text-right text-md">Exibindo {{ visibleCount }} de {{ companies.length }} empresas</p>
+
     <div
       class="flex justify-center gap-6 flex-wrap mt-4 mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-12"
     >
