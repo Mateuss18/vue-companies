@@ -13,7 +13,7 @@
         class="aside-left rounded-md w-[75px] h-auto sm:w-[85px]"
         width="85"
         height="85"
-        loading="lazy"
+        :loading="props.company.id >= 3 ? 'lazy' : 'eager'"
         decoding="async"
       />
 
