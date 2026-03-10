@@ -1,15 +1,21 @@
 <template>
   <div class="companies-list flex flex-col">
-    <p class="text-right text-md">Exibindo {{ visibleCount }} de {{ companies.length }} empresas</p>
+    <SearchBar v-model="searchValue" />
 
-    <div
-      class="flex justify-center gap-6 flex-wrap mt-4 mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-12"
-    >
-      <CompanyCard v-for="company in visibleCompanies" :key="company.id" :company="company" />
+    <p class="text-center text-md my-7">
+      Mais de {{ addedCompanies }} empresas catalogadas e crescendo!
+    </p>
+
+    <div class="min-h-[900px]">
+      <div
+        class="flex justify-center gap-6 flex-wrap mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-12"
+      >
+        <CompanyCard v-for="company in visibleCompanies" :key="company.id" :company="company" />
+      </div>
     </div>
 
     <UButton
-      v-if="visibleCount < companies.length"
+      v-if="searchValue === '' && visibleCount < companies.length"
       @click="loadMore"
       class="m-auto cursor-pointer bg-primary text-bg hover:bg-primary-dark"
       trailing-icon="i-lucide-plus"
@@ -23,14 +29,29 @@
 import dataCompanies from '../../data/companies.json'
 
 const companies = dataCompanies.companies
+const searchValue = ref('')
+
+const filteredList = computed(() =>
+  companies.filter((company) =>
+    company.name.toLocaleLowerCase().includes(searchValue.value.trim().toLocaleLowerCase()),
+  ),
+)
 
 const step = 15
 const visibleCount = ref(step)
+const visibleCompanies = computed(() => filteredList.value.slice(0, visibleCount.value))
 
-const visibleCompanies = computed(() => companies.slice(0, visibleCount.value))
+const addedCompanies = Math.floor(companies.length / 10) * 10
+
+const emit = defineEmits<{ (e: 'scrollToList'): void }>()
+
+watch(searchValue, (newSearchValue, oldSearchValue) => {
+  if (newSearchValue !== '') {
+    emit('scrollToList')
+  }
+})
 
 const { gtag } = useGtag()
-
 const loadMore = () => {
   const previousCount = visibleCount.value
   const nextCount = Math.min(visibleCount.value + step, companies.length)

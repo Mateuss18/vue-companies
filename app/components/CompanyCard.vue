@@ -19,6 +19,7 @@
 
       <div class="aside-right">
         <h2 class="text-md font-normal mb-1 sm:text-lg md:text-xl">{{ props.company.name }}</h2>
+
         <div class="flex flex-col">
           <UBadge
             icon="i-lucide-map-pin"
@@ -29,7 +30,18 @@
             {{ props.company.country }}
           </UBadge>
 
-          <BagdeCompanySize :size="props.company.size" />
+          <div class="flex flex-wrap gap-1.5">
+            <BagdeCompanySize :size="props.company.size" />
+
+            <UBadge
+              v-for="value in props.company.workModel"
+              :key="value"
+              size="xs"
+              class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-white"
+            >
+              {{ value }}
+            </UBadge>
+          </div>
         </div>
       </div>
     </div>
@@ -89,6 +101,7 @@ type Company = {
   linkedin: string
   description: string
   tags: string[]
+  workModel: string[]
   createdAt: string
 }
 
