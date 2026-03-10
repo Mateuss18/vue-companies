@@ -1,9 +1,11 @@
 <template>
   <div class="home min-h-screen text-text flex flex-col justify-center px-4 md:px-12 xxl:px-34">
     <HeroSection @scrollToList="scrollToList" />
+
     <section ref="companiesCardsListRef">
-      <CompaniesList />
+      <CompaniesList @scrollToList="scrollToList" />
     </section>
+
     <FooterSimple />
   </div>
 </template>

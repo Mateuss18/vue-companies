@@ -319,7 +319,7 @@
       "linkedin": "https://www.linkedin.com/company/operador-nacional-do-registro-eletr-nico-de-im-veis-onr/",
       "description": "Responsável por implementar e operar o Sistema de Registro Eletrônico de Imóveis.",
       "tags": ["govtech", "legaltech", "registro", "imoveis", "srei"],
-      "workModel": ["Híbrido", "Presencial"],
+      "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-02-14"
     },
     {
@@ -619,7 +619,7 @@
       "linkedin": "https://www.linkedin.com/company/hays",
       "description": "Conecta empresas a profissionais qualificados globalmente por meio de recrutamento especializado e gestão de talentos em 21 áreas e 30 + países.",
       "tags": ["recrutamento", "rh", "consultoria"],
-      "workModel": ["Híbrido", "Presencial"],
+      "workModel": ["Remoto", "Híbrido", "Presencial"],
       "createdAt": "2026-02-25"
     },
     {
