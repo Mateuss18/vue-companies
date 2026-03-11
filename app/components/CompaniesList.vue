@@ -1,21 +1,27 @@
 <template>
   <div class="companies-list flex flex-col">
-    <SearchBar v-model="searchValue" />
-
     <p class="text-center text-md my-7">
       Mais de {{ addedCompanies }} empresas catalogadas e crescendo!
     </p>
 
-    <div class="min-h-[900px]">
+    <div class="min-h-[700px]">
       <div
+        v-if="visibleCompanies.length > 0"
         class="flex justify-center gap-6 flex-wrap mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-12"
       >
         <CompanyCard v-for="company in visibleCompanies" :key="company.id" :company="company" />
       </div>
+      <div
+        v-else
+        class="flex justify-center items-center flex-col mt-20 text-center text-lg sm:text-md"
+      >
+        <UIcon name="i-lucide-search-x" class="mb-4 size-8" />
+        Infelizmente nenhum resultado foi encontrado
+      </div>
     </div>
 
     <UButton
-      v-if="searchValue === '' && visibleCount < companies.length"
+      v-if="props.searchValue === '' && visibleCount < companies.length"
       @click="loadMore"
       class="m-auto cursor-pointer bg-primary text-bg hover:bg-primary-dark"
       trailing-icon="i-lucide-plus"
@@ -28,28 +34,31 @@
 <script setup lang="ts">
 import dataCompanies from '../../data/companies.json'
 
+const props = defineProps<{ searchValue: string }>()
+
+const emit = defineEmits<{ (e: 'scrollToList'): void }>()
+
 const companies = dataCompanies.companies
-const searchValue = ref('')
 
 const filteredList = computed(() =>
   companies.filter((company) =>
-    company.name.toLocaleLowerCase().includes(searchValue.value.trim().toLocaleLowerCase()),
+    company.name.toLocaleLowerCase().includes(props.searchValue.trim().toLocaleLowerCase()),
   ),
 )
 
 const step = 15
 const visibleCount = ref(step)
 const visibleCompanies = computed(() => filteredList.value.slice(0, visibleCount.value))
-
 const addedCompanies = Math.floor(companies.length / 10) * 10
 
-const emit = defineEmits<{ (e: 'scrollToList'): void }>()
-
-watch(searchValue, (newSearchValue, oldSearchValue) => {
-  if (newSearchValue !== '') {
-    emit('scrollToList')
-  }
-})
+watch(
+  () => props.searchValue,
+  () => {
+    if (props.searchValue !== '') {
+      emit('scrollToList')
+    }
+  },
+)
 
 const { gtag } = useGtag()
 const loadMore = () => {
