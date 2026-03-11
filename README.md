@@ -28,7 +28,6 @@ Plataforma que cataloga empresas que utilizam Vue.js ou Nuxt em sua stack de tec
 - 🔍 Informações sobre localização, tamanho e modelo de trabalho
 - 🎨 Interface moderna e responsiva
 - 🚀 Performance otimizada (SSG)
-- 📱 Mobile-first design
 
 ---
 
@@ -185,27 +184,6 @@ O projeto usa uma estratégia híbrida para logos:
 ```
 
 Isso economiza requisições da API e melhora performance.
-
----
-
-## 🎨 Personalização
-
-### Cores
-
-As cores são definidas em `app/assets/css/main.css` usando Tailwind 4:
-
-```css
-@theme {
-  --color-bg: #0e1417;
-  --color-primary: #60af61;
-  --color-secondary: #b8e178;
-  /* ... */
-}
-```
-
-### Tipografia
-
-Fonte principal: **Alexandria** (self-hosted em `/public/fonts/`)
 
 ---
 
