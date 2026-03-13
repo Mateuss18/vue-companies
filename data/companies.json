@@ -162,7 +162,7 @@
       "domain": "compass.uol",
       "linkedin": "https://www.linkedin.com/company/compass-uol",
       "description": "Empresa brasileira de tecnologia do grupo UOL focada em serviços e transformação digital.",
-      "tags": ["consultoria", "ti", "outsourcing", "transformacao-digital", "cloud"],
+      "tags": ["consultoria", "tecnologia", "outsourcing", "transformacao-digital", "cloud"],
       "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-02-20"
     },
@@ -242,7 +242,7 @@
       "domain": "kalendae.com.br",
       "linkedin": "https://br.linkedin.com/company/kalendae",
       "description": "Empresa brasileira de governança de TI com serviços de consultoria, outsourcing e segurança.",
-      "tags": ["ti", "consultoria", "governanca", "outsourcing", "seguranca"],
+      "tags": ["tecnologia", "consultoria", "governanca", "outsourcing", "seguranca"],
       "workModel": ["Híbrido", "Remoto"],
       "createdAt": "2026-02-22"
     },
@@ -273,7 +273,7 @@
       "domain": "globalti.com.br",
       "linkedin": "https://www.linkedin.com/company/global-ti/",
       "description": "Há mais de 24 anos no mercado de tecnologia da informação atendendo grandes empresas.",
-      "tags": ["ti", "consultoria", "servicos", "tecnologia"],
+      "tags": ["tecnologia", "consultoria", "servicos", "tecnologia"],
       "workModel": ["Híbrido", "Remoto"],
       "createdAt": "2026-02-14"
     },
@@ -348,7 +348,7 @@
       "domain": "aubay.pt",
       "linkedin": "https://www.linkedin.com/company/aubay-portugal/",
       "description": "Consultoria em tecnologia e modernização de sistemas de informação.",
-      "tags": ["consultoria", "ti", "nearshore", "transformacao-digital"],
+      "tags": ["consultoria", "tecnologia", "nearshore", "transformacao-digital"],
       "workModel": ["Híbrido", "Remoto"],
       "createdAt": "2026-02-15"
     },
@@ -378,7 +378,7 @@
       "domain": "deliverit.com.br",
       "linkedin": "https://www.linkedin.com/company/deliver-it-br/",
       "description": "Consultoria de serviços de TI com atuação em software, BI, mobile e outsourcing.",
-      "tags": ["ti", "consultoria", "software", "outsourcing"],
+      "tags": ["tecnologia", "consultoria", "software", "outsourcing"],
       "workModel": ["Remoto", "Híbrido"],
       "createdAt": "2026-02-15"
     },
@@ -393,7 +393,7 @@
       "domain": "gx2.com.br",
       "linkedin": "https://www.linkedin.com/company/gx2tecnologia/",
       "description": "Desenvolvemos pessoas, softwares e negócios.",
-      "tags": ["ti", "consultoria", "software", "outsourcing", "fabrica-de-software"],
+      "tags": ["tecnologia", "consultoria", "software", "outsourcing", "fabrica-de-software"],
       "workModel": ["Híbrido", "Remoto"],
       "createdAt": "2026-02-16"
     },
@@ -438,7 +438,7 @@
       "domain": "ankix.com",
       "linkedin": "https://www.linkedin.com/company/ankixsystems/",
       "description": "Consultoria e outsourcing de TI com soluções web e mobile e serviços de nearshoring.",
-      "tags": ["consultoria", "ti", "outsourcing", "nearshore", "software"],
+      "tags": ["consultoria", "tecnologia", "outsourcing", "nearshore", "software"],
       "workModel": ["Híbrido"],
       "createdAt": "2026-02-18"
     },
@@ -453,7 +453,7 @@
       "domain": "metrica.es",
       "linkedin": "https://www.linkedin.com/company/metricaconsultingsl",
       "description": "Especialistas em transformação e inovação digital com consultoria e outsourcing de TI.",
-      "tags": ["consultoria", "ti", "outsourcing", "transformacao-digital", "software"],
+      "tags": ["consultoria", "tecnologia", "outsourcing", "transformacao-digital", "software"],
       "workModel": ["Híbrido", "Remoto"],
       "createdAt": "2026-02-20"
     },
@@ -483,7 +483,7 @@
       "domain": "optomi.com",
       "linkedin": "https://www.linkedin.com/company/optomi",
       "description": "Consultoria de TI e alocação de talentos para apoiar projetos de tecnologia.",
-      "tags": ["consultoria", "ti", "staffing", "outsourcing", "talentos"],
+      "tags": ["consultoria", "tecnologia", "staffing", "outsourcing", "talentos"],
       "workModel": ["Híbrido", "Presencial"],
       "createdAt": "2026-02-20"
     },
@@ -573,7 +573,7 @@
       "domain": "snowrelic.com",
       "linkedin": "https://www.linkedin.com/company/snowrelic",
       "description": "Consultoria e soluções de TI com foco em modernização, dados e cloud.",
-      "tags": ["consultoria", "ti", "cloud", "data", "analytics"],
+      "tags": ["consultoria", "tecnologia", "cloud", "data", "analytics"],
       "workModel": ["Remoto"],
       "createdAt": "2026-02-20"
     },
@@ -588,7 +588,7 @@
       "domain": "qintess.com",
       "linkedin": "https://br.linkedin.com/company/qintess",
       "description": "Líder em transformação digital na América Latina, com foco em estratégia, tecnologia e agilidade.",
-      "tags": ["consultoria", "ti", "transformacao-digital", "outsourcing", "cx"],
+      "tags": ["consultoria", "tecnologia", "transformacao-digital", "outsourcing", "cx"],
       "workModel": ["Híbrido", "Remoto"],
       "createdAt": "2026-02-22"
     },
@@ -633,7 +633,7 @@
       "domain": "knowmadmood.com",
       "linkedin": "https://www.linkedin.com/company/knowmad-mood",
       "description": "Consultoria tecnológica espanhola que acompanha clientes globais em projetos de transformação digital, integrando software, sistemas e serviços com ~3 000 especialistas em 10 países.",
-      "tags": ["consultoria", "ti", "transformacao-digital"],
+      "tags": ["consultoria", "tecnologia", "transformacao-digital"],
       "workModel": ["Híbrido", "Remoto"],
       "createdAt": "2026-02-25"
     },
@@ -663,7 +663,7 @@
       "domain": "techforti.com.br",
       "linkedin": "https://www.linkedin.com/company/techforbr/",
       "description": "Consultoria de Tecnologia da Informação especializada em soluções inteligentes, fábrica de software e outsourcing.",
-      "tags": ["consultoria", "ti", "outsourcing", "infraestrutura", "fabrica-de-software"],
+      "tags": ["consultoria", "tecnologia", "outsourcing", "infraestrutura", "fabrica-de-software"],
       "workModel": ["Híbrido"],
       "createdAt": "2026-03-02"
     },
@@ -693,7 +693,7 @@
       "domain": "newrizon.global",
       "linkedin": "https://www.linkedin.com/company/newrizonglobal/",
       "description": "Especialistas em orquestração e implementação de IA que gera ROI e resultados reais para o seu negócio.",
-      "tags": ["inteligencia-artificial", "ia", "consultoria", "tecnologia"],
+      "tags": ["inteligencia-artificial", "ai", "consultoria", "tecnologia"],
       "workModel": ["Híbrido"],
       "createdAt": "2026-03-02"
     },
@@ -753,7 +753,7 @@
       "domain": "actdigital.com",
       "linkedin": "https://www.linkedin.com/company/act-digital/",
       "description": "Impactando negócios e empoderando pessoas.",
-      "tags": ["consultoria", "transformacao-digital", "tecnologia", "ia"],
+      "tags": ["consultoria", "transformacao-digital", "tecnologia", "ai"],
       "workModel": ["Remoto"],
       "createdAt": "2026-03-07"
     },
@@ -768,7 +768,7 @@
       "domain": "konghq.com",
       "linkedin": "https://www.linkedin.com/company/konghq/",
       "description": "Plataforma unificada para construir, proteger e gerenciar APIs e conectividade de IA.",
-      "tags": ["api", "api-gateway", "plataforma", "ia", "software"],
+      "tags": ["api", "api-gateway", "plataforma", "ai", "software"],
       "workModel": ["Remoto", "Híbrido", "Presencial"],
       "createdAt": "2026-03-07"
     },
