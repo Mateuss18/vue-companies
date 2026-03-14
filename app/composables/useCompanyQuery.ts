@@ -16,7 +16,7 @@ const tagOptions = [
 ] as const
 type Tag = (typeof tagOptions)[number]
 
-const workModelOptions = ['Remoto', 'Hibrido', 'Presencial']
+const workModelOptions = ['Remoto', 'Híbrido', 'Presencial']
 type WorkModel = (typeof workModelOptions)[number]
 
 export const useCompanyQuery = () => {
