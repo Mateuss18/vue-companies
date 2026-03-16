@@ -25,12 +25,6 @@ export const useCompanyQuery = () => {
   const selectedTags = useState<Tag[]>('companyQuery:tags', () => [])
   const selectedWorkModels = useState<WorkModel[]>('companyQuery:workModels', () => [])
 
-  const clear = () => {
-    search.value = ''
-    selectedTags.value = []
-    selectedWorkModels.value = []
-  }
-
   const toggleTag = (tag: Tag) => {
     selectedTags.value = selectedTags.value.includes(tag)
       ? selectedTags.value.filter((item) => item !== tag)
@@ -41,6 +35,12 @@ export const useCompanyQuery = () => {
     selectedWorkModels.value = selectedWorkModels.value.includes(workModel)
       ? selectedWorkModels.value.filter((item) => item !== workModel)
       : [...selectedWorkModels.value, workModel]
+  }
+
+  const clear = () => {
+    search.value = ''
+    selectedTags.value = []
+    selectedWorkModels.value = []
   }
 
   return {
