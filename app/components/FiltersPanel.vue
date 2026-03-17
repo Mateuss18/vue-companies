@@ -13,8 +13,8 @@
           class="rounded-3xl py-3 px-5 outline-0 ring-0 border cursor-pointer"
           :class="
             selectedTags.includes(tag)
-              ? 'text-primary bg-primary/5 border-primary hover:bg-secondary/5 hover:text-secondary hover:border-secondary'
-              : 'text-white border-gray-500 hover:bg-gray-50/5'
+              ? 'text-primary bg-primary/5 border-primary hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5'
+              : 'text-white border-gray-500 hover:bg-gray-50/5 active:bg-gray-50/5'
           "
         >
           {{ tag }}
@@ -35,8 +35,8 @@
           class="rounded-3xl py-3 px-5 outline-0 ring-0 border cursor-pointer"
           :class="
             selectedWorkModels.includes(workModel)
-              ? 'text-primary bg-primary/5 border-primary hover:bg-secondary/5 hover:text-secondary hover:border-secondary'
-              : 'text-white border-gray-500 hover:bg-gray-50/5'
+              ? 'text-primary bg-primary/5 border-primary hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5'
+              : 'text-white border-gray-500 hover:bg-gray-50/5 active:bg-gray-50/5'
           "
         >
           {{ workModel }}
