@@ -1,7 +1,7 @@
 <template>
   <div class="companies-list flex flex-col">
     <p class="text-center text-md my-7">
-      Mais de {{ addedCompanies }} empresas catalogadas e crescendo!
+      Mais de {{ estimatedCompaniesAdded }} empresas catalogadas e crescendo!
     </p>
 
     <div class="min-h-[700px]">
@@ -21,7 +21,7 @@
     </div>
 
     <UButton
-      v-if="visibleCount < filteredList.length"
+      v-if="visibleCount < filteredCompanies.length"
       @click="loadMore"
       class="m-auto cursor-pointer bg-primary text-bg hover:bg-primary-dark p-4"
       trailing-icon="i-lucide-plus"
@@ -32,48 +32,31 @@
 </template>
 
 <script setup lang="ts">
-import dataCompanies from '../../data/companies.json'
 const { search, selectedTags, selectedWorkModels } = useCompanyQuery()
+const { estimatedCompaniesAdded } = useCompanies()
+const {
+  filteredCompanies,
+  pageSize,
+  visibleCount,
+  visibleCompanies,
+  resetVisibleCount,
+  loadMore: loadMoreShared,
+} = useFilteredCompanies()
 
 const emit = defineEmits<{ (e: 'scrollToList'): void }>()
-
-const companies = dataCompanies.companies
-
-const filteredList = computed(() =>
-  companies.filter((company) => {
-    const matchesSearch =
-      search.value.trim() === '' ||
-      company.name.toLocaleLowerCase().includes(search.value.trim().toLocaleLowerCase())
-
-    const matchesTags =
-      selectedTags.value.length === 0 ||
-      selectedTags.value.some((tag) => company.tags.includes(tag))
-
-    const matchesWorkModel =
-      selectedWorkModels.value.length === 0 ||
-      selectedWorkModels.value.some((workModel) => company.workModel.includes(workModel))
-
-    return matchesSearch && matchesTags && matchesWorkModel
-  }),
-)
-
-const step = 15
-const visibleCount = ref(step)
-const visibleCompanies = computed(() => filteredList.value.slice(0, visibleCount.value))
-const addedCompanies = Math.floor(companies.length / 10) * 10
 
 watch(
   () => [search.value, selectedTags.value, selectedWorkModels.value],
   () => {
-    if (
+    const hasAnyFilter =
       search.value !== '' ||
       selectedTags.value.length !== 0 ||
       selectedWorkModels.value.length !== 0
-    ) {
-      visibleCount.value = step
+
+    resetVisibleCount()
+
+    if (hasAnyFilter) {
       emit('scrollToList')
-    } else {
-      visibleCount.value = step
     }
   },
 )
@@ -82,9 +65,9 @@ const { gtag } = useGtag()
 
 const loadMore = () => {
   const previousCount = visibleCount.value
-  const nextCount = Math.min(visibleCount.value + step, filteredList.value.length)
-  const loadMoreClickIndex = Math.ceil(previousCount / step)
-  visibleCount.value = nextCount
+  const loadMoreClickIndex = Math.ceil(previousCount / pageSize)
+
+  loadMoreShared()
 
   gtag('event', 'load_more_companies', {
     section: 'companies_list',
@@ -94,7 +77,7 @@ const loadMore = () => {
     items_before: previousCount,
     items_shown: visibleCount.value,
     items_added: visibleCount.value - previousCount,
-    items_total: filteredList.value.length,
+    items_total: filteredCompanies.value.length,
   })
 }
 </script>

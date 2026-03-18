@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-bg-secondary rounded-2xl p-6 border-gray border-2 mt-6 mx-50">
-    <div class="flex gap-5 justify-between mb-4">
+  <div class="bg-bg-secondary rounded-2xl p-4 border-gray border-2 mt-6 lg:p-6 xxl:mx-50">
+    <div class="flex gap-5 justify-between mb-4 flex-col md:flex-row">
       <SearchBar v-model="search" />
 
       <div class="flex gap-3">
@@ -22,7 +22,7 @@
         </UButton>
 
         <UButton
-          class="px-5 cursor-pointer"
+          class="px-5 cursor-pointer h-12 mb:h-auto"
           @click="clear"
           :disabled="activeFilters.length == 0"
           variant="outline"
@@ -62,7 +62,9 @@
         </div>
       </div>
 
-      <div class="flex text-xs items-center">X resultados</div>
+      <div class="flex text-xs items-center">
+        Exibindo {{ visibleCompanies.length }} empresas de {{ resultsCount }} encontradas
+      </div>
     </div>
 
     <FiltersPanel v-show="openPanel" />
@@ -72,6 +74,7 @@
 <script setup lang="ts">
 const { search, selectedTags, toggleTag, selectedWorkModels, toggleWorkModel, clear } =
   useCompanyQuery()
+const { visibleCompanies, resultsCount } = useFilteredCompanies()
 
 const totalFiltersSelected = computed(() => {
   return selectedTags.value.length + selectedWorkModels.value.length
