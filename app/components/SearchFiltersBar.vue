@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-bg-secondary rounded-2xl p-4 border-gray border-2 mt-6 lg:p-6 xxl:mx-50">
-    <div class="flex gap-5 justify-between mb-4 flex-col md:flex-row">
+  <div class="bg-bg-secondary rounded-2xl p-4 border-gray border-2 mt-6 lg:p-6 lg:mx-40 xxl:mx-50">
+    <div class="flex gap-5 justify-between mb-6 flex-col md:flex-row">
       <SearchBar v-model="search" />
 
       <div class="flex gap-3">
@@ -22,7 +22,7 @@
         </UButton>
 
         <UButton
-          class="px-5 cursor-pointer h-12 mb:h-auto"
+          class="px-5 cursor-pointer h-12 mb:h-auto md:h-full"
           @click="clear"
           :disabled="activeFilters.length == 0"
           variant="outline"
@@ -33,15 +33,15 @@
       </div>
     </div>
 
-    <div class="flex justify-between">
+    <div class="flex justify-between flex-wrap gap-5">
       <div class="flex items-center gap-2">
         <p class="text-xs">Ativos:</p>
 
-        <div class="flex gap-2">
+        <div class="flex flex-wrap gap-3">
           <UButton
             v-for="selectedWorkModel in selectedWorkModels"
             :key="selectedWorkModel"
-            class="text-xs cursor-pointer"
+            class="text-xs cursor-pointer bg-transparent border border-primary text-primary rounded-full hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5"
             trailing-icon="i-lucide-x"
             size="sm"
             @click="toggleWorkModel(selectedWorkModel)"
@@ -52,7 +52,7 @@
           <UButton
             v-for="selectedTag in selectedTags"
             :key="selectedTag"
-            class="text-xs cursor-pointer"
+            class="text-xs cursor-pointer bg-transparent border border-primary text-primary rounded-full hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5"
             trailing-icon="i-lucide-x"
             size="sm"
             @click="toggleTag(selectedTag)"

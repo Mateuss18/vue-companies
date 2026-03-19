@@ -1,6 +1,6 @@
 <template>
-  <div class="flex gap-10 mt-6 flex-wrap">
-    <div class="flex flex-col gap-2 xxl:w-50%">
+  <div class="flex gap-10 mt-6 flex-wrap md:flex-row md:gap-5">
+    <div class="flex flex-col gap-2 xxl:w-[48%]">
       <p>Tags</p>
 
       <div class="flex gap-3 flex-wrap">
@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col gap-2 xxl:w-50%">
+    <div class="flex flex-col gap-2 xxl:w-[48%]">
       <p>Modelo de trabalho</p>
 
       <div class="flex gap-3 flex-wrap">
