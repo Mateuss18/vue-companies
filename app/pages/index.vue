@@ -3,9 +3,9 @@
     <HeroSection @scrollToList="scrollToList" />
 
     <section ref="companiesCardsListRef">
-      <SearchBar v-model="searchValue" />
+      <SearchFiltersBar />
 
-      <CompaniesList @scrollToList="scrollToList" :search-value="searchValue" />
+      <CompaniesList @scrollToList="scrollToList" />
     </section>
 
     <FooterSimple />
@@ -18,6 +18,4 @@ const companiesCardsListRef = ref<HTMLElement | null>(null)
 const scrollToList = () => {
   companiesCardsListRef.value?.scrollIntoView({ behavior: 'smooth' })
 }
-
-const searchValue = ref('')
 </script>

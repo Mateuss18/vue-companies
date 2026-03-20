@@ -31,7 +31,7 @@
           </UBadge>
 
           <div class="flex flex-wrap gap-1.5">
-            <BagdeCompanySize :size="props.company.size" />
+            <BadgeCompanySize :size="props.company.size" />
 
             <UBadge
               v-for="value in props.company.workModel"

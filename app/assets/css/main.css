@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
 
+@source '../../**/*.{vue,js,ts}';
+
 @font-face {
   font-family: 'Alexandria';
   src: url('/fonts/alexandria/Alexandria-Thin.ttf') format('truetype');
