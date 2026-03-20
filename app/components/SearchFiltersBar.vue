@@ -44,7 +44,7 @@
             class="text-xs cursor-pointer bg-transparent border border-primary text-primary rounded-full hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5"
             trailing-icon="i-lucide-x"
             size="sm"
-            @click="toggleWorkModel(selectedWorkModel)"
+            @click="handleWorkModelChipClick(selectedWorkModel)"
           >
             {{ selectedWorkModel }}
           </UButton>
@@ -55,7 +55,7 @@
             class="text-xs cursor-pointer bg-transparent border border-primary text-primary rounded-full hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5"
             trailing-icon="i-lucide-x"
             size="sm"
-            @click="toggleTag(selectedTag)"
+            @click="handleTagChipClick(selectedTag)"
           >
             {{ selectedTag }}
           </UButton>
@@ -75,6 +75,7 @@
 const { search, selectedTags, toggleTag, selectedWorkModels, toggleWorkModel, clear } =
   useCompanyQuery()
 const { visibleCompanies, resultsCount } = useFilteredCompanies()
+const { gtag } = useGtag()
 
 const totalFiltersSelected = computed(() => {
   return selectedTags.value.length + selectedWorkModels.value.length
@@ -87,7 +88,51 @@ const activeFilters = computed(() => {
 const openPanel = ref(false)
 
 const openPanelFilters = () => {
-  openPanel.value = !openPanel.value
+  const nextOpen = !openPanel.value
+  openPanel.value = nextOpen
+
+  gtag('event', 'filters_panel_toggle', {
+    section: 'search_filters_bar',
+    action: nextOpen ? 'open' : 'close',
+    is_open: nextOpen,
+    selected_tags_count: selectedTags.value.length,
+    selected_work_models_count: selectedWorkModels.value.length,
+    total_selected_filters: totalFiltersSelected.value,
+  })
+}
+
+const handleWorkModelChipClick = (workModel: (typeof selectedWorkModels.value)[number]) => {
+  const wasSelected = selectedWorkModels.value.includes(workModel)
+
+  toggleWorkModel(workModel)
+
+  gtag('event', 'filter_toggle', {
+    section: 'search_filters_bar',
+    source: 'active_chip',
+    filter_type: 'work_model',
+    filter_value: workModel,
+    action: wasSelected ? 'deselect' : 'select',
+    selected_tags_count: selectedTags.value.length,
+    selected_work_models_count: selectedWorkModels.value.length,
+    total_selected_filters: totalFiltersSelected.value,
+  })
+}
+
+const handleTagChipClick = (tag: (typeof selectedTags.value)[number]) => {
+  const wasSelected = selectedTags.value.includes(tag)
+
+  toggleTag(tag)
+
+  gtag('event', 'filter_toggle', {
+    section: 'search_filters_bar',
+    source: 'active_chip',
+    filter_type: 'tag',
+    filter_value: tag,
+    action: wasSelected ? 'deselect' : 'select',
+    selected_tags_count: selectedTags.value.length,
+    selected_work_models_count: selectedWorkModels.value.length,
+    total_selected_filters: totalFiltersSelected.value,
+  })
 }
 </script>
 

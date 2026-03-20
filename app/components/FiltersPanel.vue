@@ -7,7 +7,7 @@
         <UButton
           v-for="tag in tagOptions"
           :key="tag"
-          @click="toggleTag(tag)"
+          @click="handleTagClick(tag)"
           color="primary"
           :variant="selectedTags.includes(tag) ? 'solid' : 'outline'"
           class="rounded-3xl py-3 px-5 outline-0 ring-0 border cursor-pointer"
@@ -29,7 +29,7 @@
         <UButton
           v-for="workModel in workModelOptions"
           :key="workModel"
-          @click="toggleWorkModel(workModel)"
+          @click="handleWorkModelClick(workModel)"
           color="primary"
           :variant="selectedWorkModels.includes(workModel) ? 'solid' : 'outline'"
           class="rounded-3xl py-3 px-5 outline-0 ring-0 border cursor-pointer"
@@ -55,4 +55,40 @@ const {
   toggleWorkModel,
   selectedWorkModels,
 } = useCompanyQuery()
+
+const { gtag } = useGtag()
+
+const handleTagClick = (tag: (typeof tagOptions)[number]) => {
+  const wasSelected = selectedTags.value.includes(tag)
+
+  toggleTag(tag)
+
+  gtag('event', 'filter_toggle', {
+    section: 'filters_panel',
+    source: 'filters_panel',
+    filter_type: 'tag',
+    filter_value: tag,
+    action: wasSelected ? 'deselect' : 'select',
+    selected_tags_count: selectedTags.value.length,
+    selected_work_models_count: selectedWorkModels.value.length,
+    total_selected_filters: selectedTags.value.length + selectedWorkModels.value.length,
+  })
+}
+
+const handleWorkModelClick = (workModel: (typeof workModelOptions)[number]) => {
+  const wasSelected = selectedWorkModels.value.includes(workModel)
+
+  toggleWorkModel(workModel)
+
+  gtag('event', 'filter_toggle', {
+    section: 'filters_panel',
+    source: 'filters_panel',
+    filter_type: 'work_model',
+    filter_value: workModel,
+    action: wasSelected ? 'deselect' : 'select',
+    selected_tags_count: selectedTags.value.length,
+    selected_work_models_count: selectedWorkModels.value.length,
+    total_selected_filters: selectedTags.value.length + selectedWorkModels.value.length,
+  })
+}
 </script>
