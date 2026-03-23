@@ -951,10 +951,100 @@
       "tags": ["saas", "erp", "fintech", "b2b", "contabilidade"],
       "workModel": ["Remoto"],
       "createdAt": "2026-03-20"
+    },
+    {
+      "id": 63,
+      "name": "SportsRecruits",
+      "slug": "sportsrecruits",
+      "country": "Estados Unidos",
+      "city": "Brooklyn",
+      "size": "Pequena",
+      "website": "https://sportsrecruits.com/",
+      "domain": "sportsrecruits.com",
+      "linkedin": "https://www.linkedin.com/company/sports-recruits-llc/",
+      "description": "Rede de recrutamento esportivo que conecta atletas, clubes, eventos e técnicos universitários no processo de seleção.",
+      "tags": ["sports-tech", "saas", "marketplace", "recrutamento", "educacao"],
+      "workModel": ["Remoto"],
+      "createdAt": "2026-03-23"
+    },
+    {
+      "id": 64,
+      "name": "HintEd",
+      "slug": "hintedme",
+      "country": "Estados Unidos",
+      "city": "Wilmington",
+      "size": "Startup",
+      "website": "https://hinted.me/",
+      "domain": "hinted.me",
+      "linkedin": "https://www.linkedin.com/company/hintedme/",
+      "description": "Plataforma de adoção digital com guias na tela em tempo real para treinar, onboardar e apoiar usuários de software.",
+      "tags": ["saas", "b2b", "digital-adoption", "onboarding", "automation"],
+      "workModel": ["Remoto"],
+      "createdAt": "2026-03-23"
+    },
+    {
+      "id": 65,
+      "name": "A4PM",
+      "slug": "a4pm",
+      "country": "Brasil",
+      "city": "Nova Friburgo",
+      "size": "Média",
+      "website": "https://www.a4pm.com.br/",
+      "domain": "a4pm.com.br",
+      "linkedin": "https://www.linkedin.com/company/a4pm/",
+      "description": "Software de gestão para saúde e educação, com foco em inovação, eficiência e impacto social para instituições públicas e privadas.",
+      "tags": ["healthtech", "edtech", "govtech", "software", "setor-publico"],
+      "workModel": ["Remoto"],
+      "createdAt": "2026-03-23"
+    },
+    {
+      "id": 66,
+      "name": "immocloud GmbH",
+      "slug": "immocloud",
+      "country": "Alemanha",
+      "city": "Düsseldorf",
+      "size": "Startup",
+      "website": "https://www.immocloud.de/",
+      "domain": "immocloud.de",
+      "linkedin": "https://www.linkedin.com/company/immocloud/",
+      "description": "Plataforma SaaS de gestão imobiliária que digitaliza processos entre locadores e inquilinos, com comunicação e dados centralizados.",
+      "tags": ["proptech", "saas", "real-estate", "gestao-imobiliaria", "cloud"],
+      "workModel": ["Remoto"],
+      "createdAt": "2026-03-23"
+    },
+    {
+      "id": 67,
+      "name": "Head-on Solutions GmbH",
+      "slug": "head-on-solutions",
+      "country": "Alemanha",
+      "city": "Nuremberg",
+      "size": "Startup",
+      "website": "https://www.headonsolutions.com/",
+      "domain": "headonsolutions.com",
+      "linkedin": "https://www.linkedin.com/company/head-on-solutions/",
+      "description": "Software em nuvem para negócios locais, unindo agendamento, caixa e pagamentos para digitalizar operações e elevar produtividade.",
+      "tags": ["saas", "cloud", "software", "pagamentos", "agendamento"],
+      "workModel": ["Híbrido"],
+      "createdAt": "2026-03-23"
+    },
+    {
+      "id": 68,
+      "name": "TELUS Digital",
+      "slug": "telus-digital",
+      "country": "Canadá",
+      "city": "Vancouver",
+      "size": "Enterprise",
+      "website": "https://www.telusdigital.com/",
+      "domain": "telusdigital.com",
+      "linkedin": "https://www.linkedin.com/company/telus-digital/",
+      "description": "Transformação digital e operações de CX para marcas globais, unindo consultoria, tecnologia e execução em escala.",
+      "tags": ["bpo", "customer-experience", "outsourcing", "transformacao-digital", "software"],
+      "workModel": ["Remoto"],
+      "createdAt": "2026-03-23"
     }
   ],
   "meta": {
-    "total": 62,
-    "lastUpdate": "2026-03-20"
+    "total": 68,
+    "lastUpdate": "2026-03-23"
   }
 }
