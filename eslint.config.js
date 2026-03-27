@@ -22,6 +22,15 @@ export default withNuxt([
     },
   },
   {
+    files: ['**/*.{ts,tsx}'],
+    languageOptions: {
+      parser: tsParser,
+      parserOptions: {
+        sourceType: 'module',
+      },
+    },
+  },
+  {
     plugins: {
       '@typescript-eslint': tsPlugin,
       vue: vuePlugin,
