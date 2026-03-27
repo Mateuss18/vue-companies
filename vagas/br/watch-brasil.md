@@ -1,4 +1,4 @@
-About the job
+Sobre a vaga
 Na Watch Brasil, estamos em busca de um(a) Desenvolvedor(a) Front-end Pleno para integrar o time de Produto, atuando na construção e evolução do nosso Design System, garantindo consistência visual, eficiência e escalabilidade em todas as nossas plataformas. Essa pessoa trabalhará em parceria direta com designers e product managers, além de colaborar com o time de tecnologia para garantir a melhor implementação dos componentes de interface.
 
 

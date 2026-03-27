@@ -1,69 +1,45 @@
-Front-End Engineer (Vue.js & Nuxt 3)
+# Front-End Engineer (Vue.js & Nuxt 3)
 
-Particula is a leading rating and monitoring platform for digital assets. Our mission is to make digital asset markets more accessible, secure and transparent for institutional investors, supporting issuers, trading venues, banks and asset managers.
-About the role
+A Particula é uma plataforma líder de rating e monitoramento para digital assets. Nossa missão é tornar os mercados de digital assets mais acessíveis, seguros e transparentes para institutional investors, apoiando issuers, trading venues, bancos e asset managers.
 
+## Sobre a função
 
-You’ll join our engineering team to take a modern, well-architected Vue 3/Nuxt 3 application to the next level. Working on a large-scale codebase (~112k lines across 29 domain modules), you’ll focus on comprehensive automatic testing, component library development, performance optimization, accessibility improvements, and implementing new features.
-No one ticks every box. If you bring solid fundamentals, curiosity and the drive to learn quickly, please apply even if your experience doesn't align one‑to‑one with the description. We care about potential and attitude.
-Tasks
+Você vai se juntar ao nosso time de engenharia para levar uma aplicação moderna e bem arquitetada em Vue 3/Nuxt 3 para o próximo nível. Atuando em uma codebase de grande porte (~112k linhas em 29 domain modules), seu foco será em automatic testing abrangente, desenvolvimento de component library, otimização de performance, melhorias de acessibilidade e implementação de novas features.
+Ninguém marca todas as caixas. Se você tem bons fundamentos, curiosidade e vontade de aprender rápido, candidate-se mesmo que sua experiência não seja 1:1 com a descrição. Valorizamos potencial e atitude.
 
-Build and maintain front-end features using Vue 3 Composition API and Nuxt 3.
+## Atividades
 
-Establish comprehensive testing practices (component tests with Vitest, E2E tests with Playwright/Cypress).
+- Construir e manter features de front-end usando Vue 3 Composition API e Nuxt 3
+- Estabelecer práticas abrangentes de testes (component tests com Vitest; E2E tests com Playwright/Cypress)
+- Desenvolver e documentar uma component library usando Storybook
+- Otimizar performance de front-end (bundle size, Lighthouse scores, Core Web Vitals)
+- Implementar melhorias de acessibilidade (conformidade WCAG 2.1 AA, keyboard navigation, suporte a screen reader)
+- Escrever código TypeScript limpo e tipado, seguindo padrões estabelecidos
+- Colaborar com backend engineers e designers para entregar experiências polidas
+- Participar de code reviews e ajudar a estabelecer padrões de qualidade de front-end
 
-Develop and document a component library using Storybook.
+## Requisitos
 
-Optimize front-end performance (bundle size, Lighthouse scores, Core Web Vitals).
+- 2–5 anos de experiência profissional em desenvolvimento front-end
+- Forte expertise em Vue.js (Vue 3 Composition API, component lifecycle, reactivity)
+- Proficiência em TypeScript com boas práticas de strong typing
+- Domínio de HTML/CSS, incluindo TailwindCSS ou frameworks de CSS utility-first
+- Mentalidade de testes: experiência escrevendo component tests em codebases de produção
+- Familiaridade com state management (Pinia ou Vuex) e padrões de data fetching
+- Diferencial: experiência com AWS services (S3, CloudFront) para deployment de front-end e entrega de assets
+- Proficiência com Git e experiência com workflows de code review
+- Consciência de acessibilidade (fundamentos de ARIA, semantic HTML, keyboard navigation)
+- Comunicação clara em inglês
+- Formação: graduação em Computer Science ou experiência prática equivalente
 
-Implement accessibility improvements (WCAG 2.1 AA compliance, keyboard navigation, screen reader support).
+## Benefícios
 
-Write clean, typed TypeScript code following established patterns.
+- Offsites com o time em locais interessantes
+- Horários flexíveis em uma empresa remote-first
+- Produto empolgante em um mercado muito dinâmico
+- Cultura de startup guiada por valores
+- Muitas oportunidades para desenvolvimento e networking com pessoas engajadas
+- Hierarquia horizontal
 
-Collaborate with backend engineers and designers to deliver polished user experiences.
-
-Participate in code reviews and help establish front-end quality standards.
-
-
-Requirements
-
-2–5 years professional front-end development experience.
-
-Strong Vue.js expertise (Vue 3 Composition API, component lifecycle, reactivity).
-
-TypeScript proficiency with strong typing practices.
-
-HTML/CSS expertise including TailwindCSS or utility-first CSS frameworks.
-
-Testing mindset: experience writing component tests in production codebases.
-
-Familiarity with state management (Pinia or Vuex) and data fetching patterns.
-
-Experience with AWS services (S3, CloudFront) for front-end deployment and asset delivery is a plus.
-
-Git proficiency and experience with code review workflows.
-
-Accessibility awareness (ARIA basics, semantic HTML, keyboard navigation).
-
-Clear communication in English.
-
-Education: Degree in Computer Science or equivalent practical experience.
-
-
-Benefits
-
-Offsites with the team in exciting locations.
-
-Flexible working hours in a remote‑first company.
-
-Exciting product in a very dynamic market environment.
-
-Values‑based start‑up culture.
-
-Many opportunities to develop further and network with committed people.
-
-Flat hierarchy.
-
-
-We're a remote-first company building our core development team around Central European Time. To enable real-time collaboration, we're looking for candidates who can work within ±3 hours of CET. The annual gross salary for this role is €40,000–€65,000, depending on location and experience.
-Let’s build the next layer of trust for digital assets - together!
+Somos uma empresa remote-first e construímos nosso time central de desenvolvimento em torno do Central European Time. Para viabilizar colaboração em tempo real, buscamos pessoas que consigam trabalhar dentro de ±3 horas do CET. O salário bruto anual para esta função é €40.000–€65.000, dependendo de localização e experiência.
+Vamos construir juntos a próxima camada de confiança para digital assets.

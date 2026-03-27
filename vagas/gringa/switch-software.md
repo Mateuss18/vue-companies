@@ -1,46 +1,44 @@
 # Full Stack Developer -.NET/Vue.js (SSR)
+## Sobre a vaga
+Buscamos pessoas Desenvolvedoras Full Stack (SSR) com experiência em Microsoft .NET (C#) e Vue.js.
 
-## About the job
+Não discriminamos com base em raça, religião, nacionalidade, identidade ou expressão de gênero, orientação sexual, idade, estado civil ou deficiência. Todas as candidaturas serão consideradas de acordo com a Lei 19.691, Artigo 8.
 
-We are searching for a Ssr Full Stack Developers with experience in Microsoft .NET (C#) and Vue.JS
+## Responsabilidades
 
-We do not discriminate on the basis of race, religion, nationality, gender identity or expression, sexual orientation, age, marital status, or disability. All candidates will be considered in accordance with Law 19.691, Article 8.
+- Desenvolver código em níveis de front-end e back-end
+- Manter a integridade, qualidade e organização do código, colaborando com suporte quando necessário na resolução de incidentes
+- Interagir com o time de design para implementar funcionalidades e a interação entre a aplicação e a pessoa usuária
+- Colaborar com o time no desenho e lançamento de novas features de produto
+- Colaborar com Tech Leaders, sugerindo melhorias nos processos de desenvolvimento
+- Realizar code reviews e aprovar pull requests de outras pessoas do time, de acordo com a complexidade e seu nível de senioridade
 
-Responsibilities
+## Requisitos
 
-Develop code at Frontend and Backend level
-Maintaining the integrity, quality and organization of the code, collaborating with the support area, if necessary, in the resolution of incidents
-Interact with the design team for the implementation of functionalities and implements the interaction between the application and the user
-Collaborate with the rest of the team in designing and launching new product features
-Collaborate with the Tech Leaders, suggesting improvements in the development processes
-You can perform code reviews and approve pull requests from other members of your team based on the complexity of the task and your seniority.
+- 3+ anos de experiência com C# / .NetCore
+- Pelo menos 3 anos de experiência com Vue.js 2 e Vue.js 3
+- Inglês avançado
+- Conhecimento de bancos SQL (conhecimento em Oracle e MongoDB é valorizado)
+- Experiência com pré-processadores como SCSS (Sass, LESS etc.)
+- Conhecimento de DevExtreme e DevExpress
+- Experiência com Webpack para bundling (há migração planejada para Vite)
+- Familiaridade com Azure DevOps para controle de versão
+- Disponibilidade para realizar deploys fora do horário comercial quando necessário
 
-Requirements
+## Diferenciais
 
-3+ years of experience with C# / .NetCore.
-At least 3 years of experience with Vue.js 2 and Vue.js3
-Advanced English proficiency.
-SQL Database knowledge (knowledge of Oracle and MongoDB is valued).
-Experience using pre-processors like SCSS (Sass, LESS, etc.).
-Knowledge of DevExtreme and DevExpress.
-Experience using Webpack for bundling (migration to Vite is planned).
-Familiarity with Azure DevOps for version control
-Willingness to perform deployments outside regular hours when needed
+- Conhecimento de Vue CLI, Vuex e Vue Router
+- Experiência com outros frameworks JavaScript
 
-Valued
+## O que oferecemos
 
-Knowledge of Vue CLI, Vuex, and Vue Router.
-Experience with other JavaScript frameworks.
-
-What we offer?
-
-Chance to make an impact on an open mind environment
-Fun and relaxed work environment, in a horizontal organization where friendship and collaboration are promoted
-Remote friendly: work from home or our Punta Carretas office
-Refunds for training, courses, certifications
-Free access to e-learning platforms such as Udemy
-Referral Program
-Birthday off
+- Chance de gerar impacto em um ambiente aberto a ideias
+- Ambiente de trabalho leve e horizontal, com incentivo a amizade e colaboração
+- Remote friendly: trabalhe de casa ou do escritório em Punta Carretas
+- Reembolso para treinamentos, cursos e certificações
+- Acesso gratuito a plataformas de e-learning como Udemy
+- Programa de indicações
+- Folga no aniversário
 
 ---
 

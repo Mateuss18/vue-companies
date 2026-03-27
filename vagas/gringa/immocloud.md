@@ -1,37 +1,38 @@
 # (Senior) Software Engineer - SaaS Platform (Java / Vue.js) (m/w/d)
 
-Wir entwickeln Technologie, die eine Branche verändert.
-Du entwickelst Systeme, die nicht nur funktionieren, sondern skalieren? Du willst Verantwortung übernehmen – nicht nur im Code, sondern auch bei Architekturentscheidungen? Du bringst Erfahrung mit, willst gestalten statt nur umzusetzen?
-Dann bist du bei uns richtig.
-Wir sind ein wachsendes Tech-Unternehmen mit Sitz in Düsseldorf. Unser Ziel: die Immobilienbranche mit einer modernen Plattform neu denken – durch echte Digitalisierung, robuste Softwarearchitektur und ein Team, das Qualität ernst nimmt.
+Desenvolvemos tecnologia que transforma um setor.
+Você desenvolve sistemas que não apenas funcionam, mas escalam? Quer assumir responsabilidade — não só no código, mas também em decisões de arquitetura? Você tem experiência, quer construir e evoluir, em vez de apenas executar?
+Então você está no lugar certo.
+Somos uma empresa de tecnologia em crescimento com sede em Düsseldorf. Nosso objetivo é repensar o setor imobiliário com uma plataforma moderna — com digitalização de verdade, arquitetura de software robusta e um time que leva qualidade a sério.
 
-Aufgaben
-Technische Verantwortung: Du übernimmst die Entwicklung und Weiterentwicklung komplexer Backend- und Frontend-Komponenten – auf Basis von Java (Spring Boot) und TypeScript (Vue.js).
-Systemarchitektur: Du gestaltest die Architektur unserer Plattform aktiv mit – modular, skalierbar und wartbar.
-Feature-Ownership: Du verantwortest ganze Funktionsbereiche, vom ersten Architekturentwurf bis zum produktiven Betrieb.
-Nachhaltige Codequalität: Du treibst Refactoring-Maßnahmen an, entwirfst Migrationen und verbesserst bestehende Module konsequent weiter.
-Engineering-Kultur: Du gestaltest unsere Entwicklungsprozesse mit – durch automatisierte Tests, saubere CI/CD-Pipelines, sinnvolle Code-Reviews und Tools, die wirklich helfen.
-Crossfunktionales Arbeiten: Du arbeitest eng mit UX, Product und DevOps zusammen – immer mit Blick auf das beste Gesamtergebnis.
+## Atribuições
+- Responsabilidade técnica: desenvolver e evoluir componentes complexos de back-end e front-end com base em Java (Spring Boot) e TypeScript (Vue.js)
+- Arquitetura de sistemas: participar ativamente da arquitetura da plataforma — modular, escalável e manutenível
+- Feature ownership: assumir responsabilidade por áreas funcionais inteiras, do primeiro desenho de arquitetura até a operação em produção
+- Qualidade sustentável: conduzir refactoring, desenhar migrações e evoluir módulos existentes de forma consistente
+- Cultura de engenharia: contribuir com processos de desenvolvimento com testes automatizados, CI/CD pipelines bem definidas, code reviews relevantes e ferramentas que realmente ajudam
+- Trabalho cross-functional: atuar próximo de UX, Product e DevOps, sempre buscando o melhor resultado do conjunto
 
-Qualifikation
-Mehrjährige Erfahrung als Software Engineer, idealerweise in komplexen Webanwendungen.
-Sehr gute Kenntnisse in Java mit Spring Boot und TypeScript mit Vue.js.
-Erfahrung mit MongoDB, Docker, HTML/CSS sowie CI/CD-Prozessen.
-Tiefes technisches Verständnis – du denkst in Systemen, nicht nur in Komponenten.
-Hohes Qualitätsbewusstsein, Eigenverantwortung und der Wille, Dinge wirklich gut zu machen.
-Gute Deutschkenntnisse, solide Englisch-Skills.
+## Qualificações
+- Experiência de alguns anos como Software Engineer, idealmente em aplicações web complexas
+- Excelente conhecimento de Java com Spring Boot e TypeScript com Vue.js
+- Experiência com MongoDB, Docker, HTML/CSS e processos de CI/CD
+- Entendimento técnico profundo — pensar em sistemas, não apenas em componentes
+- Alto padrão de qualidade, autonomia e vontade de fazer bem feito
+- Bom nível de alemão e inglês sólido
 
-Benefits
-Technologische Gestaltungsfreiheit: Deine Erfahrung zählt – wir entscheiden gemeinsam im Team.
-Klare Strukturen ohne Bürokratie: Agiles Arbeiten ohne Scrum-Theater.
-Ein starkes Team: Kolleg:innen, die Verantwortung übernehmen und Know-how teilen.
-Hybrides Arbeiten: Zwischen Office und Home – mit voller Flexibilität.
-Top-Ausstattung: MacBook Pro, IDEs nach Wahl, moderne Tools.
-30 Urlaubstage + faire Vergütung
-Regelmäßige Team-Events & echtes Miteinander – keine Pflichtveranstaltungen, sondern echtes Interesse.
-Du willst in einem Umfeld arbeiten, das Technik ernst nimmt?
-Dann freuen wir uns auf deine Bewerbung.
-Keine langen Motivationsschreiben nötig – zeig uns, was du kannst.
+## Benefícios
+- Liberdade para decisões técnicas: sua experiência conta e decidimos em conjunto no time
+- Estruturas claras sem burocracia: trabalho agile sem “teatro de Scrum”
+- Time forte: pessoas que assumem responsabilidade e compartilham know-how
+- Trabalho híbrido: entre office e home, com flexibilidade total
+- Ótima infraestrutura: MacBook Pro, IDEs à sua escolha, ferramentas modernas
+- 30 dias de férias + remuneração justa
+- Team events regulares e convivência real — sem obrigação, com interesse genuíno
+
+Quer trabalhar em um ambiente que leva tecnologia a sério?
+Então queremos sua candidatura.
+Não precisa de longas cartas de motivação — mostre o que você sabe fazer.
 
 ---
 Extraído em: 23/03/2026

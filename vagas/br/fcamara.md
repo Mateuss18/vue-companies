@@ -1,4 +1,4 @@
-About the job
+Sobre a vaga
 Descrição da vaga
 
 A FCamara está em busca de uma Pessoa Desenvolvedora Frontend Vue/Nuxt Sênior , para atuar em parceria com o maior Banco de Investimentos da América Latina, especializado em capital de investimento, de risco, além de gerenciamento de patrimônio e ativos globais.

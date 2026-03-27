@@ -1,6 +1,4 @@
-Desenvolvedor(a) Front-end Jr (Vue.js)
-
-About the job
+Desenvolvedor(a) Front-end Jr (Vue.js)Sobre a vaga
 This job is sourced from a job board. Learn More
 % Principais atribuições
 

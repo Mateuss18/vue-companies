@@ -1,7 +1,5 @@
 # Engenheiro(a) Frontend Pleno | Vue.Js
-
-## About the job
-
+## Sobre a vaga
 SOBRE A CONTA AZUL
 
 A Conta Azul é movida pela crença que todo empreendedor merece ter sucesso. Apesar do dia a dia cheio de responsabilidades, queremos que todo dono de um pequeno negócio consiga tempo para se dedicar ao que sempre sonhou quando decidiu abrir uma empresa. Por isso, usamos a tecnologia para criar uma plataforma em nuvem, onde o empreendedor juntamente com o seu contador, de forma simples e fácil, podem encontrar tudo o que precisam em tempo real. Buscamos pessoas motivadas neste propósito. Se você é esta pessoa, junte-se a nós!

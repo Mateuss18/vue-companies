@@ -1,4 +1,4 @@
-About the job
+Sobre a vaga
 Buscamos um(a) Desenvolvedor(a) Front-End Sênior com forte experiência em aplicações web modernas, arquitetura de interfaces e construção de experiências escaláveis, responsivas e performáticas. Este profissional atuará de forma hands on no desenvolvimento, evolução e sustentação das aplicações front-end da plataforma, garantindo qualidade técnica, consistência visual e excelente experiência do usuário. Terá papel relevante na definição de padrões de front-end, boas práticas de código, integração com APIs e colaboração ativa com backend, mobile, UX, QA, Tech Leaders e Arquitetura.
 
 Requisitos

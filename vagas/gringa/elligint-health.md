@@ -1,51 +1,51 @@
-Frontend Developer
+# Frontend Developer
 
-About Elligint Health
+## Sobre a Elligint Health
 
-Elligint Health, established in 2024, is leading the charge of innovating healthcare by aligning all stakeholders, delivering intelligent healthcare solutions, and empowering pro-active, whole-person care across the healthcare continuum. Elligint Health integrates vast amounts of data from across the healthcare continuum, delivering intelligence that informs decision-making, enhances care coordination, and improves outcomes. Focused on enabling actionable intervention and whole-person care, Elligint Health helps healthcare organizations navigate complexity, turning insights into strategies that benefit providers, payers, and members and patients alike. With Elligint Health, the future of healthcare is simpler, smarter, and more effective.
+A Elligint Health, fundada em 2024, está na linha de frente da inovação em healthcare ao alinhar stakeholders, entregar soluções inteligentes e viabilizar um cuidado proativo e centrado na pessoa em todo o continuum de saúde. A Elligint Health integra grandes volumes de dados, gerando inteligência para apoiar decisões, melhorar coordenação de cuidado e aumentar resultados. Com foco em intervenções acionáveis e cuidado integral, ajudamos organizações de saúde a lidar com a complexidade, transformando insights em estratégias que beneficiam providers, payers, members e patients. Com a Elligint Health, o futuro da saúde é mais simples, mais inteligente e mais efetivo.
 
-The Position
+## A posição
 
-We are looking for an experienced Frontend Developer to join our team. You will work on complex web applications (SPA), refactor legacy code, and help shape the future of our product. This role requires strong expertise in Vue.js, React, and TypeScript, as well as the ability to design scalable, maintainable solutions.
+Buscamos uma pessoa Frontend Developer experiente para integrar o time. Você vai atuar em aplicações web complexas (SPA), fazer refactoring de código legado e ajudar a moldar o futuro do produto. A função exige domínio de Vue.js, React e TypeScript, além de capacidade de desenhar soluções escaláveis e fáceis de manter.
 
-Duties & Responsibilities
+## Atribuições e responsabilidades
 
-Develop and maintain complex SPA applications
-Refactor and gradually migrate legacy code (e.g., from Vue 2.x to Vue 3)
-Build and maintain reusable component libraries and design systems
-Ensure responsive, accessible, and user-friendly UI/UX
-Integrate with REST APIs and WebSocket real-time communication
-Write and maintain unit/integration tests
-Collaborate with backend developers, product managers, and designers
-Participate in code reviews and contribute to improving team practices
+- Desenvolver e manter aplicações SPA complexas
+- Fazer refactoring e migrar gradualmente código legado (ex.: de Vue 2.x para Vue 3)
+- Construir e manter bibliotecas de componentes reutilizáveis e design systems
+- Garantir UI/UX responsiva, acessível e fácil de usar
+- Integrar com REST APIs e comunicação em tempo real via WebSocket
+- Escrever e manter testes unit/integration
+- Colaborar com pessoas desenvolvedoras de back-end, product managers e designers
+- Participar de code reviews e contribuir para melhoria de práticas do time
 
-Required Qualifications
+## Requisitos obrigatórios
 
-JavaScript / TypeScript – strong ES6+ and TypeScript knowledge, modules, async, performance, and security best practices
-Vue.js – solid experience with 2.6/2.7 and 3, including Composition API
-React.js – hands-on experience with Hooks and Context API
-jQuery – ability to support and gradually remove legacy code
-HTML5 / CSS3 – responsive design, animations, cross-browser compatibility, SCSS/PostCSS
-API integration – REST, JSON, WebSockets, OpenAPI 3.0 (Swagger/Redoc)
-Build tools – Webpack 5, Vite, Rollup, Babel, ESbuild, ESLint, Prettier, Stylelint
-Testing – Jest, Mocha, or equivalent frameworks
-Git – confident use of Git workflows (branching, code reviews, CI)
-Strong communication and problem-solving skills
-Proactive team player that is eager to learn
+- JavaScript / TypeScript — excelente domínio de ES6+ e TypeScript, módulos, async, performance e boas práticas de segurança
+- Vue.js — experiência sólida com 2.6/2.7 e 3, incluindo Composition API
+- React.js — experiência prática com Hooks e Context API
+- jQuery — capacidade de dar suporte e remover gradualmente código legado
+- HTML5 / CSS3 — responsive design, animações, compatibilidade cross-browser, SCSS/PostCSS
+- Integração de APIs — REST, JSON, WebSockets, OpenAPI 3.0 (Swagger/Redoc)
+- Ferramentas de build — Webpack 5, Vite, Rollup, Babel, ESbuild, ESLint, Prettier, Stylelint
+- Testing — Jest, Mocha ou frameworks equivalentes
+- Git — uso confiante de workflows de Git (branching, code reviews, CI)
+- Forte comunicação e habilidade de resolução de problemas
+- Perfil proativo, colaborativo e com vontade de aprender
 
-Preferred Qualifications
+## Diferenciais
 
-Backend basics (PHP, MySQL)
-Experience with component libraries and design systems
-DevOps basics (CI/CD, Docker, deployment, monitoring)
-Security knowledge (JWT, OAuth2 scopes, API keys)
+- Noções de back-end (PHP, MySQL)
+- Experiência com bibliotecas de componentes e design systems
+- Noções de DevOps (CI/CD, Docker, deployment, monitoring)
+- Conhecimentos de segurança (JWT, OAuth2 scopes, API keys)
 
-Compensation
+## Remuneração
 
-Competitive salary
-PTO and company sick leave
-Rapidly growing technology company with upside potential
+- Salário competitivo
+- PTO e licença médica da empresa
+- Empresa de tecnologia em rápido crescimento, com potencial de upside
 
-Elligint Health is committed to ensuring that information security remains a top priority for everyone. All workers are responsible for the protection of our Information Security, and we take the execution of this seriously. Information Security Policies and procedures details and training will be provided during onboarding.
+A Elligint Health está comprometida em garantir que segurança da informação seja uma prioridade para todas as pessoas. Todas as pessoas colaboradoras são responsáveis por proteger nossa Information Security e levamos isso a sério. Detalhes de políticas, procedimentos e treinamentos de Information Security serão fornecidos durante o onboarding.
 
-Each candidate will be subject to a drug screening, background check, and reference check before beginning employment. Please note that some of our positions require U.S. citizenship and submission and further approval of “Public Trust” federal clearance.
+Cada pessoa candidata passará por drug screening, background check e reference check antes de iniciar o trabalho. Observe que algumas posições exigem cidadania dos EUA e submissão, além de aprovação adicional, de “Public Trust” federal clearance.

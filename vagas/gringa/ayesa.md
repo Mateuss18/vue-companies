@@ -1,4 +1,4 @@
-About the job
+Sobre a vaga
 ¡En Ayesa crecemos contigo! 
 
 

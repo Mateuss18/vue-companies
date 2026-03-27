@@ -1,4 +1,4 @@
-About the job
+Sobre a vaga
 A Solfacil é a empresa de tecnologia solar líder e de mais rápido crescimento no Brasil. Atualmente, o nosso negócio de fintech permite que os instaladores ajudem eficientemente os proprietários de casas a tornarem-se solares, fornecendo soluções de financiamento rápidas, fáceis e acessíveis. Combinamos o nosso financiamento com a distribuição de kits de hardware solar - incluindo painéis, inversores e baterias - para tornar a experiência de compra e instalação solar perfeita para todas as partes. A Solfacil está a investir em produtos e tecnologia para evoluir para uma empresa de plataforma de classe mundial e está à procura de talentos de alto nível para se juntarem a nós na nossa missão.
 Como Staff Sfotware Engineer, você irá atuar com integração com diversos dominios, gerenciamento de throughput de dados e geração de insights apartir de dados de monitoramento de usinas de geração distribuida. O Time cuida de toda a plataforma de monitoramento de usinas, onde auxiliamos nossos parceiros na gestão e acompanhamento de todo o ciclo de vida das usinas fotovoltáicas instaladas.
 

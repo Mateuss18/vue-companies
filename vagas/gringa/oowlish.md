@@ -1,61 +1,61 @@
-Full Stack Engineer (Vue + Nest)
+# Full Stack Engineer (Vue + Nest)
 
-Oowlish, one of Latin America's rapidly expanding software development companies, is seeking experienced technology professionals to enhance our diverse and vibrant team.
+A Oowlish, uma das empresas de desenvolvimento de software que mais crescem na América Latina, está buscando profissionais de tecnologia experientes para fortalecer nosso time diverso e vibrante.
 
-As a valued member of Oowlish, you will collaborate with premier clients from the United States and Europe, contributing to pioneering digital solutions. Our commitment to creating a nurturing work environment is recognized by our certification as a Great Place to Work, where you will have opportunities for professional development, growth, and a chance to make a significant international impact.
+Como parte do time da Oowlish, você vai colaborar com clientes de referência nos Estados Unidos e na Europa, contribuindo para soluções digitais inovadoras. Nosso compromisso em criar um ambiente de trabalho saudável é reconhecido pela certificação Great Place to Work, e você terá oportunidades de desenvolvimento profissional, crescimento e a chance de gerar impacto internacional.
 
-We offer the convenience of remote work, allowing you to craft a work-life balance that suits your personal and professional needs. We're looking for candidates who are passionate about technology, proficient in English, and excited to engage in remote collaboration for a worldwide presence.
+Oferecemos a conveniência do trabalho remoto, permitindo construir um equilíbrio entre vida pessoal e profissional que se encaixe nas suas necessidades. Buscamos pessoas apaixonadas por tecnologia, com bom nível de inglês, e animadas para colaborar remotamente com alcance global.
 
-About The Role
-We are looking for a Full Stack Engineer with strong experience in NestJS and Vue to help build, scale, and evolve modern web applications. This role is ideal for an engineer who enjoys owning features end-to-end, understands how different layers of the stack interact, and can make thoughtful technical decisions in fast-moving environments.
+## Sobre a função
+Buscamos um(a) Full Stack Engineer com experiência sólida em NestJS e Vue para ajudar a construir, escalar e evoluir aplicações web modernas. Esta função é ideal para quem gosta de assumir ownership de features de ponta a ponta, entende como as diferentes camadas da stack interagem e toma decisões técnicas bem fundamentadas em ambientes dinâmicos.
 
-You will work across backend and frontend systems, collaborating closely with founders and the broader team to design scalable solutions, optimize performance, and continuously improve the product. This position requires a balance of technical depth, product thinking, and pragmatism—especially when operating in cost-conscious environments where trade-offs matter.
+Você vai atuar em sistemas de back-end e front-end, trabalhando de perto com os founders e com o time para desenhar soluções escaláveis, otimizar performance e melhorar continuamente o produto. Esta posição exige equilíbrio entre profundidade técnica, visão de produto e pragmatismo — especialmente em contextos com restrição de custos, onde trade-offs importam.
 
-Responsibilities:
+## Responsabilidades
 
-Design, develop, and maintain backend services using NestJS and MongoDB (Mongoose)
-Build and maintain frontend applications using Vue and TanStack
-Take ownership of components across the full stack, from API design to UI implementation
-Optimize systems for scalability, performance, and reliability
-Integrate caching, background processing, and infrastructure components (e.g., Redis)
-Collaborate closely with founders and stakeholders to translate product ideas into technical solutions
-Contribute to CI/CD pipelines and cloud deployments
-Participate in technical decision-making and system architecture discussions
+- Projetar, desenvolver e manter serviços de back-end usando NestJS e MongoDB (Mongoose)
+- Construir e manter aplicações de front-end usando Vue e TanStack
+- Assumir ownership de componentes ao longo de toda a stack, do design de API à implementação de UI
+- Otimizar sistemas para escalabilidade, performance e confiabilidade
+- Integrar caching, processamento em background e componentes de infraestrutura (ex.: Redis)
+- Colaborar com founders e stakeholders para transformar ideias de produto em soluções técnicas
+- Contribuir com pipelines de CI/CD e deploys em cloud
+- Participar de decisões técnicas e discussões de arquitetura de sistemas
 
-Must Have:
+## Requisitos obrigatórios
 
-Strong experience with NestJS and MongoDB / Mongoose
-Solid frontend experience with Vue and TanStack
-Familiarity with Redis, CI/CD pipelines (GitHub Actions), and cloud hosting (AWS Beanstalk or similar)
-Experience working with modern hosting platforms such as Vercel and backend services like Supabase
-Ability to understand the entire product stack and take full ownership of components
-Proven problem-solving skills and ability to optimize for scalability and performance
-Comfortable working closely with founders in a dynamic, evolving environment
-Experience working in cost-conscious environments, making thoughtful technology trade-offs
+- Experiência sólida com NestJS e MongoDB / Mongoose
+- Experiência consistente em front-end com Vue e TanStack
+- Familiaridade com Redis, pipelines de CI/CD (GitHub Actions) e hospedagem em cloud (AWS Beanstalk ou similar)
+- Experiência com plataformas modernas de hosting como Vercel e serviços de back-end como Supabase
+- Capacidade de entender a stack completa do produto e assumir ownership total de componentes
+- Habilidade comprovada de resolução de problemas e de otimização para escalabilidade e performance
+- Conforto para trabalhar próximo(a) dos founders em um ambiente dinâmico e em evolução
+- Experiência em contextos com restrição de custos, tomando decisões de tecnologia com trade-offs bem pensados
 
-Nice to Have:
+## Diferenciais
 
-Exposure to AI-driven product enhancements
-Experience modernizing legacy systems or MVPs for scalability
-Startup or early-stage company experience
+- Contato com melhorias de produto orientadas por AI
+- Experiência modernizando sistemas legados ou MVPs visando escalabilidade
+- Experiência em startups ou empresas em estágio inicial
 
-Benefits & Perks:
+## Benefícios
 
-Home office;
+- Home office;
 
-Competitive compensation based on experience;
+- Remuneração competitiva de acordo com experiência;
 
-Career plans to allow for extensive growth in the company;
+- Planos de carreira com foco em crescimento dentro da empresa;
 
-International Projects;
+- Projetos internacionais;
 
-Oowlish English Program (Technical and Conversational);
+- Programa de inglês da Oowlish (Technical e Conversational);
 
-Oowlish Fitness with Total Pass;
+- Oowlish Fitness com Total Pass;
 
-Games and Competitions;
+- Jogos e competições;
 
-You can also apply here:
+## Você também pode se candidatar aqui
 
 Website: https://www.oowlish.com/work-with-us/
 
@@ -63,4 +63,4 @@ LinkedIn: https://www.linkedin.com/company/oowlish/jobs/
 
 Instagram: https://www.instagram.com/oowlishtechnology/
 
-We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+Podemos usar ferramentas de artificial intelligence (AI) para apoiar partes do processo seletivo, como revisar candidaturas, analisar currículos ou avaliar respostas. Essas ferramentas ajudam o time de recrutamento, mas não substituem o julgamento humano. As decisões finais de contratação são tomadas por pessoas. Para mais informações sobre como seus dados são processados, entre em contato conosco.

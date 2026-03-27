@@ -1,60 +1,62 @@
-Senior Front-End Vue Developer
+# Senior Front-End Vue Developer
 
-Overview
+## Visão geral
 
-Corporate Tools is seeking a highly skilled Senior Front-End Vue Developer with deep expertise in the Vue.js framework, for $150,000/year. You will be a traditional company employee. This is a remote position, but if you’re near one of our local offices, you’re welcome to come hangout with us in-office as well. Our main offices are in Post Falls, ID, and Spokane, WA; we also have satellite offices in Austin, TX, and Salt Lake City, UT. You’ll be working 40 hours a week and, of course, enjoy great company benefits.
+A Corporate Tools está buscando uma pessoa Senior Front-End Vue Developer com alta senioridade e profundo domínio do framework Vue.js, com remuneração de $150,000/ano. A contratação é como funcionário(a) da empresa (modelo tradicional). A posição é remota, mas, se você estiver perto de um de nossos escritórios, pode também trabalhar presencialmente quando quiser. Nossos escritórios principais ficam em Post Falls, ID, e Spokane, WA; também temos escritórios satélites em Austin, TX, e Salt Lake City, UT. Você vai trabalhar 40 horas por semana e terá benefícios corporativos.
 
-As a Senior Vue Developer, you will focus on the technical implementation and optimization of our Vue.js applications, ensuring they are high-performing, scale-able, and maintainable. This role is perfect for someone who enjoys solving complex front-end problems and working with large-scale Vue.js code bases. You’re also someone who believes there are new tricks to learn and things won’t be done the same way tomorrow as they were done today. Not only do you enjoy learning new technology, you’re enthusiastic about sharing those technologies with others. If this sounds like YOU, we want YOU to apply!
+Como Senior Vue Developer, você terá foco em implementação técnica e otimização das aplicações Vue.js, garantindo alta performance, escalabilidade e manutenibilidade. Esta vaga é ideal para quem gosta de resolver problemas complexos de front-end e trabalhar com codebases grandes em Vue.js. Também buscamos alguém que acredita que sempre há novas formas de evoluir: o que fazemos hoje não será necessariamente igual amanhã. Além de aprender novas tecnologias, você tem vontade de compartilhar conhecimento com outras pessoas. Se isso descreve você, queremos sua candidatura.
 
-What’s in a title?
+## Sobre títulos
 
-Here at Corporate Tools we don’t take titles very seriously. We know for recruiting purposes we need to call our jobs something, so we started with labeling and differentiating them in a fair and transparent way with “junior, mid, senior”. However, we realized that was putting our employees in a box and wasn’t allowing us to uniquely identify their individual contributions, strengths, and professional goals. Once you join our team, titles get chucked as we expect everyone to work when everyone is ready regardless of title or experience. We have taken the approach of evaluating candidates and employees on a “level” basis. It makes it a little easier internally to talk about growing into the next level without there being this huge chasm between what it means to be a Junior Engineer vs. a Mid Engineer. Our levels have expectations set for each one and it’s the responsibility of the manager and employee to make sure there is alignment. We do this through quarterly conversations where we discuss employee progression. If the work is challenging, and to ensure they feel fairly compensated for their work and expertise. Basically, this gives us more flexibility to help people grow in their careers. But sure, you can post your title on LinkedIn as what makes sense to the rest of the world.
+Aqui na Corporate Tools, não levamos títulos tão a sério. Sabemos que, para recrutamento, precisamos nomear as vagas, então começamos diferenciando de forma justa e transparente com “junior, mid, senior”. Porém, percebemos que isso colocava as pessoas em uma caixa e não ajudava a identificar contribuições individuais, pontos fortes e objetivos profissionais. Ao entrar no time, títulos perdem importância: esperamos que cada pessoa atue conforme está pronta, independentemente de título ou tempo de experiência.
+Adotamos a abordagem de avaliar pessoas candidatas e colaboradoras por “níveis”. Isso facilita conversas internas sobre evolução para o próximo nível sem criar um abismo artificial entre o que significa ser Junior Engineer vs. Mid Engineer. Cada nível tem expectativas claras, e é responsabilidade da liderança e da pessoa colaboradora garantir alinhamento. Fazemos isso com conversas trimestrais sobre progressão, desafio do trabalho e para assegurar que a pessoa se sinta justamente remunerada pela sua entrega e expertise. Em resumo, isso nos dá mais flexibilidade para apoiar crescimento de carreira. Mas, claro, você pode usar no LinkedIn o título que fizer mais sentido para o mercado.
 
-Wage
+## Salário
 
 $150,000/year
 
-Benefits
+## Benefícios
 
-100% employer-paid medical, dental and vision for employees
-Annual review with raise option
-22 days Paid Time Off accrued annually, and 4 holidays
-After 3 years, PTO increases to 29 days. Employees transition to flexible time off after 5 years with the company—not accrued, not capped, take time off when you want
-The 4 holidays are: New Year’s Day, Fourth of July, Thanksgiving, and Christmas Day
-Paid Parental Leave
-Up to 6% company matching 401(k) with no vesting period
-Quarterly allowance
-Use to make your remote work set up more comfortable, for continuing education classes, a plant for your desk, coffee for your coworker, a massage for yourself... really, whatever
-Open concept office with friendly coworkers
-Creative environment where you can make a difference
-No dumb benefits like free dog walking on the weekends that snobby hipster places have to make you feel cool, but mathematically won't cost the company much money because you won't use it
-Trail Mix Bar --- oh yeah
-Responsibilities
+- Plano médico, dental e visão 100% pagos pela empresa para colaboradores
+- Revisão anual com possibilidade de aumento
+- 22 dias de Paid Time Off (PTO) acumulados por ano e 4 feriados
+- Após 3 anos, PTO aumenta para 29 dias. Após 5 anos, as pessoas passam para flexible time off (sem acúmulo e sem teto; tire folga quando quiser)
+- Os 4 feriados são: New Year’s Day, Fourth of July, Thanksgiving e Christmas Day
+- Paid Parental Leave
+- Até 6% de matching no 401(k), sem período de vesting
+- Auxílio trimestral
+- Use para deixar o setup remoto mais confortável, cursos de educação continuada, uma planta para a mesa, café para um colega, uma massagem para você… enfim, o que fizer sentido
+- Escritório open concept com colegas amigáveis
+- Ambiente criativo, onde você pode fazer a diferença
+- Sem “benefícios bobos” que parecem legais mas quase ninguém usa; aqui o foco é no que realmente importa
+- Trail Mix Bar — sim, tem
 
-Build and maintain complex Vue.js applications with a focus on performance, scalability, and maintainability.
-Collaborate with cross-functional teams of UX/UI designers, product managers, and back end developers to deliver seamless user experiences.
-Assist with an ongoing process of converting Vue 2 apps to Vue 3.
-Integrate RESTful APIs with Vue.js applications for smooth data flow between the front-end and the back-end.
-Implement robust testing strategies, including unit, integration, and end-to-end tests.
-Contribute to further development of a reusable component library.
-Ensure consistent functionality in all major browsers and devices.
-Support junior and mid-level developers, promoting a culture that fosters knowledge-sharing and continuous improvement. Participate in code reviews and provide constructive feedback to peers.
-Stay current with the newest trends and developments in Vue.js, stay up-to-date with the latest tools, and follow best practices while providing valuable insights to the team.
+## Responsabilidades
 
-Requirements
+- Construir e manter aplicações Vue.js complexas, com foco em performance, escalabilidade e manutenibilidade
+- Colaborar com times cross-functional de UX/UI designers, product managers e pessoas desenvolvedoras de back-end para entregar experiências consistentes
+- Apoiar o processo contínuo de migração de apps em Vue 2 para Vue 3
+- Integrar RESTful APIs às aplicações Vue.js para fluxo de dados fluido entre front-end e back-end
+- Implementar estratégias robustas de testes, incluindo unit, integration e end-to-end
+- Contribuir para evolução de uma biblioteca reutilizável de componentes
+- Garantir funcionamento consistente nos principais navegadores e dispositivos
+- Apoiar pessoas desenvolvedoras junior e mid, promovendo cultura de compartilhamento de conhecimento e melhoria contínua; participar de code reviews e dar feedback construtivo
+- Manter-se atualizado(a) com tendências e evoluções do Vue.js, ferramentas recentes e boas práticas, trazendo insights para o time
 
-5+ years of Front End development experience with a strong focus on Vue.js.
-Deep knowledge of Vue.js; practical experience with Vue 3, Vue Router, Vuex.
-Experience integrating RESTful APIs with Vue.js applications.
-Proficiency with HTML5, CSS3, and preprocessors like SASS/SCSS.
-Familiarity with at least one testing framework like Jest, Mocha, or Cypress; previous experience in writing tests for Vue.js applications.
-Experience with build tools like Webpack, Vite, and task runners like npm/yarn.
-Proficiency with revision control systems, particularly Git.
-Experience in responsive design and development.
-Knowledge of web accessibility standards and best practices.
-Knowledge of performance optimization techniques for web applications.
-Excellent problem-solving skills and a keen eye for detail. Resilience when dealing with complex technical challenges.
-First-hand experience with application migration from Vue 2 to Vue 3. Knowledge of breaking changes between Vue 2 and Vue 3.
-Familiarity with the Composition API.
-Full stack development capabilities.
-Experience working on server-side rendering with Nuxt.js.
+## Requisitos
+
+- 5+ anos de experiência em desenvolvimento Front End com forte foco em Vue.js
+- Profundo conhecimento de Vue.js; experiência prática com Vue 3, Vue Router e Vuex
+- Experiência integrando RESTful APIs em aplicações Vue.js
+- Proficiência em HTML5, CSS3 e pré-processadores como SASS/SCSS
+- Familiaridade com ao menos um framework de testes como Jest, Mocha ou Cypress; experiência escrevendo testes para aplicações Vue.js
+- Experiência com ferramentas de build como Webpack e Vite, e task runners como npm/yarn
+- Proficiência com sistemas de controle de versão, especialmente Git
+- Experiência com responsive design e desenvolvimento
+- Conhecimento de padrões e boas práticas de acessibilidade web
+- Conhecimento de técnicas de otimização de performance para aplicações web
+- Excelente capacidade de resolução de problemas e atenção a detalhes; resiliência ao lidar com desafios técnicos complexos
+- Experiência prática em migração de aplicações de Vue 2 para Vue 3, incluindo breaking changes entre as versões
+- Familiaridade com Composition API
+- Capacidade de atuar em full stack
+- Experiência com server-side rendering usando Nuxt.js

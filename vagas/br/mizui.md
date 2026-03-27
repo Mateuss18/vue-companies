@@ -1,7 +1,4 @@
-# Mizui
-
-## About the job
-
+# Mizui## Sobre a vaga
 ### 🚀 Sobre a Mizui
 
 A Mizui é uma startup de tecnologia focada em soluções SaaS para e-commerce, construída para ajudar lojas digitais a vender mais através de produtos escaláveis e orientados a performance.

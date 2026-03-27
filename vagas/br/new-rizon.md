@@ -1,7 +1,5 @@
 # Desenvolvedor Vue.js Senior
-
-## About the job
-
+## Sobre a vaga
 Desenvolvedor (a) Vue.js l Senior
 
 Modelo Híbrido, Belo Horizonte - 2x por semana no escritório.

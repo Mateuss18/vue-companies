@@ -1,7 +1,5 @@
 # Programador/a Full-Stack Java/Vue.js
-
-## About the job
-
+## Sobre a vaga
 🚀Capitole Consulting sigue creciendo ¡y queremos hacerlo contigo!
 
 💡Buscamos uun/a Full-stack Developer con 5 años de experiencia en Java y Vue.js para trabajar con uno de nuestros clientes del rubro del acondicionamiento del hogar.

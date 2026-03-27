@@ -1,7 +1,5 @@
-Front End Engineer (Vue.js | Senior
-
-About the job
-
+# Front End Engineer (Vue.js | Senior)
+## Sobre a vaga
 Remoto | 44h semanais
 
 Para você nos conhecer melhor 
@@ -12,7 +10,7 @@ Desenvolvemos pessoas, softwares & negócios
 
 Atuamos no desenvolvimento de soluções digitais (web, mobile, BI, RPA, entre outros), com sedes em São Paulo, Porto Alegre, Belo Horizonte e EUA.
 
-Overview da oportunidade: 
+Visão geral da oportunidade:
 
 Estamos em busca de uma Pessoa para atuar como Desenvolvedor(a) Front End para construir e evoluir uma interface, proporcionando uma experiência intuitiva, segura e performática para operações de trading, custódia e transferência de criptoativos e stablecoins. Você trabalhará com Vue.js em um produto voltado para uma nova geração de investidores, com ferramentas de trading, robôs inteligentes, gráficos em tempo real e gestão profissional de portfólio.
 
