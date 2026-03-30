@@ -1,20 +1,45 @@
 import dataCompanies from '../../data/companies.json'
+import dataConsultancies from '../../data/consultancies.json'
 
-type Company = (typeof dataCompanies.companies)[number]
+type RawCompany = (typeof dataCompanies.companies)[number]
+type RawConsultancy = (typeof dataConsultancies.consultancies)[number]
 
-const companies = dataCompanies.companies as Company[]
+type DirectoryItem =
+  | (RawCompany & { kind: 'company' })
+  | (RawConsultancy & {
+      kind: 'consultancy'
+      tags: string[]
+      workModel: string[]
+      city?: string
+      logo?: string
+    })
+
+const allCompanies: DirectoryItem[] = [
+  ...dataCompanies.companies.map((company) => ({
+    ...company,
+    kind: 'company' as const,
+  })),
+  ...dataConsultancies.consultancies.map((consultancy) => ({
+    ...consultancy,
+    kind: 'consultancy' as const,
+    tags: [],
+    workModel: [],
+    city: undefined,
+    logo: undefined,
+  })),
+]
 
 export const useCompanies = () => {
-  const estimatedCompaniesAdded = Math.floor(companies.length / 10) * 10
+  const estimatedCompaniesAdded = Math.floor(allCompanies.length / 10) * 10
 
-  return { companies, estimatedCompaniesAdded }
+  return { companies: allCompanies, estimatedCompaniesAdded }
 }
 
 export const useFilteredCompanies = () => {
   const { search, selectedTags, selectedWorkModels } = useCompanyQuery()
 
   const filteredCompanies = computed(() =>
-    companies.filter((company) => {
+    allCompanies.filter((company) => {
       const matchesSearch =
         search.value.trim() === '' ||
         company.name.toLocaleLowerCase().includes(search.value.trim().toLocaleLowerCase())
