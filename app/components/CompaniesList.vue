@@ -9,7 +9,11 @@
         v-if="visibleCompanies.length > 0"
         class="flex justify-center gap-6 flex-wrap mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-12"
       >
-        <CompanyCard v-for="company in visibleCompanies" :key="company.id" :company="company" />
+        <CompanyCard
+          v-for="company in visibleCompanies"
+          :key="company.id"
+          :directory-item="company"
+        />
       </div>
       <div
         v-else
