@@ -2,7 +2,9 @@
   <UCard
     class="company-card w-md h-auto rounded-md lg:w-full"
     :ui="{
-      body: 'bg-bg-secondary border-gray border-2 hover:border-primary rounded-md h-full flex flex-col p-3 sm:p-4 lg:p-4 xxl:p-5',
+      body: `bg-bg-secondary border-gray border-2 hover:border-primary rounded-md h-full flex flex-col p-3 sm:p-4 lg:p-4 xxl:p-5 ${
+        props.directoryItem.kind === 'consultancy' ? 'border-primary/40' : ''
+      }`,
     }"
   >
     <div class="head flex gap-3 items-center">
@@ -53,7 +55,7 @@
               size="xs"
               class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-primary"
             >
-              Consultancy
+              Consultoria
             </UBadge>
           </div>
         </div>
@@ -68,6 +70,7 @@
 
     <div class="footer flex gap-5">
       <UButton
+        v-if="props.directoryItem.website"
         :href="props.directoryItem.website"
         target="_blank"
         rel="noopener noreferrer"
@@ -80,6 +83,7 @@
       </UButton>
 
       <UButton
+        v-if="props.directoryItem.linkedin"
         :href="props.directoryItem.linkedin"
         target="_blank"
         rel="noopener noreferrer"
@@ -111,8 +115,8 @@ type DirectoryItem = {
   kind: CompanyKind
   country: string
   size: string
-  website: string
-  domain: string
+  website?: string
+  domain?: string
   linkedin: string
   description: string
   createdAt: string
@@ -132,7 +136,7 @@ const companyLogoUrls = computed(
       props.directoryItem.logo,
       `https://img.logo.dev/${props.directoryItem.domain}?token=${publicKey}&size=85&fallback=404`,
       `https://img.logo.dev/name/${props.directoryItem.name}?token=${publicKey}&size=85&fallback=404`,
-      '/imgs/placeholder-logo.svg',
+      '/imgs/log/placeholder-logo.svg',
     ].filter(Boolean) as string[],
 )
 const currentIndex = ref<number>(0)
