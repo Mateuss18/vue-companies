@@ -7,18 +7,25 @@
         <UButton
           size="md"
           icon="i-lucide-sliders-horizontal"
-          class="px-5 cursor-pointer"
+          class="px-5 cursor-pointer transition-colors duration-200"
           :class="openPanel ? 'bg-primary/5' : ''"
           variant="outline"
           @click="openPanelFilters"
         >
-          Filtros
-          <div
-            v-if="totalFiltersSelected > 0"
-            class="circle ml-1 border-primary border rounded-2xl bg-bg-secondary text-primary text-xs"
-          >
-            {{ totalFiltersSelected }}
-          </div>
+          <span class="inline-flex items-center gap-2">
+            <span>Filtros</span>
+            <div
+              v-if="totalFiltersSelected > 0"
+              class="circle border-primary border rounded-2xl bg-bg-secondary text-primary text-xs"
+            >
+              {{ totalFiltersSelected }}
+            </div>
+            <UIcon
+              name="i-lucide-chevron-down"
+              class="size-4 transition-transform duration-200"
+              :class="openPanel ? 'rotate-180' : 'rotate-0'"
+            />
+          </span>
         </UButton>
 
         <UButton
@@ -67,7 +74,16 @@
       </div>
     </div>
 
-    <FiltersPanel v-show="openPanel" />
+    <Transition
+      enter-active-class="transition-transform transition-opacity duration-200 ease-out"
+      enter-from-class="opacity-0 -translate-y-1"
+      enter-to-class="opacity-100 translate-y-0"
+      leave-active-class="transition-transform transition-opacity duration-150 ease-in"
+      leave-from-class="opacity-100 translate-y-0"
+      leave-to-class="opacity-0 -translate-y-1"
+    >
+      <FiltersPanel v-show="openPanel" />
+    </Transition>
   </div>
 </template>
 
