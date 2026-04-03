@@ -1,6 +1,6 @@
 <template>
   <UCard
-    class="company-card w-md h-auto rounded-md lg:w-full"
+    class="company-card w-md h-auto rounded-md lg:w-full transition-transform duration-300 hover:-translate-y-1"
     :ui="{
       body: `bg-bg-secondary border-gray border-2 hover:border-primary rounded-md h-full flex flex-col p-3 sm:p-4 lg:p-4 xxl:p-5 ${
         props.directoryItem.kind === 'consultancy' ? 'border-primary/40' : ''
@@ -136,7 +136,7 @@ const companyLogoUrls = computed(
       props.directoryItem.logo,
       `https://img.logo.dev/${props.directoryItem.domain}?token=${publicKey}&size=85&fallback=404`,
       `https://img.logo.dev/name/${props.directoryItem.name}?token=${publicKey}&size=85&fallback=404`,
-      '/imgs/log/placeholder-logo.svg',
+      '/imgs/logo/placeholder-logo.svg',
     ].filter(Boolean) as string[],
 )
 const currentIndex = ref<number>(0)

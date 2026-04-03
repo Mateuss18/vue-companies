@@ -5,16 +5,20 @@
     </p>
 
     <div class="min-h-[700px]">
-      <div
-        v-if="visibleCompanies.length > 0"
-        class="flex justify-center gap-6 flex-wrap mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-12"
-      >
-        <CompanyCard
-          v-for="company in visibleCompanies"
-          :key="company.id"
-          :directory-item="company"
-        />
+      <div v-if="visibleCompanies.length > 0">
+        <TransitionGroup
+          name="list"
+          tag="div"
+          class="flex justify-center gap-6 flex-wrap mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-12"
+        >
+          <CompanyCard
+            v-for="company in visibleCompanies"
+            :key="company.id"
+            :directory-item="company"
+          />
+        </TransitionGroup>
       </div>
+
       <div
         v-else
         class="flex justify-center items-center flex-col mt-20 text-center text-lg sm:text-md"
@@ -27,7 +31,7 @@
     <UButton
       v-if="visibleCount < filteredCompanies.length"
       @click="loadMore"
-      class="m-auto cursor-pointer bg-primary text-bg hover:bg-primary-dark p-4"
+      class="m-auto cursor-pointer bg-primary text-bg hover:bg-primary-dark p-4 hover:scale-105 active:scale-95 duration-200 transition-transform"
       trailing-icon="i-lucide-plus"
     >
       Carregar mais
@@ -85,3 +89,27 @@ const loadMore = () => {
   })
 }
 </script>
+
+<style scoped>
+.list-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.list-enter-from {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.list-move {
+  transition: transform 0.3s ease;
+}
+
+.list-leave-active {
+  transition: all 0.2s ease-in;
+}
+
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+</style>
