@@ -629,7 +629,7 @@
       "name": "act digital",
       "slug": "act-digital",
       "country": "Global",
-      "size": "Enterprise",
+      "size": "Corporação",
       "website": "https://actdigital.com/",
       "domain": "actdigital.com",
       "linkedin": "https://www.linkedin.com/company/act-digital/",
@@ -737,7 +737,7 @@
       "name": "TELUS Digital",
       "slug": "telus-digital",
       "country": "Canadá",
-      "size": "Enterprise",
+      "size": "Corporação",
       "website": "https://www.telusdigital.com/",
       "domain": "telusdigital.com",
       "linkedin": "https://www.linkedin.com/company/telus-digital/",
@@ -1313,7 +1313,7 @@
       "name": "Devoteam",
       "slug": "devoteam",
       "country": "França",
-      "size": "Enterprise",
+      "size": "Corporação",
       "website": "https://www.devoteam.com/",
       "domain": "devoteam.com",
       "linkedin": "https://www.linkedin.com/company/devoteam/",
@@ -1331,10 +1331,94 @@
       "linkedin": "https://www.linkedin.com/company/fincons-group/",
       "description": "Consultoria de TI e system integration com atuação global, apoiando transformação digital em diversos setores.",
       "createdAt": "2026-03-30"
+    },
+    {
+      "id": 112,
+      "name": "Direct IT Recruiting Inc.",
+      "slug": "direct-it-recruiting-inc",
+      "country": "Canadá",
+      "size": "Startup",
+      "website": "http://directitrecruiting.com",
+      "domain": "directitrecruiting.com",
+      "linkedin": "https://www.linkedin.com/company/direct-it-recruiting-inc/",
+      "description": "Agência canadense de recrutamento em TI que conecta empresas a profissionais para contratos e vagas permanentes em múltiplos setores.",
+      "createdAt": "2026-04-03"
+    },
+    {
+      "id": 113,
+      "name": "Wizeline",
+      "slug": "wizeline",
+      "country": "Estados Unidos",
+      "size": "Grande",
+      "website": "http://www.wizeline.ai",
+      "domain": "wizeline.ai",
+      "linkedin": "https://www.linkedin.com/company/wizeline/",
+      "description": "Consultoria global de tecnologia que desenvolve produtos digitais, dados e IA para modernizar plataformas e acelerar negócios.",
+      "createdAt": "2026-04-03"
+    },
+    {
+      "id": 114,
+      "name": "Themesoft Inc.",
+      "slug": "themesoft-inc",
+      "country": "Estados Unidos",
+      "size": "Média",
+      "website": "http://www.themesoft.com/",
+      "domain": "themesoft.com",
+      "linkedin": "https://www.linkedin.com/company/themesoft-inc./",
+      "description": "Consultoria global de TI e creative lab que monta times, entrega software e apoia transformação digital para empresas.",
+      "createdAt": "2026-04-03"
+    },
+    {
+      "id": 115,
+      "name": "Tech Pair",
+      "slug": "tech-pair",
+      "country": "Reino Unido",
+      "size": "Startup",
+      "website": "https://www.techpair.co.uk/",
+      "domain": "techpair.co.uk",
+      "linkedin": "https://www.linkedin.com/company/tech-pair/",
+      "description": "Parceira de recrutamento tech no Reino Unido, conectando empresas a engenheiros e líderes com abordagem consultiva e humana.",
+      "createdAt": "2026-04-03"
+    },
+    {
+      "id": 116,
+      "name": "Logic Hire Solutions LTD",
+      "slug": "logic-hire-solutions-ltd",
+      "country": "Reino Unido",
+      "size": "Startup",
+      "website": "https://www.logichire-ss.com/",
+      "domain": "logichire-ss.com",
+      "linkedin": "https://www.linkedin.com/company/logic-hire-solutions-ltd/",
+      "description": "Consultoria nearshore que monta times de engenharia e squads sob demanda para acelerar produtos e transformação digital.",
+      "createdAt": "2026-04-03"
+    },
+    {
+      "id": 117,
+      "name": "Jobsity",
+      "slug": "jobsity",
+      "country": "Estados Unidos",
+      "size": "Média",
+      "website": "http://www.jobsity.com",
+      "domain": "jobsity.com",
+      "linkedin": "https://www.linkedin.com/company/jobsity-llc/",
+      "description": "Consultoria nearshore que conecta empresas a engenheiros e talentos BPO na América Latina com fuso alinhado.",
+      "createdAt": "2026-04-03"
+    },
+    {
+      "id": 118,
+      "name": "Tecla",
+      "slug": "tecla",
+      "country": "Estados Unidos",
+      "size": "Pequena",
+      "website": "https://tecla.io/",
+      "domain": "tecla.io",
+      "linkedin": "https://www.linkedin.com/company/tecla-io/",
+      "description": "Staffing especializado em tecnologia que conecta empresas a líderes e times nearshore nas Américas com triagem técnica e IA.",
+      "createdAt": "2026-04-03"
     }
   ],
   "meta": {
-    "total": 111,
-    "lastUpdate": "2026-03-30"
+    "total": 118,
+    "lastUpdate": "2026-04-03"
   }
 }

@@ -605,7 +605,7 @@
       "slug": "iqvia",
       "country": "Estados Unidos",
       "city": "Durham",
-      "size": "Enterprise",
+      "size": "Corporação",
       "website": "https://www.iqvia.com/",
       "domain": "iqvia.com",
       "linkedin": "https://www.linkedin.com/company/iqvia/",
@@ -1334,10 +1334,55 @@
       "tags": ["insurtech", "seguros", "b2b", "ai", "analise-de-risco"],
       "workModel": ["Remoto"],
       "createdAt": "2026-04-03"
+    },
+    {
+      "id": 89,
+      "name": "Maincare",
+      "slug": "maincare",
+      "country": "França",
+      "city": "Canéjan",
+      "size": "Média",
+      "website": "http://www.maincare.com",
+      "domain": "maincare.com",
+      "linkedin": "https://www.linkedin.com/company/maincare/",
+      "description": "Software de saúde para hospitais e redes clínicas, cobrindo jornada do paciente, gestão assistencial, imagem e operação hospitalar.",
+      "tags": ["healthtech", "saude", "hospital", "software", "b2b"],
+      "workModel": ["Remoto"],
+      "createdAt": "2026-04-03"
+    },
+    {
+      "id": 90,
+      "name": "Yearnings Inc",
+      "slug": "yearnings-inc",
+      "country": "Estados Unidos",
+      "city": "Hurst",
+      "size": "Startup",
+      "website": "https://yearnings.com/",
+      "domain": "yearnings.com",
+      "linkedin": "https://www.linkedin.com/company/yearnings-inc/",
+      "description": "Plataforma financeira focada em copy trading e benefícios para investidores, com operação remota e produto digital voltado ao mercado.",
+      "tags": ["fintech", "copy-trading", "investimentos", "b2c", "produto-digital"],
+      "workModel": ["Remoto"],
+      "createdAt": "2026-04-03"
+    },
+    {
+      "id": 91,
+      "name": "Deel",
+      "slug": "deel",
+      "country": "Estados Unidos",
+      "city": "San Francisco",
+      "size": "Corporação",
+      "website": "https://www.deel.com/",
+      "domain": "deel.com",
+      "linkedin": "https://www.linkedin.com/company/deel/",
+      "description": "Plataforma global de payroll e RH com IA que unifica contratações, compliance, benefícios e gestão de equipes distribuídas.",
+      "tags": ["hrtech", "payroll", "saas", "global-hiring", "compliance"],
+      "workModel": ["Remoto"],
+      "createdAt": "2026-04-03"
     }
   ],
   "meta": {
-    "total": 88,
+    "total": 91,
     "lastUpdate": "2026-04-03"
   }
 }
