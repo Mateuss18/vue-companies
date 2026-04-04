@@ -4,7 +4,7 @@
       <p>Tags</p>
 
       <div class="flex gap-3 flex-wrap">
-        <BaseOptionButton
+        <FiltersBaseOptionButton
           v-for="tag in tagOptions"
           :key="tag"
           @click="handleTagClick(tag)"
@@ -18,7 +18,7 @@
       <p>Modelo de trabalho</p>
 
       <div class="flex gap-3 flex-wrap">
-        <BaseOptionButton
+        <FiltersBaseOptionButton
           v-for="workModel in workModelOptions"
           :key="workModel"
           @click="handleWorkModelClick(workModel)"
@@ -32,13 +32,21 @@
       <p>Tamanho da empresa</p>
 
       <div class="flex gap-3 flex-wrap">
-        <BaseOptionButton
+        <FiltersBaseOptionButton
           v-for="companySize in companySizeOptions"
           :key="companySize"
           @click="handlecompanySizeClick(companySize)"
           :selected="selectedCompanySizes.includes(companySize)"
           :label="companySize"
         />
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-3 xxl:w-[48%] ring-1 rounded-lg ring-gray p-4">
+      <p>País</p>
+
+      <div class="flex gap-3 flex-wrap">
+        <USelect />
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-bg-secondary rounded-2xl p-4 border-gray border-2 mt-6 lg:p-6 lg:mx-40 xxl:mx-50">
     <div class="flex gap-5 justify-between mb-6 flex-col md:flex-row">
-      <SearchBar v-model="search" />
+      <FiltersSearchBar v-model="search" />
 
       <div class="flex gap-3">
         <UButton

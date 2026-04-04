@@ -39,7 +39,7 @@
           </UBadge>
 
           <div class="flex flex-wrap gap-1.5">
-            <BadgeCompanySize :size="props.directoryItem.size" />
+            <CompanyBadgeCompanySize :size="props.directoryItem.size" />
 
             <UBadge
               v-for="value in props.directoryItem.workModel ?? []"
@@ -136,7 +136,7 @@ const companyLogoUrls = computed(
       props.directoryItem.logo,
       `https://img.logo.dev/${props.directoryItem.domain}?token=${publicKey}&size=85&fallback=404`,
       `https://img.logo.dev/name/${props.directoryItem.name}?token=${publicKey}&size=85&fallback=404`,
-      '/imgs/logo/placeholder-logo.svg',
+      '/imgs/logos/placeholder-logo.svg',
     ].filter(Boolean) as string[],
 )
 const currentIndex = ref<number>(0)

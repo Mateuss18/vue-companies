@@ -1,14 +1,14 @@
 <template>
   <div class="home min-h-screen text-text flex flex-col justify-center px-4 md:px-12 xxl:px-34">
-    <HeroSection @scrollToList="scrollToList" />
+    <LayoutHeroSection @scrollToList="scrollToList" />
 
     <section ref="companiesCardsListRef">
-      <SearchFiltersBar />
+      <FiltersSearchFiltersBar />
 
-      <CompaniesList @scrollToList="scrollToList" />
+      <CompanyCompaniesList @scrollToList="scrollToList" />
     </section>
 
-    <FooterSimple />
+    <LayoutFooterSimple />
   </div>
 </template>
 
