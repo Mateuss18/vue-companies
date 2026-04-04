@@ -1,6 +1,5 @@
 const tagOptions = [
   'tecnologia',
-  'consultoria',
   'software',
   'saas',
   'outsourcing',
@@ -19,11 +18,15 @@ type Tag = (typeof tagOptions)[number]
 const workModelOptions = ['Remoto', 'Híbrido', 'Presencial']
 type WorkModel = (typeof workModelOptions)[number]
 
+const companySizeOptions = ['Startup', 'Pequena', 'Média', 'Grande', 'Corporação']
+type CompanySize = (typeof companySizeOptions)[number]
+
 export const useCompanyQuery = () => {
   const search = useState<string>('companyQuery:search', () => '')
 
   const selectedTags = useState<Tag[]>('companyQuery:tags', () => [])
   const selectedWorkModels = useState<WorkModel[]>('companyQuery:workModels', () => [])
+  const selectedCompanySizes = useState<CompanySize[]>('companyQuery:companySizes', () => [])
 
   const toggleTag = (tag: Tag) => {
     selectedTags.value = selectedTags.value.includes(tag)
@@ -37,10 +40,17 @@ export const useCompanyQuery = () => {
       : [...selectedWorkModels.value, workModel]
   }
 
+  const toggleCompanySize = (companySize: CompanySize) => {
+    selectedCompanySizes.value = selectedCompanySizes.value.includes(companySize)
+      ? selectedCompanySizes.value.filter((item) => item !== companySize)
+      : [...selectedCompanySizes.value, companySize]
+  }
+
   const clear = () => {
     search.value = ''
     selectedTags.value = []
     selectedWorkModels.value = []
+    selectedCompanySizes.value = []
   }
 
   return {
@@ -49,6 +59,10 @@ export const useCompanyQuery = () => {
     tagOptions,
     selectedTags,
     toggleTag,
+
+    companySizeOptions,
+    selectedCompanySizes,
+    toggleCompanySize,
 
     workModelOptions,
     selectedWorkModels,

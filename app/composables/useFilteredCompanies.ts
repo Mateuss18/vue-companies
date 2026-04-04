@@ -36,7 +36,7 @@ export const useCompanies = () => {
 }
 
 export const useFilteredCompanies = () => {
-  const { search, selectedTags, selectedWorkModels } = useCompanyQuery()
+  const { search, selectedTags, selectedWorkModels, selectedCompanySizes } = useCompanyQuery()
 
   const filteredCompanies = computed(() =>
     allCompanies.filter((company) => {
@@ -52,7 +52,11 @@ export const useFilteredCompanies = () => {
         selectedWorkModels.value.length === 0 ||
         selectedWorkModels.value.some((workModel) => company.workModel.includes(workModel))
 
-      return matchesSearch && matchesTags && matchesWorkModel
+      const matchesCompanySize =
+        selectedCompanySizes.value.length === 0 ||
+        selectedCompanySizes.value.some((size) => company.size.includes(size))
+
+      return matchesSearch && matchesTags && matchesWorkModel && matchesCompanySize
     }),
   )
 
