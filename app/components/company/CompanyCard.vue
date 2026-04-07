@@ -25,17 +25,16 @@
         </h2>
 
         <div class="flex flex-col">
-          <UBadge
-            icon="i-lucide-map-pin"
-            size="xs"
-            class="text-xs font-light p-0 mb-2 bg-transparent text-white"
-          >
-            <template v-if="props.directoryItem.city">
-              {{ props.directoryItem.city }}, {{ props.directoryItem.country }}
-            </template>
-            <template v-else>
-              {{ props.directoryItem.country }}
-            </template>
+          <UBadge class="text-xs font-light p-0 mb-2 bg-transparent text-white">
+            <div class="flex items-center gap-1.5">
+              <span :class="`fi fi-${getCountryCode(props.directoryItem.country)}`" />
+              <template v-if="props.directoryItem.city">
+                {{ props.directoryItem.city }}, {{ props.directoryItem.country }}
+              </template>
+              <template v-else>
+                {{ props.directoryItem.country }}
+              </template>
+            </div>
           </UBadge>
 
           <div class="flex flex-wrap gap-1.5">
@@ -45,15 +44,15 @@
               v-for="value in props.directoryItem.workModel ?? []"
               :key="value"
               size="xs"
-              class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-white"
+              class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-white capitalize"
             >
-              {{ value }}
+              {{ getWorkModelLabel(value) }}
             </UBadge>
 
             <UBadge
               v-if="props.directoryItem.kind === 'consultancy'"
               size="xs"
-              class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-primary"
+              class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-primary capitalize"
             >
               Consultoria
             </UBadge>
@@ -100,6 +99,8 @@
 
 <script setup lang="ts">
 import { PhLinkedinLogo, PhGlobeSimple } from '@phosphor-icons/vue'
+const { getWorkModelLabel } = useCompanyLabels()
+const { getCountryCode } = useCountry()
 
 const { gtag } = useGtag()
 
