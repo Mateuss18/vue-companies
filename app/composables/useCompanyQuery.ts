@@ -15,10 +15,10 @@ const tagOptions = [
 ] as const
 type Tag = (typeof tagOptions)[number]
 
-const workModelOptions = ['Remoto', 'Híbrido', 'Presencial']
+const workModelOptions = ['remote', 'hybrid', 'on-site']
 type WorkModel = (typeof workModelOptions)[number]
 
-const companySizeOptions = ['Startup', 'Pequena', 'Média', 'Grande', 'Corporação']
+const companySizeOptions = ['startup', 'small', 'medium', 'large', 'enterprise']
 type CompanySize = (typeof companySizeOptions)[number]
 
 export const useCompanyQuery = () => {
@@ -27,6 +27,8 @@ export const useCompanyQuery = () => {
   const selectedTags = useState<Tag[]>('companyQuery:tags', () => [])
   const selectedWorkModels = useState<WorkModel[]>('companyQuery:workModels', () => [])
   const selectedCompanySizes = useState<CompanySize[]>('companyQuery:companySizes', () => [])
+
+  const selectedCountry = useState<string | undefined>('companies:selectedCountry', () => undefined)
 
   const toggleTag = (tag: Tag) => {
     selectedTags.value = selectedTags.value.includes(tag)
@@ -51,6 +53,7 @@ export const useCompanyQuery = () => {
     selectedTags.value = []
     selectedWorkModels.value = []
     selectedCompanySizes.value = []
+    selectedCountry.value = undefined
   }
 
   return {
@@ -67,6 +70,8 @@ export const useCompanyQuery = () => {
     workModelOptions,
     selectedWorkModels,
     toggleWorkModel,
+
+    selectedCountry,
 
     clear,
   }

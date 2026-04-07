@@ -36,7 +36,10 @@ export const useCompanies = () => {
 }
 
 export const useFilteredCompanies = () => {
-  const { search, selectedTags, selectedWorkModels, selectedCompanySizes } = useCompanyQuery()
+  const { search, selectedTags, selectedWorkModels, selectedCompanySizes, selectedCountry } =
+    useCompanyQuery()
+  const { getCountryOption } = useCountry()
+  const { normalizeCompanySize } = useCompanyLabels()
 
   const filteredCompanies = computed(() =>
     allCompanies.filter((company) => {
@@ -54,11 +57,20 @@ export const useFilteredCompanies = () => {
 
       const matchesCompanySize =
         selectedCompanySizes.value.length === 0 ||
-        selectedCompanySizes.value.some((size) => company.size.includes(size))
+        selectedCompanySizes.value.some((size) => normalizeCompanySize(company.size) === size)
 
-      return matchesSearch && matchesTags && matchesWorkModel && matchesCompanySize
+      const matchesCountry = !selectedCountry.value || company.country === selectedCountry.value
+
+      return (
+        matchesSearch && matchesTags && matchesWorkModel && matchesCompanySize && matchesCountry
+      )
     }),
   )
+
+  const countryOptions = computed(() => {
+    const countries = [...new Set(allCompanies.map((company) => company.country))]
+    return countries.map((country) => getCountryOption(country))
+  })
 
   const resultsCount = computed(() => filteredCompanies.value.length)
 
@@ -83,5 +95,6 @@ export const useFilteredCompanies = () => {
     visibleCompanies,
     resetVisibleCount,
     loadMore,
+    countryOptions,
   }
 }
