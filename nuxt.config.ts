@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   app: {
@@ -27,8 +26,13 @@ export default defineNuxtConfig({
       ],
     },
   },
-  devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/ui', 'nuxt-gtag'],
+  devtools: { enabled: false },
+  modules: ['@nuxt/eslint', '@nuxt/ui', 'nuxt-gtag', '@nuxtjs/i18n'],
+  vite: {
+    build: {
+      sourcemap: false,
+    },
+  },
   gtag: {
     id: 'G-8J3T67YX11',
     config: {
@@ -40,7 +44,7 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', 'flag-icons/css/flag-icons.min.css'],
   postcss: {
     plugins: {
       '@tailwindcss/postcss': {},
@@ -51,5 +55,32 @@ export default defineNuxtConfig({
     public: {
       logoDevPublicKey: process.env.LOGO_DEV_PUBLIC_KEY,
     },
+  },
+  plugins: ['~/plugins/i18n-iso-countries.ts'],
+  i18n: {
+    defaultLocale: 'pt-BR',
+    strategy: 'no_prefix',
+    restructureDir: 'app/i18n',
+    langDir: 'locales',
+    locales: [
+      {
+        code: 'pt-BR',
+        language: 'pt-BR',
+        file: 'pt-BR.ts',
+        name: 'Português',
+      },
+      {
+        code: 'en',
+        language: 'en-US',
+        file: 'en.ts',
+        name: 'English',
+      },
+    ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+    },
+    vueI18n: 'app/i18n/i18n.confi.ts',
   },
 })
