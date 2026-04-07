@@ -16,7 +16,7 @@
             <span>Filtros</span>
             <div
               v-if="totalFiltersSelected > 0"
-              class="circle border-primary border rounded-2xl bg-bg-secondary text-primary text-xs"
+              class="inline-flex items-center justify-center aspect-square px-1 min-w-[22px] border-primary border rounded-full bg-bg-secondary text-primary text-xs"
             >
               {{ totalFiltersSelected }}
             </div>
@@ -53,7 +53,7 @@
             size="sm"
             @click="handleWorkModelChipClick(selectedWorkModel)"
           >
-            {{ selectedWorkModel }}
+            {{ getWorkModelLabel(selectedWorkModel) }}
           </UButton>
 
           <UButton
@@ -88,6 +88,8 @@
 </template>
 
 <script setup lang="ts">
+const { getWorkModelLabel } = useCompanyLabels()
+
 const { search, selectedTags, toggleTag, selectedWorkModels, toggleWorkModel, clear } =
   useCompanyQuery()
 const { visibleCompanies, resultsCount } = useFilteredCompanies()
@@ -152,9 +154,11 @@ const handleTagChipClick = (tag: (typeof selectedTags.value)[number]) => {
 }
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .circle {
   font-variant-numeric: tabular-nums;
-  padding: 3px 7px;
+  width: 27.8px;
+  height: 27.8px;
+  letter-spacing: -1px;
 }
-</style>
+</style> -->
