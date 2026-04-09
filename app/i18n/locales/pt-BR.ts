@@ -4,12 +4,16 @@ export default {
     clear: 'Limpar',
     site: 'Site',
     tags: 'Tags',
+    country: 'País',
     active: 'Ativos:',
     workModel: 'Modelo de trabalho',
     companySize: 'Tamanho da empresa',
     consultancy: 'Consultoria',
     loadMore: 'Carregar mais',
     noResults: 'Infelizmente nenhum resultado foi encontrado',
+    searchCompanies: 'Buscar empresas..',
+    searchCountry: 'Buscar país...',
+    selectCountry: 'Selecione um país',
     countries: {
       australia: 'Austrália',
       belgium: 'Bélgica',
@@ -67,5 +71,8 @@ export default {
     title: 'Trabalhe onde o Vue.js é valorizado',
     description: 'Descubra empresas brasileiras e internacionais que desenvolvem com Vue',
     cta: 'Explorar empresas',
+  },
+  footer: {
+    developedBy: 'Desenvolvido por',
   },
 }

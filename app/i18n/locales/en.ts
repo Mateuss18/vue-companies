@@ -4,12 +4,16 @@ export default {
     clear: 'Clear',
     site: 'Website',
     tags: 'Tags',
+    country: 'Country',
     active: 'Active:',
     workModel: 'Work model',
     companySize: 'Company size',
     consultancy: 'Consultancy',
     loadMore: 'Load more',
     noResults: 'No results found',
+    searchCompanies: 'Search companies..',
+    searchCountry: 'Search country...',
+    selectCountry: 'Select a country',
     countries: {
       australia: 'Australia',
       belgium: 'Belgium',
@@ -67,5 +71,8 @@ export default {
     title: 'Work where Vue.js is valued',
     description: 'Discover international companies around the world that build with Vue',
     cta: 'Explore companies',
+  },
+  footer: {
+    developedBy: 'Developed by',
   },
 }
