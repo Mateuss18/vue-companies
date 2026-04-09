@@ -10,7 +10,8 @@
       "domain": "bairesdev.com",
       "linkedin": "https://www.linkedin.com/company/bairesdev/",
       "description": "A BairesDev é sua parceira especializada que trabalha lado a lado com os clientes para construir soluções de software de alta qualidade com rapidez e precisão.",
-      "createdAt": "2026-03-22"
+      "createdAt": "2026-03-22",
+      "descriptionEn": "BairesDev is your specialized partner, working side by side with clients to build high-quality software solutions quickly and precisely."
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "domain": "mavilaconsulting.com",
       "linkedin": "https://www.linkedin.com/company/mavila-consulting/",
       "description": "Consultoria de operações e recrutamento full-cycle, conectando talentos LATAM a vagas remotas em startups dos EUA.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Full-cycle operations and recruitment consultancy connecting LATAM talent with remote roles at U.S. startups."
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "domain": "teampify.com",
       "linkedin": "https://www.linkedin.com/company/teampify/",
       "description": "Consultoria e desenvolvimento de aplicações para digitalização de serviços, atuando com times e entrega técnica em projetos variados.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Consulting and application development for service digitization, working with teams and technical delivery across a variety of projects."
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "domain": "sysmatch.com",
       "linkedin": "https://www.linkedin.com/company/sysmatch/",
       "description": "Consultoria e outsourcing de TI com times especializados para desenvolver, manter e escalar sistemas e produtos de clientes.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "IT consulting and outsourcing with specialized teams to develop, maintain, and scale client systems and products."
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "domain": "gritsolutions.pt",
       "linkedin": "https://www.linkedin.com/company/gritsolutions/",
       "description": "Consultoria de TI e nearshoring que monta times sob demanda para apoiar a evolução digital e de negócio de empresas.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "IT and nearshoring consultancy that assembles on-demand teams to support companies in their digital and business evolution."
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "domain": "vasscompany.com",
       "linkedin": "https://www.linkedin.com/company/vass/",
       "description": "Consultoria global de transformação digital que combina tecnologia, dados e IA para entregar projetos ponta a ponta.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Global digital transformation consultancy combining technology, data, and AI to deliver end-to-end projects."
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "domain": "realnaut.com",
       "linkedin": "https://www.linkedin.com/company/realnaut/",
       "description": "Serviços e soluções em cloud com prática DevOps para modernizar aplicações, automatizar operações e fortalecer segurança.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Cloud services and solutions with a DevOps practice to modernize applications, automate operations, and strengthen security."
     },
     {
       "id": 8,
@@ -94,7 +101,8 @@
       "domain": "iebtinnovation.com",
       "linkedin": "https://www.linkedin.com/company/iebt/",
       "description": "Consultoria de inovação corporativa e transformação digital, com squads, dados, analytics e automação voltados a resultados.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Corporate innovation and digital transformation consultancy with squads, data, analytics, and automation focused on results."
     },
     {
       "id": 9,
@@ -106,7 +114,8 @@
       "domain": "venturus.org.br",
       "linkedin": "https://www.linkedin.com/company/venturus/",
       "description": "Desenvolve soluções de software e estratégias digitais para clientes globais, incluindo iniciativas de IA e otimização produtiva.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Builds software solutions and digital strategies for global clients, including AI initiatives and productivity optimization."
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "domain": "techforti.com.br",
       "linkedin": "https://www.linkedin.com/company/techforbr/",
       "description": "Consultoria brasileira de TI focada em alocação e fábrica de software, infraestrutura, suporte e serviços corporativos.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Brazilian IT consultancy focused on staffing and software factory services, infrastructure, support, and corporate services."
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "domain": "journi.uk",
       "linkedin": "https://www.linkedin.com/company/journiuk/",
       "description": "Consultoria de software e transformação digital, com desenvolvimento sob medida, suporte técnico e aumento de time do cliente.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Software and digital transformation consultancy offering custom development, technical support, and client team augmentation."
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "domain": "capitole-consulting.com",
       "linkedin": "https://www.linkedin.com/company/capitole-consulting/",
       "description": "Consultoria de TI com equipes globais, atuando em desenvolvimento, testes e transformação digital com foco em qualidade.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "IT consultancy with global teams working in development, testing, and digital transformation with a strong focus on quality."
     },
     {
       "id": 13,
@@ -154,7 +166,8 @@
       "domain": "webis.ro",
       "linkedin": "https://www.linkedin.com/company/webisro/",
       "description": "Agência de web design e desenvolvimento que cria aplicações sob medida e soluções digitais para empresas e instituições.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "Web design and development agency creating custom applications and digital solutions for companies and institutions."
     },
     {
       "id": 14,
@@ -166,7 +179,8 @@
       "domain": "ordent.co",
       "linkedin": "https://www.linkedin.com/company/ordents/",
       "description": "Agência digital que cria experiências e produtos web sob medida, unindo tecnologia, criatividade e foco em resultados.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "Digital agency creating custom web experiences and products by combining technology, creativity, and a results-oriented mindset."
     },
     {
       "id": 15,
@@ -178,7 +192,8 @@
       "domain": "exadel.com",
       "linkedin": "https://www.linkedin.com/company/exadel/",
       "description": "Consultoria global de software que projeta, desenvolve e opera soluções digitais de ponta a ponta para empresas.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "Global software consultancy that designs, develops, and operates end-to-end digital solutions for enterprises."
     },
     {
       "id": 16,
@@ -190,7 +205,8 @@
       "domain": "kforce.com",
       "linkedin": "https://www.linkedin.com/company/kforce/",
       "description": "Empresa de staffing e consultoria que conecta profissionais a projetos de tecnologia e áreas corporativas em clientes.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "Staffing and consulting company that connects professionals with technology and corporate projects at client organizations."
     },
     {
       "id": 17,
@@ -202,7 +218,8 @@
       "domain": "esprimo.it",
       "linkedin": "https://www.linkedin.com/company/esprimo-s-r-l-/",
       "description": "Consultoria de TI que entrega serviços e soluções em infraestrutura, ERP, CRM e aplicações web para empresas.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "IT consultancy delivering services and solutions in infrastructure, ERP, CRM, and web applications for businesses."
     },
     {
       "id": 18,
@@ -214,7 +231,8 @@
       "domain": "extia-group.com",
       "linkedin": "https://www.linkedin.com/company/extia/",
       "description": "Consultoria de TI que apoia clientes em projetos de assistência técnica e preço fixo, em diversos setores.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "IT consultancy supporting clients with technical assistance and fixed-price projects across multiple industries."
     },
     {
       "id": 19,
@@ -226,7 +244,8 @@
       "domain": "imaginebeyond.com.br",
       "linkedin": "https://www.linkedin.com/company/beyond-solucoes/",
       "description": "Consultoria de outsourcing e squads que conecta talentos de TI a projetos de alto impacto, com foco em finanças.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "Outsourcing and squad consultancy connecting IT talent to high-impact projects, with a focus on finance."
     },
     {
       "id": 20,
@@ -238,7 +257,8 @@
       "domain": "envisiontechsol.com",
       "linkedin": "https://www.linkedin.com/company/envision-tech-sol/",
       "description": "Empresa de staffing que recruta e aloca talentos de tecnologia e áreas corporativas com soluções sob demanda.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "Staffing company that recruits and allocates technology and corporate talent through on-demand solutions."
     },
     {
       "id": 21,
@@ -250,7 +270,8 @@
       "domain": "outsourced.co",
       "linkedin": "https://www.linkedin.com/company/outsourcedglobal/",
       "description": "Empresa de outsourcing que monta times remotos dedicados e integra talentos offshore a negócios globais.",
-      "createdAt": "2026-03-25"
+      "createdAt": "2026-03-25",
+      "descriptionEn": "Outsourcing company that builds dedicated remote teams and integrates offshore talent into global businesses."
     },
     {
       "id": 22,
@@ -262,7 +283,8 @@
       "domain": "taskgroup.com.au",
       "linkedin": "https://www.linkedin.com/company/task-it-resources-pty-ltd/",
       "description": "Agência de recrutamento de TI que atua com empresas e governo, conectando vagas a profissionais com seleção consultiva.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "IT recruitment agency working with companies and government, connecting openings with professionals through consultative hiring."
     },
     {
       "id": 23,
@@ -274,7 +296,8 @@
       "domain": "devs-group.ch",
       "linkedin": "https://www.linkedin.com/company/devs-group/",
       "description": "Time de software que entrega produtos e operações de ponta a ponta, com cultura DevOps e execução ágil para clientes.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Software team delivering end-to-end products and operations, with a DevOps culture and agile execution for clients."
     },
     {
       "id": 24,
@@ -286,7 +309,8 @@
       "domain": "almaviva.it",
       "linkedin": "https://www.linkedin.com/company/almavivadebelgique/",
       "description": "Filial belga do Grupo AlmavivA que resolve desafios de TI no setor público e privado com qualidade e escala internacional.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Belgian branch of the AlmavivA Group solving IT challenges in the public and private sectors with quality and international scale."
     },
     {
       "id": 25,
@@ -298,7 +322,8 @@
       "domain": "signifytechnology.com",
       "linkedin": "https://www.linkedin.com/company/signify-technology/",
       "description": "Staffing global em tecnologia que recruta para engenharia de software e dados, com vagas permanentes e contratos.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Global technology staffing firm recruiting for software engineering and data roles, with both permanent and contract positions."
     },
     {
       "id": 26,
@@ -310,7 +335,8 @@
       "domain": "emagine.org",
       "linkedin": "https://www.linkedin.com/company/emagine/",
       "description": "Consultoria de negócios e TI que oferece extensão de times, squads e serviços gerenciados, escalando especialistas sob demanda.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Business and IT consultancy offering team extension, squads, and managed services, scaling specialists on demand."
     },
     {
       "id": 27,
@@ -322,7 +348,8 @@
       "domain": "montrealassociates.com",
       "linkedin": "https://www.linkedin.com/company/montreal-associates/",
       "description": "Especialista em staffing de tecnologia que conecta empresas a talentos em cloud, dados, segurança e desenvolvimento na Europa e América.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Technology staffing specialist connecting companies with talent in cloud, data, security, and development across Europe and the Americas."
     },
     {
       "id": 28,
@@ -334,7 +361,8 @@
       "domain": "distillery.com",
       "linkedin": "https://www.linkedin.com/company/distillery-tech/",
       "description": "Consultoria nearshore que acelera inovação com times seniores e líderes técnicos, apoiando apps, web e e-commerce em escala.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Nearshore consultancy accelerating innovation with senior teams and technical leaders, supporting apps, web, and e-commerce at scale."
     },
     {
       "id": 29,
@@ -346,7 +374,8 @@
       "domain": "qubika.com",
       "linkedin": "https://www.linkedin.com/company/qubika/",
       "description": "Parceria de engenharia e dados para tornar empresas AI‑native, integrando UX, segurança e inteligência em produtos digitais.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Engineering and data partner helping companies become AI-native by integrating UX, security, and intelligence into digital products."
     },
     {
       "id": 30,
@@ -358,7 +387,8 @@
       "domain": "proxify.io",
       "linkedin": "https://www.linkedin.com/company/proxify-se/",
       "description": "Rede global de talentos remotos em software e dados, conectando empresas a profissionais qualificados com agilidade.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Global network of remote software and data talent, connecting companies with qualified professionals quickly."
     },
     {
       "id": 31,
@@ -370,7 +400,8 @@
       "domain": "fullstack.com",
       "linkedin": "https://www.linkedin.com/company/fullstack-labs/",
       "description": "Engenharia de software e soluções de IA com entrega nearshore, modernização de aplicações e integração de dados.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Software engineering and AI solutions with nearshore delivery, application modernization, and data integration."
     },
     {
       "id": 32,
@@ -382,7 +413,8 @@
       "domain": "dacodes.com",
       "linkedin": "https://www.linkedin.com/company/dacodes/",
       "description": "Soluções sob medida em software e transformação digital, com times globais e suporte para escalar negócios.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Custom software and digital transformation solutions with global teams and support to scale businesses."
     },
     {
       "id": 33,
@@ -394,7 +426,8 @@
       "domain": "wondercom.pt",
       "linkedin": "https://www.linkedin.com/company/wondercom/",
       "description": "Serviços de campo e ICT: desenho, implementação, suporte, monitoramento, outsourcing e consultoria em telecom, energia e TI.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Field services and ICT: design, implementation, support, monitoring, outsourcing, and consulting in telecom, energy, and IT."
     },
     {
       "id": 34,
@@ -406,7 +439,8 @@
       "domain": "ayesa.com",
       "linkedin": "https://www.linkedin.com/company/ayesa/",
       "description": "Provedora global de serviços tecnológicos e de engenharia.",
-      "createdAt": "2026-02-15"
+      "createdAt": "2026-02-15",
+      "descriptionEn": "Global provider of technology and engineering services."
     },
     {
       "id": 35,
@@ -418,7 +452,8 @@
       "domain": "kalendae.com.br",
       "linkedin": "https://br.linkedin.com/company/kalendae",
       "description": "Empresa brasileira de governança de TI com serviços de consultoria, outsourcing e segurança.",
-      "createdAt": "2026-02-22"
+      "createdAt": "2026-02-22",
+      "descriptionEn": "Brazilian IT governance company offering consulting, outsourcing, and security services."
     },
     {
       "id": 36,
@@ -430,7 +465,8 @@
       "domain": "globalti.com.br",
       "linkedin": "https://www.linkedin.com/company/global-ti/",
       "description": "Há mais de 24 anos no mercado de tecnologia da informação atendendo grandes empresas.",
-      "createdAt": "2026-02-14"
+      "createdAt": "2026-02-14",
+      "descriptionEn": "For more than 24 years in the information technology market, serving large companies."
     },
     {
       "id": 37,
@@ -442,7 +478,8 @@
       "domain": "craftech.com.br",
       "linkedin": "https://www.linkedin.com/company/craftechoficial/",
       "description": "Consultoria tecnológica focada em terceirização de profissionais e transformação digital.",
-      "createdAt": "2026-02-14"
+      "createdAt": "2026-02-14",
+      "descriptionEn": "Technology consultancy focused on professional outsourcing and digital transformation."
     },
     {
       "id": 38,
@@ -454,7 +491,8 @@
       "domain": "aubay.pt",
       "linkedin": "https://www.linkedin.com/company/aubay-portugal/",
       "description": "Consultoria em tecnologia e modernização de sistemas de informação.",
-      "createdAt": "2026-02-15"
+      "createdAt": "2026-02-15",
+      "descriptionEn": "Consultancy in technology and information systems modernization."
     },
     {
       "id": 39,
@@ -466,7 +504,8 @@
       "domain": "deliverit.com.br",
       "linkedin": "https://www.linkedin.com/company/deliver-it-br/",
       "description": "Consultoria de serviços de TI com atuação em software, BI, mobile e outsourcing.",
-      "createdAt": "2026-02-15"
+      "createdAt": "2026-02-15",
+      "descriptionEn": "IT services consultancy working in software, BI, mobile, and outsourcing."
     },
     {
       "id": 40,
@@ -478,7 +517,8 @@
       "domain": "gx2.com.br",
       "linkedin": "https://www.linkedin.com/company/gx2tecnologia/",
       "description": "Desenvolvemos pessoas, softwares e negócios.",
-      "createdAt": "2026-02-16"
+      "createdAt": "2026-02-16",
+      "descriptionEn": "We develop people, software, and businesses."
     },
     {
       "id": 41,
@@ -490,7 +530,8 @@
       "domain": "ankix.com",
       "linkedin": "https://www.linkedin.com/company/ankixsystems/",
       "description": "Consultoria e outsourcing de TI com soluções web e mobile e serviços de nearshoring.",
-      "createdAt": "2026-02-18"
+      "createdAt": "2026-02-18",
+      "descriptionEn": "IT consulting and outsourcing with web and mobile solutions plus nearshoring services."
     },
     {
       "id": 42,
@@ -502,7 +543,8 @@
       "domain": "metrica.es",
       "linkedin": "https://www.linkedin.com/company/metricaconsultingsl",
       "description": "Especialistas em transformação e inovação digital com consultoria e outsourcing de TI.",
-      "createdAt": "2026-02-20"
+      "createdAt": "2026-02-20",
+      "descriptionEn": "Specialists in digital transformation and innovation with IT consulting and outsourcing services."
     },
     {
       "id": 43,
@@ -514,7 +556,8 @@
       "domain": "optomi.com",
       "linkedin": "https://www.linkedin.com/company/optomi",
       "description": "Consultoria de TI e alocação de talentos para apoiar projetos de tecnologia.",
-      "createdAt": "2026-02-20"
+      "createdAt": "2026-02-20",
+      "descriptionEn": "IT consulting and talent placement company supporting technology projects."
     },
     {
       "id": 44,
@@ -526,7 +569,8 @@
       "domain": "roberthalf.com",
       "linkedin": "https://www.linkedin.com/company/robert-half-international",
       "description": "Consultoria global de recrutamento e alocação de talentos para áreas de finanças, tecnologia e negócios.",
-      "createdAt": "2026-02-20"
+      "createdAt": "2026-02-20",
+      "descriptionEn": "Global recruitment and talent placement consultancy for finance, technology, and business roles."
     },
     {
       "id": 45,
@@ -538,7 +582,8 @@
       "domain": "snowrelic.com",
       "linkedin": "https://www.linkedin.com/company/snowrelic",
       "description": "Consultoria e soluções de TI com foco em modernização, dados e cloud.",
-      "createdAt": "2026-02-20"
+      "createdAt": "2026-02-20",
+      "descriptionEn": "IT consulting and solutions focused on modernization, data, and cloud."
     },
     {
       "id": 46,
@@ -550,7 +595,8 @@
       "domain": "qintess.com",
       "linkedin": "https://br.linkedin.com/company/qintess",
       "description": "Líder em transformação digital na América Latina, com foco em estratégia, tecnologia e agilidade.",
-      "createdAt": "2026-02-22"
+      "createdAt": "2026-02-22",
+      "descriptionEn": "Leader in digital transformation in Latin America, focused on strategy, technology, and agility."
     },
     {
       "id": 47,
@@ -562,7 +608,8 @@
       "domain": "haysplc.com",
       "linkedin": "https://www.linkedin.com/company/hays",
       "description": "Conecta empresas a profissionais qualificados globalmente por meio de recrutamento especializado e gestão de talentos em 21 áreas e 30 + países.",
-      "createdAt": "2026-02-25"
+      "createdAt": "2026-02-25",
+      "descriptionEn": "Connects companies with qualified professionals globally through specialized recruitment and talent management across 21 fields and 30+ countries."
     },
     {
       "id": 48,
@@ -574,7 +621,8 @@
       "domain": "knowmadmood.com",
       "linkedin": "https://www.linkedin.com/company/knowmad-mood",
       "description": "Consultoria tecnológica espanhola que acompanha clientes globais em projetos de transformação digital, integrando software, sistemas e serviços com ~3 000 especialistas em 10 países.",
-      "createdAt": "2026-02-25"
+      "createdAt": "2026-02-25",
+      "descriptionEn": "Spanish technology consultancy supporting global clients in digital transformation projects, integrating software, systems, and services with around 3,000 specialists in 10 countries."
     },
     {
       "id": 49,
@@ -586,7 +634,8 @@
       "domain": "appetiser.com.au",
       "linkedin": "https://au.linkedin.com/company/appetiserapps",
       "description": "Agência de desenvolvimento de apps e web que transforma ideias em produtos digitais para empresas e startups.",
-      "createdAt": "2026-02-25"
+      "createdAt": "2026-02-25",
+      "descriptionEn": "App and web development agency that turns ideas into digital products for companies and startups."
     },
     {
       "id": 50,
@@ -598,7 +647,8 @@
       "domain": "newrizon.global",
       "linkedin": "https://www.linkedin.com/company/newrizonglobal/",
       "description": "Especialistas em orquestração e implementação de IA que gera ROI e resultados reais para o seu negócio.",
-      "createdAt": "2026-03-02"
+      "createdAt": "2026-03-02",
+      "descriptionEn": "Specialists in AI orchestration and implementation that generate ROI and real business results."
     },
     {
       "id": 51,
@@ -610,7 +660,8 @@
       "domain": "and.digital",
       "linkedin": "https://www.linkedin.com/company/and_digital/",
       "description": "Aceleramos capacidades digitais e desenvolvemos produtos com times colaborativos.",
-      "createdAt": "2026-03-04"
+      "createdAt": "2026-03-04",
+      "descriptionEn": "We accelerate digital capabilities and build products with collaborative teams."
     },
     {
       "id": 52,
@@ -622,7 +673,8 @@
       "domain": "oowlish.com",
       "linkedin": "https://www.linkedin.com/company/oowlish/",
       "description": "Squads remotos de tecnologia para inovação e desenvolvimento de produtos digitais.",
-      "createdAt": "2026-03-05"
+      "createdAt": "2026-03-05",
+      "descriptionEn": "Remote technology squads for innovation and digital product development."
     },
     {
       "id": 53,
@@ -634,7 +686,8 @@
       "domain": "actdigital.com",
       "linkedin": "https://www.linkedin.com/company/act-digital/",
       "description": "Impactando negócios e empoderando pessoas.",
-      "createdAt": "2026-03-07"
+      "createdAt": "2026-03-07",
+      "descriptionEn": "Impacting businesses and empowering people."
     },
     {
       "id": 54,
@@ -646,7 +699,8 @@
       "domain": "appnovation.com",
       "linkedin": "https://www.linkedin.com/company/appnovation/",
       "description": "Parceiro digital global que entrega soluções digitais com IA para seus clientes.",
-      "createdAt": "2026-03-07"
+      "createdAt": "2026-03-07",
+      "descriptionEn": "Global digital partner delivering AI-powered digital solutions for clients."
     },
     {
       "id": 55,
@@ -658,7 +712,8 @@
       "domain": "vigil.global",
       "linkedin": "https://www.linkedin.com/company/vigilglobal/",
       "description": "Consultoria de tecnologia especializada em engenharia de software e transformação em nuvem.",
-      "createdAt": "2026-03-07"
+      "createdAt": "2026-03-07",
+      "descriptionEn": "Technology consultancy specialized in software engineering and cloud transformation."
     },
     {
       "id": 56,
@@ -670,7 +725,8 @@
       "domain": "switchsoftware.io",
       "linkedin": "https://www.linkedin.com/company/switch-software/",
       "description": "Consultoria nearshore que desenvolve software e apoia transformação digital com times especializados em cloud e dados.",
-      "createdAt": "2026-03-20"
+      "createdAt": "2026-03-20",
+      "descriptionEn": "Nearshore consultancy that develops software and supports digital transformation with teams specialized in cloud and data."
     },
     {
       "id": 57,
@@ -682,7 +738,8 @@
       "domain": "fortegrp.com",
       "linkedin": "https://www.linkedin.com/company/fortegroup/",
       "description": "Parceiro de desenvolvimento de produtos para empresas, entregando software crítico com foco em engenharia, dados e automação.",
-      "createdAt": "2026-03-20"
+      "createdAt": "2026-03-20",
+      "descriptionEn": "Product development partner for companies, delivering business-critical software focused on engineering, data, and automation."
     },
     {
       "id": 58,
@@ -694,7 +751,8 @@
       "domain": "shiftinc.com.br",
       "linkedin": "https://www.linkedin.com/company/shiftinc/",
       "description": "Empresa de tecnologia que desenvolve e sustenta plataformas e produtos digitais, com consultoria e times ágeis.",
-      "createdAt": "2026-03-20"
+      "createdAt": "2026-03-20",
+      "descriptionEn": "Technology company that develops and supports digital platforms and products with consulting and agile teams."
     },
     {
       "id": 59,
@@ -706,7 +764,8 @@
       "domain": "aheadand.com",
       "linkedin": "https://www.linkedin.com/company/aheadand-gmbh/",
       "description": "Consultoria pequena de software que cria soluções com IA e integrações de chatbots para melhorar análise e operação.",
-      "createdAt": "2026-03-20"
+      "createdAt": "2026-03-20",
+      "descriptionEn": "Small software consultancy building AI solutions and chatbot integrations to improve analysis and operations."
     },
     {
       "id": 60,
@@ -718,7 +777,8 @@
       "domain": "motionrecruitment.com",
       "linkedin": "https://www.linkedin.com/company/motion-recruitment-partners/",
       "description": "Empresa de recrutamento e consultoria que conecta profissionais a vagas de tecnologia, staffing e projetos de TI.",
-      "createdAt": "2026-03-20"
+      "createdAt": "2026-03-20",
+      "descriptionEn": "Recruitment and consulting company connecting professionals with technology jobs, staffing opportunities, and IT projects."
     },
     {
       "id": 61,
@@ -730,7 +790,8 @@
       "domain": "bravi.com.br",
       "linkedin": "https://www.linkedin.com/company/bravidoes/",
       "description": "Especialista em software sob medida, com alocação de profissionais e projetos para empresas no Brasil e exterior.",
-      "createdAt": "2026-03-20"
+      "createdAt": "2026-03-20",
+      "descriptionEn": "Specialist in custom software, with professional allocation and projects for companies in Brazil and abroad."
     },
     {
       "id": 62,
@@ -742,7 +803,8 @@
       "domain": "telusdigital.com",
       "linkedin": "https://www.linkedin.com/company/telus-digital/",
       "description": "Transformação digital e operações de CX para marcas globais, unindo consultoria, tecnologia e execução em escala.",
-      "createdAt": "2026-03-23"
+      "createdAt": "2026-03-23",
+      "descriptionEn": "Digital transformation and CX operations for global brands, combining consulting, technology, and execution at scale."
     },
     {
       "id": 63,
@@ -754,7 +816,8 @@
       "domain": "blacklion.com.br",
       "linkedin": "https://www.linkedin.com/company/black-lion-consulting-brasil/",
       "description": "Consultoria de capital humano e governança corporativa, com projetos em performance executiva, estrutura e compliance.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Human capital and corporate governance consultancy delivering projects in executive performance, organizational structure, and compliance."
     },
     {
       "id": 64,
@@ -766,7 +829,8 @@
       "domain": "nexmuv.com.br",
       "linkedin": "https://www.linkedin.com/company/nexmuv-tecnologia/",
       "description": "Consultoria de tecnologia e inovação que acelera transformação digital com squads e produtos, incorporando IA.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Technology and innovation consultancy accelerating digital transformation with squads and products, incorporating AI."
     },
     {
       "id": 65,
@@ -778,7 +842,8 @@
       "domain": "mazza.tech",
       "linkedin": "https://www.linkedin.com/company/mazzatech/",
       "description": "Consultoria global de outsourcing de TI que entrega serviços e profissionais para projetos on-site e remotos.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Global IT outsourcing consultancy delivering services and professionals for on-site and remote projects."
     },
     {
       "id": 66,
@@ -790,7 +855,8 @@
       "domain": "pasqualisolution.com.br",
       "linkedin": "https://www.linkedin.com/company/pasquali-solution-tech/",
       "description": "Consultoria de TI com alocação e outsourcing, desenvolvimento de software e serviços de infraestrutura e suporte.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "IT consultancy with staffing and outsourcing, software development, infrastructure services, and support."
     },
     {
       "id": 67,
@@ -802,7 +868,8 @@
       "domain": "grupogbi.com",
       "linkedin": "https://www.linkedin.com/company/gbi-grow-your-business-with-innovation/",
       "description": "Multinacional de inovação digital com soluções de IA aplicada, analytics e customer experience para transformação digital.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Multinational digital innovation company offering applied AI, analytics, and customer experience solutions for digital transformation."
     },
     {
       "id": 68,
@@ -814,7 +881,8 @@
       "domain": "radartec.com.br",
       "linkedin": "https://www.linkedin.com/company/radartec/",
       "description": "Consultoria de recrutamento tech que conecta empresas e profissionais de TI para seleção e alocação de talentos.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Tech recruitment consultancy connecting companies and IT professionals for talent selection and allocation."
     },
     {
       "id": 69,
@@ -826,7 +894,8 @@
       "domain": "steradian.co.id",
       "linkedin": "https://www.linkedin.com/company/steradian-data-optima/",
       "description": "Consultoria e empresa de TI focada em IA, machine learning e software para projetos orientados por dados.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Consulting and IT company focused on AI, machine learning, and software for data-driven projects."
     },
     {
       "id": 70,
@@ -838,7 +907,8 @@
       "domain": "arelance.com",
       "linkedin": "https://www.linkedin.com/company/grupo-arelance/",
       "description": "Consultoria tecnológica e outsourcing de TI que fornece profissionais e soluções para projetos corporativos.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Technology consultancy and IT outsourcing company providing professionals and solutions for enterprise projects."
     },
     {
       "id": 71,
@@ -850,7 +920,8 @@
       "domain": "theboard.es",
       "linkedin": "https://www.linkedin.com/company/the-board-headhunting/",
       "description": "Headhunter focado em tecnologia e consultoria, atuando na busca e seleção de talentos para empresas.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Headhunter focused on technology and consulting, working on talent search and selection for companies."
     },
     {
       "id": 72,
@@ -862,7 +933,8 @@
       "domain": "rycconsultores.cl",
       "linkedin": "https://www.linkedin.com/company/r-y-c-consultores/",
       "description": "Consultoria chilena de software que desenvolve soluções de negócios baseadas em tecnologia para clientes corporativos.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Chilean software consultancy developing business solutions based on technology for corporate clients."
     },
     {
       "id": 73,
@@ -874,7 +946,8 @@
       "domain": "mobiloitte.com",
       "linkedin": "https://www.linkedin.com/company/mobiloitte/",
       "description": "Consultoria global de engenharia digital que atua com IA, cloud, web, mobile, Web3 e times sob demanda.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Global digital engineering consultancy working with AI, cloud, web, mobile, Web3, and on-demand teams."
     },
     {
       "id": 74,
@@ -886,7 +959,8 @@
       "domain": "rextart.com",
       "linkedin": "https://www.linkedin.com/company/rextart/",
       "description": "Consultoria italiana de transformação digital que entrega soluções enterprise, integração e times especializados de TI.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Italian digital transformation consultancy delivering enterprise solutions, integration, and specialized IT teams."
     },
     {
       "id": 75,
@@ -898,7 +972,8 @@
       "domain": "kubikware.com",
       "linkedin": "https://www.linkedin.com/company/kubikware/",
       "description": "Agência e consultoria de software nearshore que oferece staff augmentation e desenvolvimento digital para o mercado dos EUA.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Nearshore software agency and consultancy providing staff augmentation and digital development for the U.S. market."
     },
     {
       "id": 76,
@@ -910,7 +985,8 @@
       "domain": "alten.es",
       "linkedin": "https://www.linkedin.com/company/alten-spain/",
       "description": "Consultoria europeia de engenharia e TI que entrega serviços tecnológicos e squads para grandes empresas na Espanha.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "European engineering and IT consultancy delivering technology services and squads for large companies in Spain."
     },
     {
       "id": 77,
@@ -922,7 +998,8 @@
       "domain": "rits.center",
       "linkedin": "https://www.linkedin.com/company/rits-center/",
       "description": "Consultoria polonesa de tecnologia que oferece staff augmentation, serviços gerenciados e soluções de dados, IA e ecommerce.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Polish technology consultancy offering staff augmentation, managed services, and data, AI, and ecommerce solutions."
     },
     {
       "id": 78,
@@ -934,7 +1011,8 @@
       "domain": "grupohasten.com",
       "linkedin": "https://www.linkedin.com/company/hasten-group/",
       "description": "Consultoria espanhola de transformação digital e recrutamento de TI que entrega desenvolvimento, dados e serviços profissionais.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Spanish digital transformation and IT recruitment consultancy delivering development, data, and professional services."
     },
     {
       "id": 79,
@@ -946,7 +1024,8 @@
       "domain": "300software.com",
       "linkedin": "https://www.linkedin.com/company/300-software/",
       "description": "Consultoria brasileira de software sob medida que monta times de alta performance e desenvolve produtos digitais para clientes globais.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Brazilian custom software consultancy building high-performance teams and digital products for global clients."
     },
     {
       "id": 80,
@@ -958,7 +1037,8 @@
       "domain": "comtech-europe.com",
       "linkedin": "https://www.linkedin.com/company/comtech-europe-ltd/",
       "description": "Consultoria britânica de recrutamento tech focada em ERP, CRM, dados e cibersegurança para projetos especializados.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "British tech recruitment consultancy focused on ERP, CRM, data, and cybersecurity for specialized projects."
     },
     {
       "id": 81,
@@ -970,7 +1050,8 @@
       "domain": "jbstinc.com",
       "linkedin": "https://www.linkedin.com/company/jbs-technologies-inc/",
       "description": "Empresa americana de staffing que aloca profissionais de tecnologia para contratos, vagas permanentes e projetos especializados.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "U.S. staffing company placing technology professionals in contract, permanent, and specialized project roles."
     },
     {
       "id": 82,
@@ -982,7 +1063,8 @@
       "domain": "iqstaffing.nl",
       "linkedin": "https://www.linkedin.com/company/iq-staffing-b-v/",
       "description": "Consultoria holandesa de recrutamento e staffing que conecta profissionais a vagas permanentes e temporárias.",
-      "createdAt": "2026-03-26"
+      "createdAt": "2026-03-26",
+      "descriptionEn": "Dutch recruitment and staffing consultancy connecting professionals with permanent and temporary opportunities."
     },
     {
       "id": 83,
@@ -994,7 +1076,8 @@
       "domain": "parvana.co.uk",
       "linkedin": "https://www.linkedin.com/company/parvana-strategic-sourcing-pty-ltd/",
       "description": "Consultoria de recrutamento em TI que conecta empresas a talentos para posições permanentes e temporárias em vários mercados.",
-      "createdAt": "2026-03-27"
+      "createdAt": "2026-03-27",
+      "descriptionEn": "IT recruitment consultancy connecting companies with talent for permanent and temporary roles across multiple markets."
     },
     {
       "id": 84,
@@ -1006,7 +1089,8 @@
       "domain": "a2z-cm.com",
       "linkedin": "https://www.linkedin.com/company/a2z-cm-com/",
       "description": "Consultoria europeia de compliance e staffing que intermedeia contratos, projetos e alocação internacional de especialistas.",
-      "createdAt": "2026-03-27"
+      "createdAt": "2026-03-27",
+      "descriptionEn": "European compliance and staffing consultancy brokering contracts, projects, and international placement of specialists."
     },
     {
       "id": 85,
@@ -1018,7 +1102,8 @@
       "domain": "fidesgroup.com",
       "linkedin": "https://www.linkedin.com/company/fides-consulting-s-r-l/",
       "description": "Consultoria italiana de transformação digital que entrega projetos sob medida e alocação de profissionais para clientes corporativos.",
-      "createdAt": "2026-03-27"
+      "createdAt": "2026-03-27",
+      "descriptionEn": "Italian digital transformation consultancy delivering custom projects and professional allocation for corporate clients."
     },
     {
       "id": 86,
@@ -1030,7 +1115,8 @@
       "domain": "flexisourceit.com.au",
       "linkedin": "https://www.linkedin.com/company/flexisource-it/",
       "description": "Consultoria australiana de TI que monta times dedicados e entrega desenvolvimento ágil, suporte técnico e serviços de software.",
-      "createdAt": "2026-03-27"
+      "createdAt": "2026-03-27",
+      "descriptionEn": "Australian IT consultancy building dedicated teams and delivering agile development, technical support, and software services."
     },
     {
       "id": 87,
@@ -1042,7 +1128,8 @@
       "domain": "velozient.com",
       "linkedin": "https://www.linkedin.com/company/velozient/",
       "description": "Consultoria nearshore que conecta empresas norte-americanas a times latino-americanos de engenharia, QA, dados e suporte.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Nearshore consultancy connecting North American companies with Latin American engineering, QA, data, and support teams."
     },
     {
       "id": 88,
@@ -1054,7 +1141,8 @@
       "domain": "msbukonsultan.id",
       "linkedin": "https://www.linkedin.com/company/msbukonsultan/",
       "description": "Consultoria indonésia de staffing e recrutamento em TI que aloca talentos sob demanda para startups e empresas.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Indonesian IT staffing and recruitment consultancy placing on-demand talent for startups and companies."
     },
     {
       "id": 89,
@@ -1066,7 +1154,8 @@
       "domain": "enzrossi.com",
       "linkedin": "https://www.linkedin.com/company/enzrossi/",
       "description": "Consultoria brasileira de staff augmentation que monta times remotos de tecnologia para projetos e produtos de clientes.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Brazilian staff augmentation consultancy building remote technology teams for client projects and products."
     },
     {
       "id": 90,
@@ -1078,7 +1167,8 @@
       "domain": "upstartaec.com",
       "linkedin": "https://www.linkedin.com/company/upstartaec/",
       "description": "Consultoria nearshore que conecta empresas de AEC a equipes latino-americanas para acelerar projetos e ampliar capacidade.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Nearshore consultancy connecting AEC companies with Latin American teams to accelerate projects and expand capacity."
     },
     {
       "id": 91,
@@ -1090,7 +1180,8 @@
       "domain": "teamex.io",
       "linkedin": "https://www.linkedin.com/company/teamex-io/",
       "description": "Plataforma de talent as a service que conecta empresas a engenheiros remotos para compor times de tecnologia.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Talent-as-a-service platform connecting companies with remote engineers to build technology teams."
     },
     {
       "id": 92,
@@ -1102,7 +1193,8 @@
       "domain": "fcamara.com",
       "linkedin": "https://www.linkedin.com/company/grupofcamara/",
       "description": "Ecossistema de tecnologia e inovação que entrega consultoria, squads e transformação digital para grandes empresas em múltiplos setores.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Technology and innovation ecosystem delivering consulting, squads, and digital transformation for large companies across multiple industries."
     },
     {
       "id": 93,
@@ -1114,7 +1206,8 @@
       "domain": "govertigo.global",
       "linkedin": "https://www.linkedin.com/company/vertigotech/",
       "description": "Consultoria de inteligência digital que combina estratégia, dados, cloud e IA para acelerar operações e decisões de negócio.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Digital intelligence consultancy combining strategy, data, cloud, and AI to accelerate operations and business decisions."
     },
     {
       "id": 94,
@@ -1126,7 +1219,8 @@
       "domain": "softwaremind.com",
       "linkedin": "https://www.linkedin.com/company/software-mind/",
       "description": "Parceira global de transformação digital que fornece engenheiros e squads autônomos para acelerar produtos e escalar software.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Global digital transformation partner providing engineers and autonomous squads to accelerate products and scale software."
     },
     {
       "id": 95,
@@ -1138,7 +1232,8 @@
       "domain": "vgreentek.com",
       "linkedin": "https://www.linkedin.com/company/vgreentek/",
       "description": "Consultoria de recrutamento e staffing de TI com foco em alocação contratual, times globais e apoio a demandas remotas.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "IT recruitment and staffing consultancy focused on contract allocation, global teams, and support for remote demands."
     },
     {
       "id": 96,
@@ -1150,7 +1245,8 @@
       "domain": "pixel-plus.ch",
       "linkedin": "https://www.linkedin.com/company/pixelplusag/",
       "description": "Consultoria digital que cria plataformas em Adobe AEM e apoia produtos e startups com execução frontend e transformação digital.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Digital consultancy building Adobe AEM platforms and supporting products and startups with frontend execution and digital transformation."
     },
     {
       "id": 97,
@@ -1162,7 +1258,8 @@
       "domain": "acensi.fr",
       "linkedin": "https://www.linkedin.com/company/acensi/",
       "description": "Consultoria de transformação digital que aloca especialistas para projetos de clientes em dados, cloud, segurança e engenharia.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Digital transformation consultancy allocating specialists to client projects in data, cloud, security, and engineering."
     },
     {
       "id": 98,
@@ -1174,7 +1271,8 @@
       "domain": "hnrtech.com",
       "linkedin": "https://www.linkedin.com/company/hnr-tech/",
       "description": "Consultoria de tecnologia que entrega web, mobile, UI/UX e e-commerce para apoiar o crescimento digital de clientes.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Technology consultancy delivering web, mobile, UI/UX, and e-commerce solutions to support clients digital growth."
     },
     {
       "id": 99,
@@ -1186,7 +1284,8 @@
       "domain": "cloverinfotech.com",
       "linkedin": "https://www.linkedin.com/company/clover-infotech/",
       "description": "Consultoria global de TI focada em modernização, cloud, dados e automação, com forte atuação em soluções Oracle.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Global IT consultancy focused on modernization, cloud, data, and automation, with strong expertise in Oracle solutions."
     },
     {
       "id": 100,
@@ -1198,7 +1297,8 @@
       "domain": "closure-tech.com",
       "linkedin": "https://www.linkedin.com/company/closure-technologies-llc/",
       "description": "Consultoria de tecnologia que entrega integração, cibersegurança e desenvolvimento sob medida para programas complexos e clientes públicos.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Technology consultancy delivering integration, cybersecurity, and custom development for complex programs and public-sector clients."
     },
     {
       "id": 101,
@@ -1210,7 +1310,8 @@
       "domain": "zervizgroup.com",
       "linkedin": "https://www.linkedin.com/company/zerviz/",
       "description": "Consultoria de transformação digital e CX que combina cloud, CRM, staffing e desenvolvimento sob medida para clientes na América Latina.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Digital transformation and CX consultancy combining cloud, CRM, staffing, and custom development for clients in Latin America."
     },
     {
       "id": 102,
@@ -1222,7 +1323,8 @@
       "domain": "spaceinch.com",
       "linkedin": "https://www.linkedin.com/company/space-inch/",
       "description": "Agência de produto digital que desenvolve software sob medida em parcerias de longo prazo para clientes dos EUA.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Digital product agency building custom software through long-term partnerships with U.S. clients."
     },
     {
       "id": 103,
@@ -1234,7 +1336,8 @@
       "domain": "sempreit.com.br",
       "linkedin": "https://www.linkedin.com/company/sempreit/",
       "description": "Consultoria de tecnologia focada em cloud, qualidade, DevOps e GRC, com atuação pragmática orientada a resultados.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Technology consultancy focused on cloud, quality, DevOps, and GRC, with a pragmatic, results-driven approach."
     },
     {
       "id": 104,
@@ -1246,7 +1349,8 @@
       "domain": "abacobr.consulting",
       "linkedin": "https://www.linkedin.com/company/abaco-consulting-brasil/",
       "description": "Consultoria SAP brasileira que atua com outsourcing, implementação, manutenção e evolução de processos empresariais.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Brazilian SAP consultancy working with outsourcing, implementation, maintenance, and evolution of business processes."
     },
     {
       "id": 105,
@@ -1258,7 +1362,8 @@
       "domain": "tektonlabs.com",
       "linkedin": "https://www.linkedin.com/company/tekton-labs/",
       "description": "Consultoria de software que desenvolve produtos digitais e apoia clientes globais com times de engenharia, UX e cloud.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Software consultancy building digital products and supporting global clients with engineering, UX, and cloud teams."
     },
     {
       "id": 106,
@@ -1270,7 +1375,8 @@
       "domain": "improving.com",
       "linkedin": "https://www.linkedin.com/showcase/improvingsouthamerica/",
       "description": "Consultoria de software com times nearshore em frontend, backend e dados para projetos corporativos nos EUA e Europa.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Software consultancy with nearshore frontend, backend, and data teams for enterprise projects in the U.S. and Europe."
     },
     {
       "id": 107,
@@ -1282,7 +1388,8 @@
       "domain": "profile.es",
       "linkedin": "https://www.linkedin.com/company/profile-software-services/",
       "description": "Consultoria de arquitetura e desenvolvimento que entrega projetos, serviços gerenciados e squads para transformação digital.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Architecture and development consultancy delivering projects, managed services, and squads for digital transformation."
     },
     {
       "id": 108,
@@ -1294,7 +1401,8 @@
       "domain": "proxiad.com",
       "linkedin": "https://www.linkedin.com/company/proxiadfrance/",
       "description": "Consultoria francesa de TI que aloca especialistas e squads para acelerar projetos digitais, dados e sistemas de informação.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "French IT consultancy allocating specialists and squads to accelerate digital, data, and information systems projects."
     },
     {
       "id": 109,
@@ -1306,7 +1414,8 @@
       "domain": "acrosstek.com",
       "linkedin": "https://www.linkedin.com/company/acrosstek/",
       "description": "Rede global de talentos em tecnologia e design que ajuda empresas a escalar times sob demanda para projetos digitais.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Global network of technology and design talent helping companies scale on-demand teams for digital projects."
     },
     {
       "id": 110,
@@ -1318,7 +1427,8 @@
       "domain": "devoteam.com",
       "linkedin": "https://www.linkedin.com/company/devoteam/",
       "description": "Consultoria global orientada por IA que entrega cloud, cibersegurança, dados e transformação digital para grandes empresas.",
-      "createdAt": "2026-03-29"
+      "createdAt": "2026-03-29",
+      "descriptionEn": "Global AI-driven consultancy delivering cloud, cybersecurity, data, and digital transformation for large enterprises."
     },
     {
       "id": 111,
@@ -1330,7 +1440,8 @@
       "domain": "finconsgroup.com",
       "linkedin": "https://www.linkedin.com/company/fincons-group/",
       "description": "Consultoria de TI e system integration com atuação global, apoiando transformação digital em diversos setores.",
-      "createdAt": "2026-03-30"
+      "createdAt": "2026-03-30",
+      "descriptionEn": "Global IT and system integration consultancy supporting digital transformation across multiple industries."
     },
     {
       "id": 112,
@@ -1342,7 +1453,8 @@
       "domain": "directitrecruiting.com",
       "linkedin": "https://www.linkedin.com/company/direct-it-recruiting-inc/",
       "description": "Agência canadense de recrutamento em TI que conecta empresas a profissionais para contratos e vagas permanentes em múltiplos setores.",
-      "createdAt": "2026-04-03"
+      "createdAt": "2026-04-03",
+      "descriptionEn": "Canadian IT recruitment agency connecting companies with professionals for contract and permanent roles across multiple sectors."
     },
     {
       "id": 113,
@@ -1354,7 +1466,8 @@
       "domain": "wizeline.ai",
       "linkedin": "https://www.linkedin.com/company/wizeline/",
       "description": "Consultoria global de tecnologia que desenvolve produtos digitais, dados e IA para modernizar plataformas e acelerar negócios.",
-      "createdAt": "2026-04-03"
+      "createdAt": "2026-04-03",
+      "descriptionEn": "Global technology consultancy building digital products, data, and AI solutions to modernize platforms and accelerate business."
     },
     {
       "id": 114,
@@ -1366,7 +1479,8 @@
       "domain": "themesoft.com",
       "linkedin": "https://www.linkedin.com/company/themesoft-inc./",
       "description": "Consultoria global de TI e creative lab que monta times, entrega software e apoia transformação digital para empresas.",
-      "createdAt": "2026-04-03"
+      "createdAt": "2026-04-03",
+      "descriptionEn": "Global IT consultancy and creative lab building teams, delivering software, and supporting digital transformation for companies."
     },
     {
       "id": 115,
@@ -1378,7 +1492,8 @@
       "domain": "techpair.co.uk",
       "linkedin": "https://www.linkedin.com/company/tech-pair/",
       "description": "Parceira de recrutamento tech no Reino Unido, conectando empresas a engenheiros e líderes com abordagem consultiva e humana.",
-      "createdAt": "2026-04-03"
+      "createdAt": "2026-04-03",
+      "descriptionEn": "Tech recruitment partner in the UK connecting companies with engineers and leaders through a consultative, human-centered approach."
     },
     {
       "id": 116,
@@ -1390,7 +1505,8 @@
       "domain": "logichire-ss.com",
       "linkedin": "https://www.linkedin.com/company/logic-hire-solutions-ltd/",
       "description": "Consultoria nearshore que monta times de engenharia e squads sob demanda para acelerar produtos e transformação digital.",
-      "createdAt": "2026-04-03"
+      "createdAt": "2026-04-03",
+      "descriptionEn": "Nearshore consultancy assembling engineering teams and on-demand squads to accelerate products and digital transformation."
     },
     {
       "id": 117,
@@ -1402,7 +1518,8 @@
       "domain": "jobsity.com",
       "linkedin": "https://www.linkedin.com/company/jobsity-llc/",
       "description": "Consultoria nearshore que conecta empresas a engenheiros e talentos BPO na América Latina com fuso alinhado.",
-      "createdAt": "2026-04-03"
+      "createdAt": "2026-04-03",
+      "descriptionEn": "Nearshore consultancy connecting companies with engineers and BPO talent in Latin America with aligned time zones."
     },
     {
       "id": 118,
@@ -1414,7 +1531,8 @@
       "domain": "tecla.io",
       "linkedin": "https://www.linkedin.com/company/tecla-io/",
       "description": "Staffing especializado em tecnologia que conecta empresas a líderes e times nearshore nas Américas com triagem técnica e IA.",
-      "createdAt": "2026-04-03"
+      "createdAt": "2026-04-03",
+      "descriptionEn": "Specialized technology staffing firm connecting companies with leaders and nearshore teams across the Americas through technical screening and AI."
     }
   ],
   "meta": {
