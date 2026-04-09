@@ -1,7 +1,7 @@
 <template>
   <div class="companies-list flex flex-col">
     <p class="text-center text-md my-7">
-      Mais de {{ estimatedCompaniesAdded }} empresas catalogadas e crescendo!
+      {{ t('companies.catalogMessage', { count: estimatedCompaniesAdded }) }}
     </p>
 
     <div class="min-h-[700px]">
@@ -24,7 +24,7 @@
         class="flex justify-center items-center flex-col mt-20 text-center text-lg sm:text-md"
       >
         <UIcon name="i-lucide-search-x" class="mb-4 size-8" />
-        Infelizmente nenhum resultado foi encontrado
+        {{ t('common.noResults') }}
       </div>
     </div>
 
@@ -34,12 +34,13 @@
       class="m-auto cursor-pointer bg-primary text-bg hover:bg-primary-dark p-4 hover:scale-105 active:scale-95 duration-200 transition-transform"
       trailing-icon="i-lucide-plus"
     >
-      Carregar mais
+      {{ t('common.loadMore') }}
     </UButton>
   </div>
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
 const { search, selectedTags, selectedWorkModels } = useCompanyQuery()
 const { estimatedCompaniesAdded } = useCompanies()
 const {

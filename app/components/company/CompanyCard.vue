@@ -26,13 +26,18 @@
 
         <div class="flex flex-col">
           <UBadge class="text-xs font-light p-0 mb-2 bg-transparent text-white">
-            <div class="flex items-center gap-1.5">
-              <span :class="`fi fi-${getCountryCode(props.directoryItem.country)}`" />
+            <div class="flex items-center gap-1.5 capitalize">
+              <span
+                v-if="props.directoryItem.country !== 'global'"
+                :class="`fi fi-${getCountryCode(props.directoryItem.country)}`"
+              />
+              <span v-else>🌎</span>
+
               <template v-if="props.directoryItem.city">
-                {{ props.directoryItem.city }}, {{ props.directoryItem.country }}
+                {{ props.directoryItem.city }}, {{ getCountryLabel(props.directoryItem.country) }}
               </template>
               <template v-else>
-                {{ props.directoryItem.country }}
+                {{ getCountryLabel(props.directoryItem.country) }}
               </template>
             </div>
           </UBadge>
@@ -54,7 +59,7 @@
               size="xs"
               class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-primary capitalize"
             >
-              Consultoria
+              {{ t('common.consultancy') }}
             </UBadge>
           </div>
         </div>
@@ -63,7 +68,7 @@
 
     <div class="body flex-1">
       <p class="font-light my-4 text-sm md:text-base xxl:my-5">
-        {{ props.directoryItem.description }}
+        {{ companyDescription }}
       </p>
     </div>
 
@@ -78,7 +83,7 @@
         @click="trackCompanyLinkClick('website')"
       >
         <PhGlobeSimple :size="24" />
-        Site
+        {{ t('common.site') }}
       </UButton>
 
       <UButton
@@ -99,8 +104,9 @@
 
 <script setup lang="ts">
 import { PhLinkedinLogo, PhGlobeSimple } from '@phosphor-icons/vue'
+const { t, locale } = useI18n()
 const { getWorkModelLabel } = useCompanyLabels()
-const { getCountryCode } = useCountry()
+const { getCountryCode, getCountryLabel } = useCountry()
 
 const { gtag } = useGtag()
 
@@ -120,6 +126,7 @@ type DirectoryItem = {
   domain?: string
   linkedin: string
   description: string
+  descriptionEn?: string
   createdAt: string
   logo?: string
   city?: string
@@ -142,6 +149,11 @@ const companyLogoUrls = computed(
 )
 const currentIndex = ref<number>(0)
 const companyLogoSrc = computed(() => companyLogoUrls.value[currentIndex.value])
+const companyDescription = computed(() => {
+  return locale.value === 'en' && props.directoryItem.descriptionEn
+    ? props.directoryItem.descriptionEn
+    : props.directoryItem.description
+})
 
 const trackCompanyLinkClick = (type: 'website' | 'linkedin') => {
   gtag('event', 'company_link_click', {

@@ -1,6 +1,6 @@
 <template>
   <footer class="footer-simple py-7 mt-6 text-center w-full">
-    Desenvolvido por
+    {{ t('footer.developedBy') }}
     <a
       href="https://www.linkedin.com/in/mateus-dev-lopes/"
       target="_blank"
@@ -13,6 +13,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
 const { gtag } = useGtag()
 
 const trackFooterLinkClick = () => {
