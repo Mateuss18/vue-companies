@@ -36,8 +36,14 @@ export const useCompanies = () => {
 }
 
 export const useFilteredCompanies = () => {
-  const { search, selectedTags, selectedWorkModels, selectedCompanySizes, selectedCountry } =
-    useCompanyQuery()
+  const {
+    search,
+    selectedTags,
+    selectedWorkModels,
+    selectedCompanySizes,
+    selectedCountry,
+    selectedCompanyType,
+  } = useCompanyQuery()
   const { getCountryOption } = useCountry()
   const { normalizeCompanySize } = useCompanyLabels()
 
@@ -61,8 +67,16 @@ export const useFilteredCompanies = () => {
 
       const matchesCountry = !selectedCountry.value || company.country === selectedCountry.value
 
+      const matchesCompanyType =
+        selectedCompanyType.value === 'all' || company.kind === selectedCompanyType.value
+
       return (
-        matchesSearch && matchesTags && matchesWorkModel && matchesCompanySize && matchesCountry
+        matchesSearch &&
+        matchesTags &&
+        matchesWorkModel &&
+        matchesCompanySize &&
+        matchesCountry &&
+        matchesCompanyType
       )
     }),
   )
