@@ -3,17 +3,24 @@ export default {
     filters: 'Filters',
     clear: 'Clear',
     site: 'Website',
+    types: 'Types',
     tags: 'Tags',
     country: 'Country',
     active: 'Active:',
     workModel: 'Work model',
     companySize: 'Company size',
+    size: 'Size',
     consultancy: 'Consultancy',
     loadMore: 'Load more',
     noResults: 'No results found',
     searchCompanies: 'Search companies..',
     searchCountry: 'Search country...',
     selectCountry: 'Select a country',
+    all: 'All',
+    companies: 'Companies',
+    consultancies: 'Consultancies',
+    consultancyFiltersNotice:
+      'Consultancies do not have tags or a work model because openings vary depending on the client.',
     countries: {
       australia: 'Australia',
       belgium: 'Belgium',
@@ -64,7 +71,7 @@ export default {
 
   companies: {
     catalogMessage: 'More than {count} companies cataloged and growing!',
-    showingResults: 'Showing {visible} companies out of {total} found',
+    showingResults: 'Showing {visible} out of {total} found',
   },
 
   hero: {
@@ -74,5 +81,10 @@ export default {
   },
   footer: {
     developedBy: 'Developed by',
+  },
+  error: {
+    title: 'Error',
+    notFound: 'Page not found',
+    backHome: 'Back to home',
   },
 }

@@ -3,17 +3,24 @@ export default {
     filters: 'Filtros',
     clear: 'Limpar',
     site: 'Site',
+    types: 'Tipos',
     tags: 'Tags',
     country: 'País',
     active: 'Ativos:',
     workModel: 'Modelo de trabalho',
     companySize: 'Tamanho da empresa',
+    size: 'Tamanho',
     consultancy: 'Consultoria',
     loadMore: 'Carregar mais',
     noResults: 'Infelizmente nenhum resultado foi encontrado',
     searchCompanies: 'Buscar empresas..',
     searchCountry: 'Buscar país...',
     selectCountry: 'Selecione um país',
+    all: 'Todos',
+    companies: 'Empresas',
+    consultancies: 'Consultorias',
+    consultancyFiltersNotice:
+      'Consultorias não possuem tag e modelo de trabalho pois as vagas mudam de acordo com o cliente.',
     countries: {
       australia: 'Austrália',
       belgium: 'Bélgica',
@@ -64,7 +71,7 @@ export default {
 
   companies: {
     catalogMessage: 'Mais de {count} empresas catalogadas e crescendo!',
-    showingResults: 'Exibindo {visible} empresas de {total} encontradas',
+    showingResults: 'Exibindo {visible} de {total} encontradas',
   },
 
   hero: {
@@ -74,5 +81,10 @@ export default {
   },
   footer: {
     developedBy: 'Desenvolvido por',
+  },
+  error: {
+    title: 'Erro',
+    notFound: 'Página não encontrada',
+    backHome: 'Voltar para o início',
   },
 }
