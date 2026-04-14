@@ -96,6 +96,8 @@
   --color-orange: #ca4802;
   --color-red: #a82222;
 
+  --breakpoint-1780: 1780px;
+  --breakpoint-1700: 1700px;
   --breakpoint-xxl: 1550px;
   --breakpoint-lg: 1350px;
   --breakpoint-md: 550px;
