@@ -7,67 +7,69 @@
       }`,
     }"
   >
-    <div class="head flex gap-3 items-center">
+    <div class="head flex gap-3 mb-4">
       <img
         :src="companyLogoSrc"
         @error="handleLogoError"
         :alt="`${props.directoryItem.name} logo`"
-        class="aside-left rounded-md w-[75px] h-auto sm:w-[85px]"
-        width="85"
-        height="85"
+        class="aside-left rounded-md w-[65px] h-[65px]"
+        width="65"
+        height="65"
         :loading="props.directoryItem.id >= 3 ? 'lazy' : 'eager'"
         decoding="async"
       />
 
       <div class="aside-right">
-        <h2 class="text-md font-normal mb-1 sm:text-lg md:text-xl">
+        <h2 class="text-md font-normal mb-1 sm:text-lg">
           {{ props.directoryItem.name }}
         </h2>
 
         <div class="flex flex-col">
-          <UBadge class="text-xs font-light p-0 mb-2 bg-transparent text-white">
-            <div class="flex items-center gap-1.5 capitalize">
-              <span
-                v-if="props.directoryItem.country !== 'global'"
-                :class="`fi fi-${getCountryCode(props.directoryItem.country)}`"
-              />
-              <span v-else>🌎</span>
+          <UBadge
+            class="flex items-center gap-1.5 capitalize text-xs font-light p-0 bg-transparent text-white"
+          >
+            <span
+              v-if="props.directoryItem.country !== 'global'"
+              :class="`fi fi-${getCountryCode(props.directoryItem.country)}`"
+            />
+            <span v-else>🌎</span>
 
-              <template v-if="props.directoryItem.city">
-                {{ props.directoryItem.city }}, {{ getCountryLabel(props.directoryItem.country) }}
-              </template>
-              <template v-else>
-                {{ getCountryLabel(props.directoryItem.country) }}
-              </template>
-            </div>
+            <template v-if="props.directoryItem.city">
+              {{ props.directoryItem.city }}, {{ getCountryLabel(props.directoryItem.country) }}
+            </template>
+            <template v-else>
+              {{ getCountryLabel(props.directoryItem.country) }}
+            </template>
           </UBadge>
-
-          <div class="flex flex-wrap gap-1.5">
-            <CompanyBadgeCompanySize :size="props.directoryItem.size" />
-
-            <UBadge
-              v-for="value in props.directoryItem.workModel ?? []"
-              :key="value"
-              size="xs"
-              class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-white capitalize"
-            >
-              {{ getWorkModelLabel(value) }}
-            </UBadge>
-
-            <UBadge
-              v-if="props.directoryItem.kind === 'consultancy'"
-              size="xs"
-              class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-primary capitalize"
-            >
-              {{ t('common.consultancy') }}
-            </UBadge>
-          </div>
         </div>
       </div>
     </div>
 
     <div class="body flex-1">
-      <p class="font-light my-4 text-sm md:text-base xxl:my-5">
+      <div class="flex flex-wrap gap-1.5">
+        <CompanyBadgeCompanySize :size="props.directoryItem.size" />
+
+        <UBadge
+          v-for="value in props.directoryItem.workModel ?? []"
+          :key="value"
+          size="xs"
+          class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-white capitalize"
+        >
+          {{ getWorkModelLabel(value) }}
+        </UBadge>
+
+        <UBadge
+          v-if="props.directoryItem.kind === 'consultancy'"
+          size="xs"
+          class="text-xs rounded-xl font-light py-1 px-2 bg-transparent text-white border border-primary capitalize"
+        >
+          {{ t('common.consultancy') }}
+        </UBadge>
+      </div>
+
+      <p
+        class="card-description font-light my-4 text-sm md:text-base xxl:my-5 max-h-18 overflow-y-auto leading-6 text-pretty"
+      >
         {{ companyDescription }}
       </p>
     </div>
@@ -172,3 +174,30 @@ const handleLogoError = () => {
   }
 }
 </script>
+
+<style scoped>
+.card-description {
+  overflow-y: auto;
+  padding-right: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) transparent;
+}
+
+.card-description::-webkit-scrollbar {
+  width: 2px;
+}
+
+.card-description::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.card-description::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-primary), var(--color-secondary));
+  border-radius: 999px;
+  border: 1px solid var(--color-gray);
+}
+
+.card-description::-webkit-scrollbar-thumb:hover {
+  filter: brightness(1.08);
+}
+</style>

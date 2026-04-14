@@ -1,31 +1,25 @@
 <template>
   <div class="companies-list flex flex-col">
-    <p class="text-center text-md my-7">
-      {{ t('companies.catalogMessage', { count: estimatedCompaniesAdded }) }}
-    </p>
-
-    <div class="min-h-[700px]">
-      <div v-if="visibleCompanies.length > 0">
-        <TransitionGroup
-          name="list"
-          tag="div"
-          class="flex justify-center gap-6 flex-wrap mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-12"
-        >
-          <CompanyCard
-            v-for="company in visibleCompanies"
-            :key="company.id"
-            :directory-item="company"
-          />
-        </TransitionGroup>
-      </div>
-
-      <div
-        v-else
-        class="flex justify-center items-center flex-col mt-20 text-center text-lg sm:text-md"
+    <div v-if="visibleCompanies.length > 0">
+      <TransitionGroup
+        name="list"
+        tag="div"
+        class="flex justify-center gap-5 flex-wrap mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-10"
       >
-        <UIcon name="i-lucide-search-x" class="mb-4 size-8" />
-        {{ t('common.noResults') }}
-      </div>
+        <CompanyCard
+          v-for="company in visibleCompanies"
+          :key="company.id"
+          :directory-item="company"
+        />
+      </TransitionGroup>
+    </div>
+
+    <div
+      v-else
+      class="flex justify-center items-center flex-col mt-20 text-center text-lg sm:text-md"
+    >
+      <UIcon name="i-lucide-search-x" class="mb-4 size-8" />
+      {{ t('common.noResults') }}
     </div>
 
     <UButton
@@ -41,8 +35,7 @@
 
 <script setup lang="ts">
 const { t } = useI18n()
-const { search, selectedTags, selectedWorkModels } = useCompanyQuery()
-const { estimatedCompaniesAdded } = useCompanies()
+const { search } = useCompanyQuery()
 const {
   filteredCompanies,
   pageSize,
@@ -55,14 +48,9 @@ const {
 const emit = defineEmits<{ (e: 'scrollToList'): void }>()
 
 watch(
-  () => [search.value, selectedTags.value, selectedWorkModels.value],
+  () => search.value,
   () => {
-    const hasAnyFilter =
-      search.value !== '' ||
-      selectedTags.value.length !== 0 ||
-      selectedWorkModels.value.length !== 0
-
-    resetVisibleCount()
+    const hasAnyFilter = search.value !== '' || resetVisibleCount()
 
     if (hasAnyFilter) {
       emit('scrollToList')
