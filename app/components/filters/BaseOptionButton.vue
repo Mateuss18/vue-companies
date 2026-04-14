@@ -2,7 +2,8 @@
   <UButton
     color="primary"
     :variant="selected ? 'solid' : 'outline'"
-    class="rounded-3xl py-2 px-4 outline-0 ring-0 border cursor-pointer capitalize"
+    :disabled="disabled"
+    class="font-light rounded-3xl py-2 px-3 outline-0 ring-0 border capitalize cursor-pointer!"
     :class="
       selected
         ? 'text-primary bg-primary/5 border-primary hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5'
@@ -17,6 +18,7 @@
 interface Props {
   label: string
   selected?: boolean
+  disabled?: boolean
 }
 
 defineProps<Props>()

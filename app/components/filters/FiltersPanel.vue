@@ -1,49 +1,30 @@
 <template>
-  <div class="mt-6 flex flex-wrap gap-10 md:flex-row md:gap-5">
-    <div class="xxl:w-[48%] flex flex-col gap-3 rounded-lg p-4 ring-1 ring-gray">
-      <p>Tags</p>
+  <aside
+    class="flex w-full flex-col gap-8 rounded-md border-2 border-gray bg-bg-secondary p-5 xl:w-[320px] xl:min-w-[320px]"
+  >
+    <div class="flex flex-col gap-3">
+      <p>{{ t('common.types') }}</p>
 
-      <div class="flex flex-wrap gap-3">
-        <FiltersBaseOptionButton
-          v-for="tag in tagOptions"
-          :key="tag"
-          :label="tag"
-          :selected="selectedTags.includes(tag)"
-          @click="handleTagClick(tag)"
+      <div class="flex flex-col gap-2">
+        <URadioGroup
+          v-model="selectedCompanyType"
+          :items="companyTypeItems"
+          variant="card"
+          indicator="hidden"
+          orientation="horizontal"
+          :ui="{
+            fieldset: 'flex gap-2 flex-wrap',
+            item: 'text-sm rounded-lg border border-gray-500 bg-bg-secondary transition-colors cursor-pointer flex items-center justify-center px-3.5 py-2 hover:bg-gray-50/5 active:bg-gray-50/5',
+            wrapper: 'w-full',
+            label: 'w-full',
+          }"
         />
+        <p class="text-xs text-subtitle">{{ t('common.consultancyFiltersNotice') }}</p>
       </div>
     </div>
 
-    <div class="xxl:w-[48%] flex flex-col gap-3 rounded-lg p-4 ring-1 ring-gray">
-      <p>{{ t('common.workModel') }}</p>
-
-      <div class="flex flex-wrap gap-3">
-        <FiltersBaseOptionButton
-          v-for="workModel in workModelOptions"
-          :key="workModel"
-          :label="getWorkModelLabel(workModel)"
-          :selected="selectedWorkModels.includes(workModel)"
-          @click="handleWorkModelClick(workModel)"
-        />
-      </div>
-    </div>
-
-    <div class="xxl:w-[48%] flex flex-col gap-3 rounded-lg p-4 ring-1 ring-gray">
-      <p>{{ t('common.companySize') }}</p>
-
-      <div class="flex flex-wrap gap-3">
-        <FiltersBaseOptionButton
-          v-for="companySize in companySizeOptions"
-          :key="companySize"
-          :label="getCompanySizeLabel(companySize)"
-          :selected="selectedCompanySizes.includes(companySize)"
-          @click="handlecompanySizeClick(companySize)"
-        />
-      </div>
-    </div>
-
-    <div class="xxl:w-[48%] flex flex-col gap-3 rounded-lg p-4 ring-1 ring-gray">
-      <p>País</p>
+    <div class="flex flex-col gap-3">
+      <p>{{ t('common.country') }}</p>
 
       <div class="flex flex-wrap gap-3">
         <USelectMenu
@@ -55,41 +36,118 @@
           value-key="value"
           color="neutral"
           size="lg"
-          class="w-full"
-          placeholder="Selecione um país"
+          class="w-full ring-0!"
+          :placeholder="t('common.selectCountry')"
           clear
           clear-icon="i-lucide-x"
         >
           <template #default>
             <div v-if="selectedCountryOption" class="flex min-w-0 items-center gap-2">
               <span
-                v-if="selectedCountryOption.code && selectedCountryOption.code !== 'global'"
+                v-if="
+                  selectedCountryOption.code &&
+                  selectedCountryOption.code.toLocaleLowerCase() !== 'global'
+                "
                 :class="`fi fi-${selectedCountryOption.code}`"
               />
-              <UIcon v-else name="i-lucide-globe" class="size-4 text-subtitle" />
-              <span class="truncate text-white">{{ selectedCountryOption.name }}</span>
+              <span v-else class="size-4 flex items-center justify-center text-subtitle">🌎</span>
+              <span class="truncate text-white capitalize">{{ selectedCountryOption.name }}</span>
             </div>
-            <span v-else class="truncate text-subtitle">Selecione um país</span>
+            <span v-else class="truncate text-subtitle font-medium">
+              {{ t('common.selectCountry') }}
+            </span>
           </template>
 
           <template #item="{ item }">
             <div class="flex w-full items-center gap-2">
-              <span v-if="item?.code && item.code !== 'global'" :class="`fi fi-${item.code}`" />
-              <UIcon v-else name="i-lucide-globe" class="size-4 text-subtitle" />
-              <span class="truncate">{{ item?.name }}</span>
+              <span
+                v-if="item?.code && item.code.toLocaleLowerCase() !== 'global'"
+                :class="`fi fi-${item.code}`"
+              />
+              <span v-else class="size-4 flex items-center justify-center text-subtitle">🌎</span>
+              <span class="truncate capitalize">{{ item?.name }}</span>
             </div>
           </template>
         </USelectMenu>
       </div>
     </div>
-  </div>
+
+    <div class="flex flex-col gap-3">
+      <p>{{ t('common.tags') }}</p>
+
+      <div
+        class="flex flex-wrap gap-2"
+        :class="selectedCompanyType === 'consultancy' ? 'pointer-events-none opacity-50' : ''"
+      >
+        <FiltersBaseOptionButton
+          v-for="tag in tagOptions"
+          :key="tag"
+          :label="tag"
+          :selected="selectedTags.includes(tag)"
+          :disabled="selectedCompanyType === 'consultancy'"
+          @click="handleTagClick(tag)"
+        />
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-3">
+      <p>{{ t('common.workModel') }}</p>
+
+      <div
+        class="flex flex-wrap gap-2"
+        :class="selectedCompanyType === 'consultancy' ? 'pointer-events-none opacity-50' : ''"
+      >
+        <FiltersBaseOptionButton
+          v-for="workModel in workModelOptions"
+          :key="workModel"
+          :label="getWorkModelLabel(workModel)"
+          :selected="selectedWorkModels.includes(workModel)"
+          :disabled="selectedCompanyType === 'consultancy'"
+          @click="handleWorkModelClick(workModel)"
+        />
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-3">
+      <p>{{ t('common.size') }}</p>
+
+      <div class="flex flex-wrap gap-2">
+        <FiltersBaseOptionButton
+          v-for="companySize in companySizeOptions"
+          :key="companySize"
+          :label="getCompanySizeLabel(companySize)"
+          :selected="selectedCompanySizes.includes(companySize)"
+          @click="handlecompanySizeClick(companySize)"
+        />
+      </div>
+    </div>
+
+    <UButton
+      class="h-10 w-full justify-center text-center text-white!"
+      :class="!canClearFilters ? 'opacity-60!' : 'cursor-pointer'"
+      color="error"
+      variant="solid"
+      :disabled="!canClearFilters"
+      @click="clear"
+      icon="i-lucide-trash"
+    >
+      {{ t('common.clear') }}
+    </UButton>
+  </aside>
 </template>
 
 <script setup lang="ts">
 const { t } = useI18n()
 const { getWorkModelLabel, getCompanySizeLabel } = useCompanyLabels()
 
+const companyTypeItems = computed(() => [
+  { value: 'all', label: t('common.all') },
+  { value: 'company', label: t('common.companies') },
+  { value: 'consultancy', label: t('common.consultancies') },
+])
+
 const {
+  search,
   tagOptions,
   toggleTag,
   selectedTags,
@@ -103,10 +161,23 @@ const {
   toggleCompanySize,
 
   selectedCountry,
+  selectedCompanyType,
+  clear,
 } = useCompanyQuery()
 const { countryOptions } = useFilteredCompanies()
 
 const { gtag } = useGtag()
+
+const canClearFilters = computed(() => {
+  return (
+    search.value.trim() !== '' ||
+    selectedTags.value.length > 0 ||
+    selectedWorkModels.value.length > 0 ||
+    selectedCompanySizes.value.length > 0 ||
+    !!selectedCountry.value ||
+    selectedCompanyType.value !== 'all'
+  )
+})
 
 const selectedCountryOption = computed(() => {
   return countryOptions.value.find((country) => country.value === selectedCountry.value)
@@ -118,19 +189,19 @@ const countrySelectMenuUi = {
   placeholder: 'text-subtitle',
   trailing: 'pe-3',
   trailingIcon: 'size-4 text-subtitle',
-  content: 'rounded-2xl border border-gray bg-bg-secondary shadow-xl ring-0',
+  content: 'rounded-2xl border border-gray bg-bg-secondary shadow-xl ring-0!',
   focusScope: 'bg-bg-secondary',
   viewport: 'max-h-72 p-1.5',
   group: 'p-0',
   input: 'border-b border-gray px-2 pb-2',
-  empty: 'px-3 py-3 text-sm text-subtitle',
-  item: 'rounded-xl px-3 py-3 text-white data-highlighted:not-data-disabled:text-white data-highlighted:not-data-disabled:before:bg-gray-50/10 data-[state=checked]:text-primary cursor-pointer',
+  empty: 'px-3 py-3 text-sm text-subtitle ring-0!',
+  item: 'rounded-xl px-3 py-3 text-white data-highlighted:not-data-disabled:text-white data-highlighted:not-data-disabled:before:bg-gray-50/10 data-[state=checked]:text-primary cursor-pointer ring-0!',
   itemLabel: 'text-sm',
   itemTrailingIcon: 'text-primary',
 } as const
 
-const countrySearchInput = {
-  placeholder: 'Buscar país...',
+const countrySearchInput = computed(() => ({
+  placeholder: t('common.searchCountry'),
   variant: 'none',
   icon: 'i-lucide-search',
   ui: {
@@ -139,7 +210,7 @@ const countrySearchInput = {
     leading: 'ps-5',
     leadingIcon: 'size-4 text-subtitle',
   },
-} as const
+}))
 
 const handleTagClick = (tag: (typeof tagOptions)[number]) => {
   const wasSelected = selectedTags.value.includes(tag)

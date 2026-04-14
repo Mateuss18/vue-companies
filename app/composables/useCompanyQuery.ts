@@ -34,12 +34,14 @@ export const useCompanyQuery = () => {
   const selectedCompanyType = useState<CompanyType>('companyQuery:type', () => 'all')
 
   const toggleTag = (tag: Tag) => {
+    if (selectedCompanyType.value === 'consultancy') return
     selectedTags.value = selectedTags.value.includes(tag)
       ? selectedTags.value.filter((item) => item !== tag)
       : [...selectedTags.value, tag]
   }
 
   const toggleWorkModel = (workModel: WorkModel) => {
+    if (selectedCompanyType.value === 'consultancy') return
     selectedWorkModels.value = selectedWorkModels.value.includes(workModel)
       ? selectedWorkModels.value.filter((item) => item !== workModel)
       : [...selectedWorkModels.value, workModel]
@@ -59,6 +61,15 @@ export const useCompanyQuery = () => {
     selectedCountry.value = undefined
     selectedCompanyType.value = 'all'
   }
+
+  watch(
+    () => selectedCompanyType.value,
+    (companyType) => {
+      if (companyType !== 'consultancy') return
+      if (selectedTags.value.length > 0) selectedTags.value = []
+      if (selectedWorkModels.value.length > 0) selectedWorkModels.value = []
+    },
+  )
 
   return {
     search,

@@ -1,54 +1,45 @@
 <template>
-  <div class="bg-bg-secondary rounded-2xl p-4 border-gray border-2 mt-6 lg:p-6 lg:mx-40 xxl:mx-50">
-    <div class="flex gap-5 justify-between mb-6 flex-col md:flex-row">
-      <FiltersSearchBar v-model="search" />
+  <div
+    class="mt-6 rounded-xl border-2 border-gray bg-bg-secondary lg:pt-5! p-4 lg:mx-40 lg:p-6 xxl:mx-50"
+  >
+    <p class="text-center text-md mb-4">
+      {{ t('companies.catalogMessage', { count: estimatedCompaniesAdded }) }}
+    </p>
 
-      <div class="flex gap-3">
-        <UButton
-          size="md"
-          icon="i-lucide-sliders-horizontal"
-          class="px-5 cursor-pointer transition-colors duration-200"
-          :class="openPanel ? 'bg-primary/5' : ''"
-          variant="outline"
-          @click="openPanelFilters"
-        >
-          <span class="inline-flex items-center gap-2">
-            <span>Filtros</span>
-            <div
-              v-if="totalFiltersSelected > 0"
-              class="inline-flex items-center justify-center aspect-square px-1 min-w-[22px] border-primary border rounded-full bg-bg-secondary text-primary text-xs"
-            >
-              {{ totalFiltersSelected }}
-            </div>
-            <UIcon
-              name="i-lucide-chevron-down"
-              class="size-4 transition-transform duration-200"
-              :class="openPanel ? 'rotate-180' : 'rotate-0'"
-            />
-          </span>
-        </UButton>
+    <FiltersSearchBar v-model="search" />
 
-        <UButton
-          class="px-5 cursor-pointer h-12 mb:h-auto md:h-full"
-          @click="clear"
-          :disabled="activeFilters.length == 0"
-          variant="outline"
-          color="error"
-        >
-          Limpar
-        </UButton>
-      </div>
-    </div>
-
-    <div class="flex justify-between flex-wrap gap-5">
-      <div class="flex items-center gap-2">
-        <p class="text-xs">Ativos:</p>
+    <div
+      class="mt-4 flex flex-col gap-4 text-xs lg:flex-row lg:items-start"
+      :class="hasSelectedFilters ? 'lg:justify-between' : 'lg:justify-end'"
+    >
+      <div v-if="hasSelectedFilters" class="flex flex-wrap items-center gap-2 max-w-[78%]">
+        <p class="text-subtitle">{{ t('common.active') }}</p>
 
         <div class="flex flex-wrap gap-3">
           <UButton
+            v-if="selectedCompanyType !== 'all'"
+            class="cursor-pointer rounded-full border border-primary bg-transparent text-xs text-primary hover:border-red-800 hover:bg-red-900/5 hover:text-red-800 active:bg-secondary/5"
+            trailing-icon="i-lucide-x"
+            size="sm"
+            @click="handleCompanyTypeChipClick"
+          >
+            {{ companyTypeLabel }}
+          </UButton>
+
+          <UButton
+            v-if="selectedCountry"
+            class="cursor-pointer rounded-full border border-primary bg-transparent text-xs text-primary hover:border-red-800 hover:bg-red-900/5 hover:text-red-800 active:bg-secondary/5"
+            trailing-icon="i-lucide-x"
+            size="sm"
+            @click="handleCountryChipClick"
+          >
+            {{ selectedCountryLabel }}
+          </UButton>
+
+          <UButton
             v-for="selectedWorkModel in selectedWorkModels"
             :key="selectedWorkModel"
-            class="text-xs cursor-pointer bg-transparent border border-primary text-primary rounded-full hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5"
+            class="cursor-pointer rounded-full border border-primary bg-transparent text-xs text-primary hover:border-red-800 hover:bg-red-900/5 hover:text-red-800 active:bg-secondary/5"
             trailing-icon="i-lucide-x"
             size="sm"
             @click="handleWorkModelChipClick(selectedWorkModel)"
@@ -59,69 +50,84 @@
           <UButton
             v-for="selectedTag in selectedTags"
             :key="selectedTag"
-            class="text-xs cursor-pointer bg-transparent border border-primary text-primary rounded-full hover:bg-secondary/5 hover:text-secondary hover:border-secondary active:bg-secondary/5"
+            class="cursor-pointer rounded-full border border-primary bg-transparent text-xs text-primary capitalize hover:border-red-800 hover:bg-red-900/5 hover:text-red-800 active:bg-secondary/5"
             trailing-icon="i-lucide-x"
             size="sm"
             @click="handleTagChipClick(selectedTag)"
           >
             {{ selectedTag }}
           </UButton>
+
+          <UButton
+            v-for="selectedCompanySize in selectedCompanySizes"
+            :key="selectedCompanySize"
+            class="cursor-pointer rounded-full border border-primary bg-transparent text-xs text-primary hover:border-red-800 hover:bg-red-900/5 hover:text-red-800 active:bg-secondary/5"
+            trailing-icon="i-lucide-x"
+            size="sm"
+            @click="handleCompanySizeChipClick(selectedCompanySize)"
+          >
+            {{ getCompanySizeLabel(selectedCompanySize) }}
+          </UButton>
         </div>
       </div>
 
-      <div class="flex text-xs items-center">
-        Exibindo {{ visibleCompanies.length }} empresas de {{ resultsCount }} encontradas
+      <div class="flex items-center text-subtitle text-sm">
+        {{
+          t('companies.showingResults', { visible: visibleCompanies.length, total: resultsCount })
+        }}
       </div>
     </div>
-
-    <Transition
-      enter-active-class="transition-transform transition-opacity duration-200 ease-out"
-      enter-from-class="opacity-0 -translate-y-1"
-      enter-to-class="opacity-100 translate-y-0"
-      leave-active-class="transition-transform transition-opacity duration-150 ease-in"
-      leave-from-class="opacity-100 translate-y-0"
-      leave-to-class="opacity-0 -translate-y-1"
-    >
-      <FiltersPanel v-show="openPanel" />
-    </Transition>
   </div>
 </template>
 
 <script setup lang="ts">
-const { getWorkModelLabel } = useCompanyLabels()
+const { t } = useI18n()
+const { getCountryLabel } = useCountry()
+const { getCompanySizeLabel, getWorkModelLabel } = useCompanyLabels()
 
-const { search, selectedTags, toggleTag, selectedWorkModels, toggleWorkModel, clear } =
-  useCompanyQuery()
+const {
+  search,
+  selectedTags,
+  toggleTag,
+  selectedWorkModels,
+  toggleWorkModel,
+  selectedCompanySizes,
+  toggleCompanySize,
+  selectedCountry,
+  selectedCompanyType,
+} = useCompanyQuery()
+const { estimatedCompaniesAdded } = useCompanies()
 const { visibleCompanies, resultsCount } = useFilteredCompanies()
 const { gtag } = useGtag()
 
+const selectedCountryLabel = computed(() => {
+  return selectedCountry.value ? getCountryLabel(selectedCountry.value) : ''
+})
+
+const companyTypeLabel = computed(() => {
+  switch (selectedCompanyType.value) {
+    case 'company':
+      return t('common.companies')
+    case 'consultancy':
+      return t('common.consultancies')
+    default:
+      return ''
+  }
+})
+
 const totalFiltersSelected = computed(() => {
-  return selectedTags.value.length + selectedWorkModels.value.length
+  return (
+    selectedTags.value.length +
+    selectedWorkModels.value.length +
+    selectedCompanySizes.value.length +
+    (selectedCountry.value ? 1 : 0) +
+    (selectedCompanyType.value === 'all' ? 0 : 1)
+  )
 })
 
-const activeFilters = computed(() => {
-  return [...selectedTags.value, ...selectedWorkModels.value]
-})
-
-const openPanel = ref(false)
-
-const openPanelFilters = () => {
-  const nextOpen = !openPanel.value
-  openPanel.value = nextOpen
-
-  gtag('event', 'filters_panel_toggle', {
-    section: 'search_filters_bar',
-    action: nextOpen ? 'open' : 'close',
-    is_open: nextOpen,
-    selected_tags_count: selectedTags.value.length,
-    selected_work_models_count: selectedWorkModels.value.length,
-    total_selected_filters: totalFiltersSelected.value,
-  })
-}
+const hasSelectedFilters = computed(() => totalFiltersSelected.value > 0)
 
 const handleWorkModelChipClick = (workModel: (typeof selectedWorkModels.value)[number]) => {
-  const wasSelected = selectedWorkModels.value.includes(workModel)
-
   toggleWorkModel(workModel)
 
   gtag('event', 'filter_toggle', {
@@ -129,7 +135,7 @@ const handleWorkModelChipClick = (workModel: (typeof selectedWorkModels.value)[n
     source: 'active_chip',
     filter_type: 'work_model',
     filter_value: workModel,
-    action: wasSelected ? 'deselect' : 'select',
+    action: 'deselect',
     selected_tags_count: selectedTags.value.length,
     selected_work_models_count: selectedWorkModels.value.length,
     total_selected_filters: totalFiltersSelected.value,
@@ -137,8 +143,6 @@ const handleWorkModelChipClick = (workModel: (typeof selectedWorkModels.value)[n
 }
 
 const handleTagChipClick = (tag: (typeof selectedTags.value)[number]) => {
-  const wasSelected = selectedTags.value.includes(tag)
-
   toggleTag(tag)
 
   gtag('event', 'filter_toggle', {
@@ -146,19 +150,59 @@ const handleTagChipClick = (tag: (typeof selectedTags.value)[number]) => {
     source: 'active_chip',
     filter_type: 'tag',
     filter_value: tag,
-    action: wasSelected ? 'deselect' : 'select',
+    action: 'deselect',
+    selected_tags_count: selectedTags.value.length,
+    selected_work_models_count: selectedWorkModels.value.length,
+    total_selected_filters: totalFiltersSelected.value,
+  })
+}
+
+const handleCompanySizeChipClick = (companySize: (typeof selectedCompanySizes.value)[number]) => {
+  toggleCompanySize(companySize)
+
+  gtag('event', 'filter_toggle', {
+    section: 'search_filters_bar',
+    source: 'active_chip',
+    filter_type: 'company_size',
+    filter_value: companySize,
+    action: 'deselect',
+    selected_tags_count: selectedTags.value.length,
+    selected_work_models_count: selectedWorkModels.value.length,
+    total_selected_filters: totalFiltersSelected.value,
+  })
+}
+
+const handleCountryChipClick = () => {
+  const previousCountry = selectedCountry.value
+  if (!previousCountry) return
+
+  selectedCountry.value = undefined
+
+  gtag('event', 'filter_toggle', {
+    section: 'search_filters_bar',
+    source: 'active_chip',
+    filter_type: 'country',
+    filter_value: previousCountry,
+    action: 'deselect',
+    selected_tags_count: selectedTags.value.length,
+    selected_work_models_count: selectedWorkModels.value.length,
+    total_selected_filters: totalFiltersSelected.value,
+  })
+}
+
+const handleCompanyTypeChipClick = () => {
+  const previousCompanyType = selectedCompanyType.value
+  selectedCompanyType.value = 'all'
+
+  gtag('event', 'filter_toggle', {
+    section: 'search_filters_bar',
+    source: 'active_chip',
+    filter_type: 'company_type',
+    filter_value: previousCompanyType,
+    action: 'deselect',
     selected_tags_count: selectedTags.value.length,
     selected_work_models_count: selectedWorkModels.value.length,
     total_selected_filters: totalFiltersSelected.value,
   })
 }
 </script>
-
-<!-- <style scoped>
-.circle {
-  font-variant-numeric: tabular-nums;
-  width: 27.8px;
-  height: 27.8px;
-  letter-spacing: -1px;
-}
-</style> -->
