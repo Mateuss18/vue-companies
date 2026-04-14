@@ -4,7 +4,7 @@
       <TransitionGroup
         name="list"
         tag="div"
-        class="flex justify-center gap-5 flex-wrap mb-8 lg:grid-cols-3 lg:grid lg:gap-10 xxl:gap-10"
+        class="flex justify-center gap-5 flex-wrap mb-8 lg:grid lg:grid-cols-2 xxl:gap-7 1700:grid-cols-3 1780:gap-10"
       >
         <CompanyCard
           v-for="company in visibleCompanies"

@@ -5,7 +5,7 @@
     <section ref="companiesCardsListRef">
       <FiltersSearchFiltersBar />
 
-      <div class="mt-12 flex flex-col gap-8 xl:flex-row xl:items-start">
+      <div class="mt-6 lg:mt-12 flex flex-col gap-8 xl:flex-row xl:items-start">
         <FiltersPanel />
 
         <div class="min-w-0 flex-1 min-h-full">

@@ -4,7 +4,7 @@
     :placeholder="t('common.searchCompanies')"
     v-model="modelValue"
     :ui="{
-      base: 'h-13 text-lg pl-10 bg-bg-secondary border border-gray-500 placeholder:text-gray-400',
+      base: 'h-10 lg:h-13 text-md lg:text-lg pl-10 bg-bg-secondary border border-gray-500 placeholder:text-gray-400',
     }"
     class="flex w-full"
   />

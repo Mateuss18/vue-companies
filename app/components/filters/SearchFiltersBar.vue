@@ -12,7 +12,7 @@
       class="mt-4 flex flex-col gap-4 text-xs lg:flex-row lg:items-start"
       :class="hasSelectedFilters ? 'lg:justify-between' : 'lg:justify-end'"
     >
-      <div v-if="hasSelectedFilters" class="flex flex-wrap items-center gap-2 max-w-[78%]">
+      <div v-if="hasSelectedFilters" class="flex flex-wrap items-center gap-2 lg:max-w-[78%]">
         <p class="text-subtitle">{{ t('common.active') }}</p>
 
         <div class="flex flex-wrap gap-3">

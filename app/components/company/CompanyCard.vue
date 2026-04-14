@@ -70,11 +70,11 @@
       <p
         class="card-description font-light my-4 text-sm md:text-base xxl:my-5 max-h-18 overflow-y-auto leading-6 text-pretty"
       >
-        {{ companyDescription }}
+        <span data-nosnippet>{{ companyDescription }}</span>
       </p>
     </div>
 
-    <div class="footer flex gap-5">
+    <div class="footer flex gap-5" data-nosnippet>
       <UButton
         v-if="props.directoryItem.website"
         :href="props.directoryItem.website"
