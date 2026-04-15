@@ -141,9 +141,9 @@ Cada empresa no `data/companies.json` contém:
   "name": "Nome da Empresa",
   "slug": "nome-empresa",
   "domain": "empresa.com.br",
-  "country": "Brasil",
+  "country": "Brazil",
   "city": "São Paulo",
-  "size": "Média",
+  "size": "medium",
   "workModel": "hybrid",
   "website": "https://empresa.com.br",
   "linkedin": "https://linkedin.com/company/empresa",
@@ -204,17 +204,6 @@ Quer adicionar uma empresa? Siga estes passos:
 - ✅ Usa Vue.js ou Nuxt como framework principal
 - ✅ Tem vagas ativas ou histórico de contratação
 - ✅ Informações públicas verificáveis
-
----
-
-## 📊 Roadmap
-
-- [ ] Filtros por localização e tamanho
-- [ ] Busca por nome/tecnologia
-- [ ] Seção de vagas integrada
-- [ ] Páginas individuais por empresa
-- [ ] API pública
-- [ ] Expansão para outros frameworks
 
 ---
 
