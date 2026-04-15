@@ -1,61 +1,62 @@
-Frontend Engineer
+# Frontend Engineer
 
-About Us
+## Sobre a GiveCard
 
-GiveCard builds infrastructure to magically move money to people who need it. Last year, 1 in every 300 households in the United States received financial assistance through GiveCard — including families who lost their homes in disasters, state benefit recipients, and survivors of domestic violence.
+A GiveCard constrói infraestrutura para “mover dinheiro” de forma quase mágica para pessoas que precisam. No último ano, 1 em cada 300 lares nos Estados Unidos recebeu assistência financeira via GiveCard — incluindo famílias que perderam suas casas em desastres, pessoas que recebem benefícios do estado e sobreviventes de violência doméstica.
 
-We’re a deeply caring, small team of Givetopians who believe that the smartest people in the world should dedicate their time to manufacturing good magic. Our culture and philosophy put morality, vocation, and fulfillment at the forefront — and we have a very, very fun time doing it.
+Somos um time pequeno e muito cuidadoso (os “Givetopians”), que acredita que pessoas muito talentosas deveriam dedicar seu tempo a criar “boa magia”. Nossa cultura coloca moralidade, vocação e realização em primeiro plano — e fazemos isso de um jeito bem divertido.
 
-The Role
+## A função
 
-We’re hiring a Frontend Engineer to help build and improve the interfaces that power GiveCard — both for the organizations distributing funds and for the people receiving them.
+Estamos contratando uma pessoa Frontend Engineer para construir e evoluir as interfaces que sustentam a GiveCard — tanto para as organizações que distribuem recursos quanto para as pessoas que os recebem.
 
-This is a hands-on individual contributor role for someone with a few years of professional frontend experience who’s excited to ship real products, learn quickly, and see their work directly impact real people. You’ll work closely with product, design, and backend engineering to build accessible, reliable, and delightful user experiences across our admin platform and cardholder-facing web applications. We value shipping meaningful improvements quickly, learning from real user feedback, and iterating — you’ll see your work in production early and often.
+Esta é uma função hands-on como individual contributor, para quem já tem alguns anos de experiência profissional em front-end e quer shippar produtos reais, aprender rápido e ver o próprio trabalho impactar diretamente pessoas de verdade. Você vai trabalhar perto de product, design e back-end engineering para construir experiências acessíveis, confiáveis e agradáveis na plataforma admin e nas aplicações web voltadas para cardholders. Valorizamos entregar melhorias significativas rapidamente, aprender com feedback real de usuários e iterar — você verá seu trabalho em produção cedo e com frequência.
 
-We’re especially excited about candidates who care deeply about usability, accessibility, and building technology for people who are often overlooked.
+Ficamos especialmente animados com pessoas candidatas que se importam de verdade com usabilidade, acessibilidade e tecnologia para pessoas que muitas vezes são negligenciadas.
 
-This role is Remote, but you're welcome to work from our offices in New York and San Francisco whenever convenient.
+Esta vaga é Remote, mas você pode trabalhar dos escritórios em New York e San Francisco quando for conveniente.
 
-How You’ll Impact The Company
+## Como você vai gerar impacto
 
-Build and ship frontend features used daily by enterprises, nonprofits, governments, and individuals receiving financial assistance through GiveCard.
-Work across multiple surfaces, including customer-facing admin tools and cardholder web applications, helping ensure a consistent and high-quality user experience.
-Ship iteratively and pragmatically, balancing speed and quality while continuously improving the product through real-world usage and feedback.
-Collaborate closely with designers and backend engineers to turn product ideas into polished, production-ready features.
-Contribute to and improve our frontend codebase by writing clean, maintainable TypeScript and Vue code.
-Help uphold high standards for accessibility, usability, and performance, ensuring our products work well for all users.
-Learn GiveCard’s product and technology stack quickly and take increasing ownership of frontend areas over time.
+- Construir e shippar features de front-end usadas diariamente por empresas, nonprofits, governos e pessoas que recebem assistência financeira via GiveCard
+- Atuar em múltiplas superfícies, incluindo admin tools voltadas ao cliente e aplicações web para cardholders, garantindo experiência consistente e de alta qualidade
+- Entregar de forma iterativa e pragmática, equilibrando velocidade e qualidade, melhorando o produto continuamente com uso real e feedback
+- Colaborar com designers e back-end engineers para transformar ideias de produto em features polidas e prontas para produção
+- Contribuir para a codebase de front-end escrevendo código TypeScript e Vue limpo e manutenível
+- Sustentar alto padrão de acessibilidade, usabilidade e performance para que os produtos funcionem bem para todas as pessoas usuárias
+- Aprender rapidamente o produto e a stack da GiveCard e assumir cada vez mais ownership de áreas de front-end ao longo do tempo
 
-Requirements
+## Requisitos
 
-2–3 years of professional experience building frontend applications Experience working with Vue.js and TypeScript in production environments
-Solid understanding of modern frontend fundamentals (component architecture, state management, APIs, etc.)
-Curiosity and openness to using modern tools, including AI, to work more effectively and ship faster
-Experience building responsive, user-friendly interfaces
-Ability to collaborate effectively with designers, product managers, and backend engineers
-Comfort working in a fast-moving environment and learning new systems quickly
-Strong attention to detail and pride in writing high-quality, production-ready code
-A genuine interest in building technology that makes a positive impact
+- 2–3 anos de experiência profissional construindo aplicações de front-end
+- Experiência com Vue.js e TypeScript em ambientes de produção
+- Bom entendimento de fundamentos modernos de front-end (arquitetura de componentes, state management, APIs etc.)
+- Curiosidade e abertura para usar ferramentas modernas, incluindo AI, para trabalhar com mais eficiência e shippar mais rápido
+- Experiência criando interfaces responsivas e fáceis de usar
+- Capacidade de colaborar com designers, product managers e back-end engineers
+- Conforto em um ambiente acelerado e para aprender sistemas novos rapidamente
+- Forte atenção a detalhes e orgulho em escrever código de alta qualidade pronto para produção
+- Interesse genuíno em construir tecnologia com impacto positivo
 
-Exceptional Candidates Will Have
+## Diferenciais
 
-Experience building accessible web applications, including familiarity with accessibility best practices
-Experience with the Vue Composition API and building highly organized and reusable components
-Experience thriving in environments that favor iteration, ownership, and getting working software into users’ hands quickly
-Strong intuition for usability and user-centered design
-Experience working on complex, data-heavy frontend applications
-Familiarity with modern frontend tooling and workflows (Vite, testing frameworks, linting, etc.)
-An allergy to assuming someone else will catch or solve issues; proactively takes initiative to identify, analyze, communicate, and drive improvements and fixes
-Curiosity and eagerness to learn new technologies and improve as an engineer
-A builder’s mindset — excitement about shipping features and seeing them used in the real world
+- Experiência construindo aplicações web acessíveis, incluindo familiaridade com boas práticas de acessibilidade
+- Experiência com Vue Composition API e construção de componentes bem organizados e reutilizáveis
+- Experiência em ambientes que favorecem iteração, ownership e colocar software funcionando nas mãos de usuários rapidamente
+- Boa intuição para usabilidade e user-centered design
+- Experiência com aplicações de front-end complexas e com muito dado (data-heavy)
+- Familiaridade com tooling e workflows modernos de front-end (Vite, frameworks de testes, linting etc.)
+- Postura proativa: não “assume que outra pessoa vai pegar”; identifica, analisa, comunica e conduz melhorias e correções
+- Curiosidade e vontade de aprender novas tecnologias e evoluir como engineer
+- Mentalidade de builder — empolgação em shippar features e vê-las sendo usadas no mundo real
 
-At GiveCard, You’ll Enjoy
+## Na GiveCard, você terá
 
-Working alongside very smart people on technology that genuinely matters.
-A remote-friendly work environment with a dog-friendly office in Manhattan
-A minimum of 25 days of PTO
-100% medical, dental, and vision insurance coverage for you and your family
-Generous parental leave
-Expected compensation of $120,000 – $140,000, based on level and experience.
+- Trabalhar ao lado de pessoas muito inteligentes em tecnologia que realmente importa
+- Ambiente remote-friendly e escritório dog-friendly em Manhattan
+- Mínimo de 25 dias de PTO
+- Cobertura 100% de medical, dental e vision insurance para você e sua família
+- Licença parental generosa
+- Remuneração esperada de $120,000 – $140,000, de acordo com nível e experiência
 
-Compensation Range: $120K - $140K
+Faixa de remuneração: $120K - $140K

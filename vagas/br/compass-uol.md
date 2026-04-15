@@ -1,9 +1,8 @@
 Vue.js Front-End Developer | Senior (Remote)
 
-Job description
-.
+Descrição da vaga
 
-Responsibilities and assignments
+Responsabilidades e atribuições
 Liderar tecnicamente o time de Front-End, atuando como referência em arquitetura e boas práticas.
 Definir e evoluir padrões de desenvolvimento, garantindo qualidade, escalabilidade e manutenibilidade do código.
 Participar de decisões arquiteturais e desenho de soluções para produtos digitais complexos.
@@ -12,7 +11,7 @@ Atuar de forma hands-on no desenvolvimento de funcionalidades estratégicas.
 Apoiar e mentorar desenvolvedores(as), contribuindo para a evolução técnica do time.
 Colaborar com times multidisciplinares (Produto, UX/UI, Back-End, QA e DevOps).
 Garantir excelência técnica nas entregas, com foco em performance, segurança e experiência do usuário.
-Requirements and qualifications
+Requisitos e qualificações
 Forte domínio de fundamentos Web: HTML, CSS e JavaScript.
 Proficiência em JavaScript moderno (ES6+).
 Domínio do framework Vue.js e seu ecossistema (Vuex, Vue Router, Pinia, Vuetify, etc.).
@@ -25,32 +24,32 @@ Vivência com metodologias ágeis (Scrum, Kanban).
 Experiência com SonarQube para análise de qualidade de código.
 Prática consistente com code review (revisão técnica de PRs).
 Experiência com testes unitários (Jest, Vitest ou similares).
-Process stages
-Step 1: Registration
+Etapas do processo
+Etapa 1: Inscrição
 1
-Registration
+Inscrição
 Step 2: Mapeamento de Stack
 2
 Mapeamento de Stack
-Step 3: Fit Cultural
+Etapa 3: Fit Cultural
 3
 Fit Cultural
-Step 4: Entrevista Líder
+Etapa 4: Entrevista com liderança
 4
-Entrevista Líder
+Entrevista com liderança
 Step 5: Oferta e Negociação
 5
 Oferta e Negociação
-Step 6: Hiring
+Etapa 6: Hiring
 6
 Hiring
-Become a Compasser, be part of AI/R.
-Compass UOL is a global firm and part of the AI Revolution Company, together transforming organizations using Artificial Intelligence, Generative AI, and other of today’s most advanced technologies.
+Seja um(a) Compasser e faça parte da AI/R.
+A Compass UOL é uma empresa global e parte da AI Revolution Company, transformando organizações com Artificial Intelligence, Generative AI e outras tecnologias avançadas de hoje.
 
-We equip our team with proprietary and external AI-driven tools to design and build digital-native platforms, integrating cutting-edge technologies and enabling companies to innovate, transform their businesses, and drive success in their markets.
+Equipamos nosso time com ferramentas proprietárias e externas orientadas por AI para desenhar e construir plataformas digital-native, integrando cutting-edge technologies e permitindo que empresas inovem, transformem seus negócios e tenham sucesso em seus mercados.
 
-To achieve this, we attract and develop the best talent, creating opportunities that enhance people’s lives and highlight the positive impact of disruptive technologies.
+Para isso, atraímos e desenvolvemos os melhores talentos, criando oportunidades que melhoram a vida das pessoas e evidenciam o impacto positivo de disruptive technologies.
 
-We empower borderless talent and promote knowledge and opportunities in the latest market trends, driving significant personal and professional growth.
+Fortalecemos borderless talent e promovemos conhecimento e oportunidades nas últimas tendências de mercado, impulsionando crescimento pessoal e profissional significativo.
 
-Join us and be part of the AI-driven revolution.
+Junte-se a nós e faça parte da revolução orientada por AI.

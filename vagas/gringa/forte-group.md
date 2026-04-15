@@ -1,67 +1,65 @@
 # Middle Full Stack .NET Vue.js Developer
+## Sobre a vaga
+Buscamos uma pessoa Desenvolvedora Middle Full Stack .NET Vue.js, responsável por arquitetar e construir soluções integrando múltiplas aplicações. Neste time, você vai implementar features nas aplicações que potencializam o negócio ao conectar-se a fontes de dados-chave e permitir explorar e analisar esses dados em minutos.
 
-## About the job
+Nosso cliente oferece tecnologia e serviços líderes para a indústria de golfe nos Estados Unidos e na Grã-Bretanha, incluindo software que gerencia tee sheets, pontos de venda (points of sale) e serviços de reservas, com foco em entregar uma ótima experiência para golfistas e operação fluida dos campos de golfe.
 
-We are looking for a Middle Full Stack .NET Vue.JS Developer who will be responsible for architecting and building solutions by integrating multiple applications. On this team you will be adding awesome features to the applications that empower business by connecting to key data sources, then explore and analyze this data in a matter of minutes.
+Você vai atuar como parte de um time Agile dedicado, com alto nível de responsabilidade por decisões técnicas e colaboração diária com o time do cliente no exterior.
 
-Our client provides leading technology and services to the golf industry across the United States and Great Britain including software that manages tee sheets, points of sale and reservation services with a focus on providing great experience for golf players and smooth operation of golf courses.
+## Responsabilidades
 
-You will be working as a part of a dedicated Agile team with a high level of responsibility for technical decisions and daily collaboration with the client team abroad.
+- Desenvolver e manter aplicações existentes
+- Realizar refactoring
+- Trabalhar com times de Product e QA, aplicando forte capacidade analítica e de resolução de problemas para entregar software de alta qualidade que atenda clientes e stakeholders
+- Conduzir code reviews e mentorar pessoas com menos experiência
 
-Responsibilities
+## Tecnologias
 
-Developing and maintaining existing applications;
-Performing refactoring;
-Working with Product and QA teams while applying strong analytical and problem-solving skills to deliver high-quality software that meets the needs of our clients and stakeholders;
-Conducting code reviews and mentoring less experienced colleagues.
+- C#, .NET Core e .NET
+- Experiência em front-end com Vue.js
+- Banco de dados MSSQL
+- REST/GraphQL
+- Git
 
-Technologies
+## Qualificações
 
-C#, .NET Core and .NET
-Front end experience in Vue.js
-MSSQL database
-REST/GraphQL
-Git
+- Perfil autônomo, integrante de um time de desenvolvimento de alta performance, que se importa com cultura e tem orgulho do resultado em equipe
+- Pessoa comunicativa, com energia e paixão de “start-up”
+- Flexibilidade para se alinhar a prioridades do negócio
+- Gosto por ambiente de desenvolvimento Agile (experiência com Scrum é diferencial)
+- Excelentes habilidades interpessoais e de comunicação
+- Inglês intermediário ou superior
 
-Qualifications
+## Experiência
 
-Self-driven team member of a high-performing development team who cares about the team culture and takes pride in the outcome of the teamwork
-Bright and engaging with "start-up" energy and passion
-Flexible and able to align with priorities coming from the business
-Enjoys an Agile development environment, Scrum methodology experience is a plus
-Excellent interpersonal and communication skills
-Intermediate English or higher
+- Graduação (BS/BSE) ou equivalente, com no mínimo 2–4 anos de experiência relevante
+- Experiência construindo/integrando APIs de front-end e back-end
+- Experiência com testes automatizados (unit testing, automated UI testing)
+- Experiência trabalhando em aplicações enterprise em produção
 
-Experience
+## O que oferecemos
 
-BS/BSE degree or equivalent with a minimum of 2-4 years of relevant work experience
-Experience in building/integrating Frontend and Backend APIs
-Experience with automated code testing (unit testing, automated UI testing)
-Experience working on enterprise level, production applications
+- Trabalhe do seu jeito — em qualquer lugar, a qualquer hora. A abordagem remote-first permite escolher onde e como você rende melhor
+- Experiência com times diversos e desenvolvimento de expertise internacional
+- Time amigável e acolhedor, em um ambiente onde suas ideias importam
+- Projetos empolgantes e desafiadores, com tecnologias cutting-edge e impacto real
+- Plano de saúde abrangente, acesso a psicólogo corporativo e cobertura parcial para atividades esportivas
+- Treinamentos gratuitos, reembolso de certificações e acesso a plataformas online de aprendizado para apoiar seu crescimento
+- Férias remuneradas, feriados e licença médica cobertos pela Forte Group
+- Bônus por indicação, avaliações de performance regulares e suporte completo para viagens a trabalho
+- Eventos corporativos e presentes em datas comemorativas
 
-What’s in it for you
+## Sobre a Forte Group
 
-Work your way — anywhere, anytime. Our remote-first approach lets you choose where and how you work best!
-Experience working with diverse teams and gaining international expertise
-A friendly, supportive team and an enjoyable work environment where your ideas matter
-A chance to work on exciting, challenging projects using cutting-edge technologies that make a real impact
-Comprehensive health insurance, corporate psychologist access, and partial sports activity coverage
-Free training programs, reimbursement for certifications, and access to online learning platforms to fuel your growth
-Paid vacation, public holidays, and sick leave are fully covered by Forte Group
-Referral bonuses, regular performance reviews, and full support for business trips
-Corporate events and holiday presents
+Fundada há mais de 25 anos, a Forte Group começou com foco em Quality Assurance e evoluiu para uma força dinâmica no setor de tecnologia, entregando soluções cutting-edge no mundo todo. Como uma empresa americana com sede em Boca Raton, EUA, tivemos o privilégio de atuar com mais de 400 clientes, incluindo gigantes Fortune 500. Nosso software gerou impacto significativo, alcançando mais de 9 milhões de usuários — comparável à população inteira de Nova York ou da Suíça.
 
-About Forte Group
+Somos mais do que uma empresa — somos um time de pessoas apaixonadas e motivadas, que gostam do que fazem. Se você procura um lugar onde seu trabalho importa, suas ideias são valorizadas e seu crescimento é apoiado, você encontrou.
 
-Founded over 25 years ago, Forte Group began with a focus on Quality Assurance and has since evolved into a dynamic force in the tech industry, delivering cutting-edge solutions worldwide. As an American company headquartered in Boca Raton, USA, we've had the privilege of partnering with over 400 clients, including Fortune 500 giants. Our software has made a significant impact, reaching more than 9 million users — comparable to the entire population of New York or Switzerland!
+Ao se candidatar, você concorda com o processamento de seus dados pessoais pela Forte Group (incluindo filiais afiliadas) para fins de recrutamento. Para mais informações sobre como tratamos seus dados e seus direitos sob o GDPR, consulte nosso Privacy Notice.
 
-We’re more than just a company — we’re a team of passionate, driven people who love what we do. If you’re looking for a place where your work matters, your ideas are valued, and your growth is supported, you’ve found it!
+## Benefícios listados no anúncio
 
-By applying for the position, you consent to the processing of your personal data by Forte Group, including affiliated branches, for recruitment purposes. For more information on how we handle your data and your rights under GDPR, please review our Privacy Notice
-
-Benefits found in job post
-
-Medical insurance
+Seguro/assistência médica
 
 ---
 Extraído em: 20/03/2026

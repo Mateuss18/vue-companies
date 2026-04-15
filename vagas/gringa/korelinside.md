@@ -1,46 +1,45 @@
-Senior Front End Vue.js
+# Senior Front End Vue.js
 
-KoreInside is the infrastructure company for private capital markets, delivering clearing, settlement, distribution, and compliance as neutral, non-competitive infrastructure for regulated intermediaries. Architected as the DTCC-equivalent for private markets, KoreInside powers broker-dealers, ATSs, funding portals, transfer agents, banks, credit unions, and RIAs through white-label, API-first platforms. Its core infrastructure includes KoreID, an interoperable investor and issuer identity passport, and KoreChain, the first SEC-qualified blockchain for private securities, enabling scalable, compliant, and auditable private market transactions.
+A KoreInside é uma empresa de infraestrutura para private capital markets, entregando clearing, settlement, distribuição e compliance como infraestrutura neutra e não competitiva para intermediários regulados. Arquitetada como o equivalente ao DTCC para mercados privados, a KoreInside atende broker-dealers, ATSs, funding portals, transfer agents, bancos, credit unions e RIAs por meio de plataformas white-label e API-first. Sua infraestrutura central inclui o KoreID, um “passaporte” de identidade interoperável para investor e issuer, e o KoreChain, o primeiro blockchain qualificado pela SEC para private securities, permitindo transações escaláveis, em conformidade e auditáveis no mercado privado.
 
-Kore is looking for an expert JavaScript developer who is highly skilled with Vue.js. Your primary focus will be developing user-facing web applications and components. You’ll implement them with the Vue.js framework, following generally accepted practices and workflows. You will ensure that you produce robust, secure, modular, and maintainable code. You will coordinate with other team members, including back-end developers and UX/UI designers. Your commitment to team collaboration, perfect communication, and a quality product is crucial.
+A Kore busca uma pessoa desenvolvedora JavaScript expert, com forte domínio de Vue.js. Seu foco principal será desenvolver aplicações e componentes web voltados ao usuário. Você os implementará com o framework Vue.js, seguindo práticas e workflows amplamente aceitos. Você garantirá a produção de código robusto, seguro, modular e manutenível. Também vai se coordenar com outras pessoas do time, incluindo back-end developers e UX/UI designers. Compromisso com colaboração, comunicação clara e qualidade do produto é essencial.
 
-Responsibilities
-Developing user-facing applications using Vue.js
-Building modular and reusable components and libraries
-Optimizing your application for performance
-Implementing automated testing integrated into development and maintenance workflows
-Staying up-to-date with all recent developments in the JavaScript and Vue.js space
-Keeping an eye on security updates and issues found with Vue.js and all project dependencies
-Proposing any upgrades and updates necessary for keeping up with modern security and development best
-practice
+## Responsabilidades
+- Desenvolver aplicações voltadas ao usuário usando Vue.js
+- Construir componentes e bibliotecas modulares e reutilizáveis
+- Otimizar a aplicação para performance
+- Implementar testes automatizados integrados aos workflows de desenvolvimento e manutenção
+- Manter-se atualizado(a) com novidades do ecossistema JavaScript e Vue.js
+- Acompanhar atualizações de segurança e issues do Vue.js e de todas as dependências do projeto
+- Propor upgrades e updates necessários para manter o padrão moderno de segurança e desenvolvimento (best practices)
 
-Skills
-Highly proficient with the JavaScript language and its modern ES6+ syntax and features
-Highly proficient with Vue.js framework and its core principles such as components, reactivity, and the virtual DOM
-Must have worked with the Vue.js ecosystem, including Vue CLI, Vuex, Vue Router, and Nuxt.js
-Excellent understanding of HTML5 and CSS3, including Sass
-Understanding of server-side rendering and its benefits and use cases
-Knowledge of functional programming and object-oriented programming paradigms
-Ability to write efficient, secure, well-documented, and clean code
-Familiarity with automated JavaScript testing, specifically testing frameworks such as Jest or Mocha
-Proficiency with modern development tools, like Babel, Webpack, and Git
-Experience with both consuming and designing RESTful APIs
-Good to have skill: Laravel Framework
+## Habilidades
+- Alta proficiência em JavaScript e seus recursos modernos (ES6+)
+- Alta proficiência no framework Vue.js e seus princípios (componentes, reactivity, virtual DOM)
+- Experiência com o ecossistema Vue.js, incluindo Vue CLI, Vuex, Vue Router e Nuxt.js
+- Excelente entendimento de HTML5 e CSS3, incluindo Sass
+- Entendimento de server-side rendering, seus benefícios e casos de uso
+- Conhecimento de paradigmas de functional programming e object-oriented programming
+- Capacidade de escrever código eficiente, seguro, bem documentado e limpo
+- Familiaridade com testes automatizados em JavaScript, especialmente frameworks como Jest ou Mocha
+- Proficiência com ferramentas modernas de desenvolvimento como Babel, Webpack e Git
+- Experiência consumindo e desenhando RESTful APIs
+- Diferencial: Laravel Framework
 
-At KoreInside, we offer you
+## Na KoreInside, oferecemos
 
-Work with a diverse distributed team worldwide
-Always-on learning and development
-Collaborative work environment
-All the tools and supports needed to do an excellent job
-A dynamic workplace with a great balance of hard work and fun
-A culture of innovation and a structure in which to innovate
-A nurturing team-oriented environment with mentorship as a key feature of the dynamic
+- Trabalho com um time distribuído e diverso ao redor do mundo
+- Aprendizado e desenvolvimento contínuos
+- Ambiente colaborativo
+- Ferramentas e suporte necessários para fazer um ótimo trabalho
+- Um local dinâmico, equilibrando dedicação e um clima leve
+- Cultura de inovação e estrutura para inovar
+- Ambiente acolhedor e orientado a time, com mentoria como parte central
 
-Privacy Statement
+## Declaração de privacidade
 
-KoreInside is committed to protecting the privacy and security of all personal information that we process in order to provide services to our clients. For specific information on how KoreInside protects personal information online, please see the Online Privacy Policy: https://www.KoreInside.com/privacy-policy/
+A KoreInside está comprometida em proteger a privacidade e a segurança de todas as informações pessoais que processa para prestar serviços a seus clientes. Para informações específicas sobre como a KoreInside protege dados pessoais online, consulte a Online Privacy Policy: https://www.KoreInside.com/privacy-policy/
 
-Opportunity Statement
+## Declaração de oportunidades
 
-KoreInside is an equal-opportunity employer. We evaluate qualified applicants without regard to location, country, race, color, religion, sex, sexual orientation, gender identity, marital status, genetic information, national origin, disability, veteran status, and other protected characteristics.
+A KoreInside é um empregador com igualdade de oportunidades. Avaliamos pessoas candidatas qualificadas sem considerar localização, país, raça, cor, religião, sexo, orientação sexual, identidade de gênero, estado civil, informações genéticas, origem nacional, deficiência, status de veterano e outras características protegidas.

@@ -1,4 +1,4 @@
-About the job
+Sobre a vaga
 Descrição da vaga
 
 Nosso time é composto por pessoas inquietas com foco no resultado e que se interessem pelo ambiente de transformação e inovação digital. 

@@ -1,31 +1,31 @@
-Front-End Developer (Vue.js) | Full-Time | Remote
-Join our team at Carelancer. We are looking for a Front-End Developer with a minimum of 4 years of hands-on experience building and scaling production-level applications. This is a role for a developer who wants to play a key role in shaping and delivering the next phases of our product.
-You’ll collaborate directly with our Product Manager and a small engineering team, taking direct ownership of front-end architecture, technical decisions, and core components across our platform. In this role, you won’t just maintain existing features; you’ll identify gaps, propose solutions, and establish the front-end best practices that will support our future team as we grow.
+# Front-End Developer (Vue.js) | Full-Time | Remote
+Junte-se ao time da Carelancer. Buscamos uma pessoa Front-End Developer com, no mínimo, 4 anos de experiência prática construindo e escalando aplicações em produção. É uma função para quem quer ter papel-chave na definição e entrega das próximas fases do produto.
+Você vai colaborar diretamente com nossa pessoa Product Manager e com um time pequeno de engenharia, assumindo ownership da arquitetura de front-end, decisões técnicas e componentes centrais da plataforma. Aqui, você não vai apenas manter features existentes: vai identificar gaps, propor soluções e estabelecer best practices de front-end para sustentar o crescimento do time.
 
-Key Responsibilities
-Active Development: Design, develop, and maintain high-quality web applications (SPA & PWA) using Vue.js (Vue 3).
-Architecture: Lead improvements and bring structure to a fast-moving product.
-Optimization: Optimize for speed, performance, and scalability across various devices and browsers.
-Integration: Carry out front-end and back-end integration (REST API) and manage client-side storage.
-Collaboration: Translate Figma wireframes and prototypes into interactive web interfaces.
-Mobile Execution: Use Quasar and Capacitor/Cordova to convert and maintain mobile versions of our applications.
+## Responsabilidades
+- Desenvolvimento ativo: projetar, desenvolver e manter aplicações web (SPA & PWA) de alta qualidade usando Vue.js (Vue 3)
+- Arquitetura: liderar melhorias e trazer estrutura para um produto que evolui rapidamente
+- Otimização: otimizar velocidade, performance e escalabilidade em diferentes dispositivos e navegadores
+- Integração: realizar integração entre front-end e back-end (REST API) e gerenciar storage client-side
+- Colaboração: transformar wireframes e protótipos no Figma em interfaces web interativas
+- Execução mobile: usar Quasar e Capacitor/Cordova para converter e manter versões mobile das aplicações
 
-Requirements (Must Have)
-Hands-on Experience: Minimum 4 years of experience building and deploying production-ready Vue.js applications (Vue 3).
-Technical Proficiency: Expert knowledge of HTML, CSS, jQuery, and TailwindCSS.
-Logic & State: Deep, practical understanding of Vue state management and Vue Routers.
-Security: Experience integrating RESTful APIs with authentication, authorization, and content security.
-Tools: Proficiency with Git for version control and JIRA for project management.
-Quality Control: Proven ability to debug and write unit tests for production environments.
+## Requisitos obrigatórios
+- Experiência prática: mínimo de 4 anos construindo e fazendo deploy de aplicações Vue.js prontas para produção (Vue 3)
+- Proficiência técnica: excelente conhecimento de HTML, CSS, jQuery e TailwindCSS
+- Lógica e estado: entendimento profundo e prático de state management no Vue e de Vue Router
+- Segurança: experiência integrando RESTful APIs com authentication, authorization e content security
+- Ferramentas: proficiência com Git para versionamento e JIRA para gestão de projetos
+- Qualidade: capacidade comprovada de fazer debug e escrever unit tests para ambientes de produção
 
-Nice to Have
-Hands-on experience with Laravel (PHP Framework).
-Experience with Docker and containerization.
-Knowledge of HATEOAS and experience deploying to Google Play/Apple App Stores.
+## Diferenciais
+- Experiência prática com Laravel (PHP Framework)
+- Experiência com Docker e containerization
+- Conhecimento de HATEOAS e experiência publicando na Google Play/Apple App Stores
 
-Benefits & Work Details
-Job Type: Full-time.
-Schedule: Monday to Friday.
-Location: 100% Remote.
-Compensation: Competitive salary based on your hands-on experience level.
-Benefits: Extended health care, Life insurance, EAP, and limited RRSP match.
+## Benefícios e detalhes da vaga
+- Tipo de vaga: Full-time
+- Horário: segunda a sexta
+- Local: 100% remoto
+- Remuneração: salário competitivo, de acordo com seu nível de experiência prática
+- Benefícios: extended health care, life insurance, EAP e limited RRSP match

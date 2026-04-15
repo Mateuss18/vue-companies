@@ -1,6 +1,4 @@
-Vue.js developer
-
-About the job
+Vue.js developerSobre a vaga
 Com mais de 25 anos de experiência no setor tecnológico, a Ankix destaca-se pela sua abordagem próxima, combinando estratégia orientada, inovação contínua e uma adaptação ágil às exigências do mercado. 
 
 Mais do que especialistas em tecnologia, somos uma comunidade de talento e colaboração, onde a confiança e a partilha de conhecimento são a base do nosso crescimento. Aqui, evoluir é um compromisso real, vivido todos os dias.

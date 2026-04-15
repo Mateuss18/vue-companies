@@ -1,7 +1,5 @@
 # DESENVOLVEDOR(A) FULLSTACK .NET CORE + VUE.JS
-
-## About the job
-
+## Sobre a vaga
 MENU
 
 EN

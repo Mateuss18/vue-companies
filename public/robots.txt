@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow:
+
+Sitemap: https://vue-companies.vercel.app/sitemap.xml

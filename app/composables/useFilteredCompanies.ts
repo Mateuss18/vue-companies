@@ -1,20 +1,54 @@
 import dataCompanies from '../../data/companies.json'
+import dataConsultancies from '../../data/consultancies.json'
 
-type Company = (typeof dataCompanies.companies)[number]
+type RawCompany = (typeof dataCompanies.companies)[number]
+type RawConsultancy = (typeof dataConsultancies.consultancies)[number]
 
-const companies = dataCompanies.companies as Company[]
+type DirectoryItem =
+  | (RawCompany & { kind: 'company' })
+  | (RawConsultancy & {
+      kind: 'consultancy'
+      tags: string[]
+      workModel: string[]
+      city?: string
+      logo?: string
+    })
+
+const allCompanies: DirectoryItem[] = [
+  ...dataCompanies.companies.map((company) => ({
+    ...company,
+    kind: 'company' as const,
+  })),
+  ...dataConsultancies.consultancies.map((consultancy) => ({
+    ...consultancy,
+    kind: 'consultancy' as const,
+    tags: [],
+    workModel: [],
+    city: undefined,
+    logo: undefined,
+  })),
+]
 
 export const useCompanies = () => {
-  const estimatedCompaniesAdded = Math.floor(companies.length / 10) * 10
+  const estimatedCompaniesAdded = Math.floor(allCompanies.length / 10) * 10
 
-  return { companies, estimatedCompaniesAdded }
+  return { companies: allCompanies, estimatedCompaniesAdded }
 }
 
 export const useFilteredCompanies = () => {
-  const { search, selectedTags, selectedWorkModels } = useCompanyQuery()
+  const {
+    search,
+    selectedTags,
+    selectedWorkModels,
+    selectedCompanySizes,
+    selectedCountry,
+    selectedCompanyType,
+  } = useCompanyQuery()
+  const { getCountryOption } = useCountry()
+  const { normalizeCompanySize } = useCompanyLabels()
 
   const filteredCompanies = computed(() =>
-    companies.filter((company) => {
+    allCompanies.filter((company) => {
       const matchesSearch =
         search.value.trim() === '' ||
         company.name.toLocaleLowerCase().includes(search.value.trim().toLocaleLowerCase())
@@ -27,9 +61,30 @@ export const useFilteredCompanies = () => {
         selectedWorkModels.value.length === 0 ||
         selectedWorkModels.value.some((workModel) => company.workModel.includes(workModel))
 
-      return matchesSearch && matchesTags && matchesWorkModel
+      const matchesCompanySize =
+        selectedCompanySizes.value.length === 0 ||
+        selectedCompanySizes.value.some((size) => normalizeCompanySize(company.size) === size)
+
+      const matchesCountry = !selectedCountry.value || company.country === selectedCountry.value
+
+      const matchesCompanyType =
+        selectedCompanyType.value === 'all' || company.kind === selectedCompanyType.value
+
+      return (
+        matchesSearch &&
+        matchesTags &&
+        matchesWorkModel &&
+        matchesCompanySize &&
+        matchesCountry &&
+        matchesCompanyType
+      )
     }),
   )
+
+  const countryOptions = computed(() => {
+    const countries = [...new Set(allCompanies.map((company) => company.country))]
+    return countries.map((country) => getCountryOption(country))
+  })
 
   const resultsCount = computed(() => filteredCompanies.value.length)
 
@@ -54,5 +109,6 @@ export const useFilteredCompanies = () => {
     visibleCompanies,
     resetVisibleCount,
     loadMore,
+    countryOptions,
   }
 }

@@ -1,8 +1,5 @@
 
-# Omie
-
-## About the job
-
+# Omie## Sobre a vaga
 A Omie tem como propósito trazer prosperidade para o ecossistema empreendedor brasileiro. Por isso, buscamos por pessoas com mentalidade de crescimento, valorizando perfis que tenham capacidade de adaptação, senso colaborativo e sejam motivadas pela inovação e pelo aprendizado contínuo.
 
 Faça parte da história de uma das empresas de tecnologia que mais cresce no país! 🚀

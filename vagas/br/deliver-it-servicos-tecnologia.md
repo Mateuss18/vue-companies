@@ -1,4 +1,4 @@
-About the job
+Sobre a vaga
 Você se considera uma pessoa que tem sede por aprendizado, gosta de trabalhar em equipe e curte compartilhar conhecimento? Então essa oportunidade é para você! 
 
 Estamos em busca de um(a) Desenvolvedor Fullstack PHP/Vue.js Pleno para atuar em uma das maiores universidades de SC.

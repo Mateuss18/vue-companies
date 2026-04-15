@@ -1,112 +1,113 @@
-Sr. Full-Stack Software Engineer (Frontend-Leaning: Vue, Vite, Python/Django)
+# Sr. Full-Stack Software Engineer (Frontend-Leaning: Vue, Vite, Python/Django)
+## Sobre a vaga
+## Descrição da empresa
 
-About the job
-Company Description
+A TechSmart é uma empresa de AI software e desenvolvimento de força de trabalho que ajuda escolas de ensino médio e centros de carreira CTE a preparar estudantes para o futuro do trabalho. Atuamos com distritos escolares em todo o país para entregar currículos de AI e desenvolvimento de software, treinamento para professores e uma plataforma de aprendizagem que capacita estudantes com habilidades práticas e em demanda, alinhadas a funções de nível de entrada (entry-level) e a trilhas de tecnologia emergente.
 
-TechSmart is an AI software and workforce development company helping high schools and CTE career centers prepare students for the future of work. We partner with school districts nationwide to deliver AI and software development curriculum, teacher training, and a learning platform that equips students with practical, in-demand skills aligned to entry-level roles and emerging technology pathways.
+A AI está remodelando como aprendemos, trabalhamos e construímos software, e distritos escolares estão se movimentando rapidamente para garantir que estudantes se formem com habilidades reais e práticas de AI. A TechSmart existe para tornar essa transição viável para escolas em escala.
 
-AI is reshaping how we learn, work, and build software, and school districts are moving quickly to ensure students graduate with real, practical AI skills. TechSmart exists to make that transition attainable for schools at scale.
+Com esse foco, estamos construindo uma nova plataforma de aprendizagem com AI para apoiar experiências escaláveis e orientadas a AI para programas CTE do ensino médio. Buscamos uma pessoa Senior Software Engineer (Full-Stack, Frontend-Leaning) para ajudar a desenhar e implementar a arquitetura central voltada ao usuário, que viabiliza entrega de currículo, fluxos instrucionais e a experiência de educadores e estudantes conforme a plataforma evolui.
 
-With this focus, we are building a new AI-powered learning platform to support scalable, AI-focused learning experiences for high school CTE programs. We are seeking a Senior Software Engineer (Full-Stack, Frontend-Leaning) to help design and implement the core user-facing architecture that powers curriculum delivery, instructional workflows, and educator and student experiences as the platform evolves.
+## Construindo uma nova plataforma
 
-Building a New Platform
+A TechSmart está construindo do zero uma nova plataforma de aprendizagem com AI para sustentar entrega moderna de currículo, fluxos instrucionais e insights orientados a dados para escolas e programas CTE. Este trabalho é inicial, fundamental e altamente colaborativo. O foco é construir sistemas duráveis e manuteníveis ao mesmo tempo em que entregamos features.
 
-TechSmart is building a new AI-powered learning platform from the ground up to support modern curriculum delivery, instructional workflows, and data-driven insights for high schools and CTE programs. This work is early, foundational, and highly collaborative. The focus is on building durable, maintainable systems simultaneously with features.
+Pessoas engenheiras na TechSmart trabalham em parceria com Product e UX Design para moldar como a plataforma evolui. Você terá influência real na direção técnica, limites do sistema e trade-offs, com a oportunidade de impactar como educadores e estudantes vivenciam a plataforma pelos próximos anos.
 
-Engineers at TechSmart work closely with Product and UX Design partners to shape how the platform evolves. You’ll have meaningful input into technical direction, system boundaries, and tradeoffs, with the opportunity to influence how educators and students experience the platform for years to come.
+## Visão geral da posição
 
-Position Overview
+Buscamos uma pessoa Senior Software Engineer (Full-Stack, Frontend-Leaning) para ter papel-chave no desenho e construção das camadas centrais de UI e experiência que sustentam a plataforma de aprendizagem web com AI da TechSmart. Nesta função, você vai definir arquitetura e padrões da plataforma em parceria com Product e Design conforme escalamos. Você entregará componentes de back-end e front-end, com expertise e vontade específicas de influenciar o front-end.
 
-We are seeking a Senior Software Engineer (Full-Stack, Frontend-Leaning) to play a key role in designing and building the core user interface and experience layers that power TechSmart’s AI-driven web-based learning platform. In this role, you will shape architecture and platform patterns while working closely with Product and Design partners as the platform scales. You will deliver both backend and frontend components, but have special expertise & desire to influence the frontend in particular.
+Esta é uma função hands-on de senior engineering, focada em construir sistemas duráveis e traduzir visão de produto em UI escalável. Você contribuirá para decisões técnicas fundamentais, ajudará a estabelecer padrões compartilhados e garantirá que a plataforma evolua de forma previsível por meio de entregas em sprints.
 
-This is a hands-on senior engineering role focused on building durable systems and translating product vision into scalable UI. You will contribute to foundational technical decisions, help establish shared standards, and ensure the platform evolves predictably through sprint-based delivery.
+Na TechSmart, “Senior” significa assumir ownership de sistemas end-to-end, influenciar direção técnica, desenhar com cuidado antes de implementar e ter habilidade para estruturar grandes áreas de features e decompor em passos incrementais e previsíveis para o time executar em conjunto.
 
-At TechSmart, “Senior” means owning systems end-to-end, influencing technical direction, designing thoughtfully before implementation, and having the skill to shape the largest kinds of requested feature areas and decompose them to incrementally & predictably deliverable steps that the team can swarm on.
+Esta vaga é ideal para uma pessoa experiente que gosta de assumir ownership de sistemas complexos e trabalhar em produtos greenfield, com acesso a infraestrutura de suporte madura. Você equilibrará entregas de curto prazo com investimentos de longo prazo em plataforma e design system, tendo papel crítico em como educadores e estudantes vivenciam a plataforma ao longo do tempo.
 
-This role is well-suited for an experienced engineer who enjoys owning complex systems and working on greenfield products while still having access to mature supporting infrastructure. You’ll balance near-term product delivery with longer-term platform and design system investments, playing a critical role in shaping how educators and students experience the platform over time.
+## O que você ajudará a moldar e influenciar (primeiros 6–12 meses)
 
-What You’ll Help Shape and Influence (First 6–12 Months)
+- Estabelecer padrões centrais de arquitetura de front-end e padrões compartilhados de plataforma junto ao time de engenharia, criando uma base forte para o desenvolvimento futuro
+- Trabalhar com liderança de Product e Engineering para traduzir iniciativas do roadmap em trabalho bem escopado e bem estruturado, entregue via execução em sprints
+- Desenhar e implementar experiências fundamentais voltadas ao usuário alinhadas aos marcos iniciais da plataforma, incluindo autoria e entrega de currículo, gestão de sala de aula e fluxos de avaliação (grading)
+- Liderar a implementação inicial e a evolução do design system visual da plataforma, em parceria com UX e Product Design, equilibrando consistência, acessibilidade e flexibilidade
 
-Establish core frontend architecture patterns and shared platform standards in partnership with the engineering team, setting a strong foundation for future development.
-Partner closely with Product and Engineering leadership to translate roadmap initiatives into well-scoped & well-shaped work delivered through sprint-based execution.
-Design and implement foundational user-facing experiences aligned with early platform milestones, including curriculum authoring, curriculum delivery, classroom management, and grading workflows.
-Lead the initial implementation and evolution of the platform’s visual design system in close collaboration with UX and Product Design, balancing consistency, accessibility, and flexibility.
+## Principais responsabilidades
 
-Key Responsibilities
+### Desenvolvimento da plataforma (Full-Stack, Frontend-Leaning)
 
-Platform Development (Full-Stack, Frontend-Leaning)
+- Desenhar e implementar arquitetura de front-end escalável e manutenível em Vue e Vite (framework reativo moderno)
+- Desenhar, conduzir e evoluir sistemas de front-end, incluindo estrutura da aplicação, state management, routing, padrões de data-fetching e utilitários compartilhados
+- Implementar componentes de back-end em Django e Sanic que dão suporte ao front-end, colaborando com especialistas de back-end quando necessário
+- Traduzir fluxos e requisitos complexos do produto em interfaces intuitivas e performáticas, alinhadas ao roadmap
+- Garantir performance, confiabilidade e responsividade do front-end no contexto real de salas de aula com banda limitada
 
-Design and implement scalable maintainable frontend architecture in Vue & Vite, a modern reactive frontend framework.
-Design, drive, and evolve frontend systems, including application structure, state management, routing, data-fetching patterns, and shared utilities.
-Implement the paired Django & Sanic backend components which power the frontend systems, collaborating with local backend specialists as needed.
-Translate complex product workflows and requirements into intuitive, performant user interfaces aligned with the product roadmap.
-Ensure frontend performance, reliability, and responsiveness in the context of real-world limited-bandwidth classroom environments.
+### Design system e plataforma de UI
 
-Design System & UI Platform
+- Liderar a criação e o refinamento contínuo do design system visual da plataforma, incluindo componentes compartilhados, bases de layout, tipografia e padrões de interação
+- Trabalhar com UX e Product Design para transformar designs visuais em componentes reutilizáveis, acessíveis e prontos para produção
+- Estabelecer padrões e guidelines claros para uso, estilização e extensão de componentes, promovendo uso consistente e sem atrito pelo time de engenharia
 
-Lead the creation and ongoing refinement of the platform’s visual design system, encompassing shared components, layout foundations, typography, and interaction patterns.
-Partner closely with UX and Product Design to translate visual designs into reusable, accessible, and production-ready components.
-Establish clear standards and guidelines for component usage, styling, and extension to promote frictionless & consistent usage by the engineering team.
+### Execução agile de produto
 
-Agile Product Execution
+- Trabalhar com Product, UX e liderança de Engineering para traduzir iniciativas do roadmap em trabalho bem escopado, alinhado a planejamento de sprints e releases
+- Contribuir com visão técnica durante discovery de produto e planejamento de roadmap, ajudando a definir escopo, sequência e viabilidade
+- Participar ativamente de sprint planning, backlog grooming, code & tech design reviews e retrospectives
+- Entregar de forma iterativa com velocidade previsível, equilibrando rapidez com manutenibilidade e qualidade no longo prazo
 
-Partner closely with Product, UX, and Engineering leadership to translate roadmap initiatives into well-scoped work aligned with sprint and release planning.
-Contribute technical perspective during product discovery and roadmap planning, helping shape scope, sequencing, and feasibility.
-Participate actively in sprint planning, backlog grooming, code & tech design reviews, and retrospectives.
-Deliver iteratively with predictable velocity, balancing speed with long-term maintainability and quality.
+### Colaboração cross-stack e qualidade
 
-Cross-Stack Collaboration & Quality
+- Trabalhar com full-stack engineers com foco em back-end (especialistas em Django, Sanic, MySQL e Amazon Web Services) ao implementar features com requisitos de back-end especialmente complexos
+- Atuar com Product, UX e liderança de Engineering para garantir que as features atendam critérios de aceite e necessidades reais de sala de aula
+- Contribuir para estratégias de testes automatizados (unit, integration e end-to-end) para sustentar releases iterativos com confiança
+- Fazer code reviews com cuidado, mentorar outras pessoas engenheiras e ajudar a elevar padrões de engenharia no time
 
-Work closely with backend-leaning full-stack engineers (specializing in Django, Sanic, MySQL, and Amazon Web Services) when implementing features with especially complex backend requirements.
-Partner with Product, UX, and Engineering leadership to ensure features meet acceptance criteria and real classroom needs.
-Contribute to automated testing strategies (unit, integration, and end-to-end) to support confident iterative releases.Provide thoughtful code reviews, mentor other engineers, and help raise engineering standards across the team.
+## Experiência e perfil desejados
 
-Preferred Background And Experience
+- Experiência sênior: 5+ anos de experiência profissional em engenharia de software, com influência relevante na direção e evolução de sistemas de front-end em aplicações web de produção
+- Expertise em front-end: experiência forte construindo aplicações com framework reativo baseado em componentes (Vue ou equivalente), com destaque em CSS, HTML e JavaScript
+- Back-end e colaboração: conforto para contribuir diretamente no back-end e colaborar com pessoas com foco em back-end quando necessário; experiência com framework de back-end como Django ou equivalente; proficiência em Python, TypeScript ou outra linguagem com tipagem gradual
+- Desenvolvimento orientado a produto: experiência colaborando com Product e UX para entregar experiências de alta qualidade
+- Infraestrutura em cloud: experiência com Amazon Web Services (AWS) ou ambientes similares
+- Execução agile: experiência entregando em ambientes de sprints com foco em qualidade e manutenibilidade
+- Ownership e comunicação: forte senso de ownership, comunicação clara e colaboração cross-functional efetiva
+- Formação: Bachelor’s degree em computer science, engenharia ou área correlata, ou experiência prática equivalente
 
-Senior Engineering Experience: 5+ years of professional software engineering experience, with meaningful influence over the direction and evolution of frontend systems in production web applications.
-Frontend Engineering Expertise: Strong experience building frontend applications using a reactive component-based framework such as Vue or equivalent, with special expertise in CSS, HTML, and JavaScript.
-Backend Engineering Proficiency & Collaboration:Comfortable contributing directly to backend development and collaborating with backend-leaning engineers when needed. Experience using a backend web framework such as Django or equivalent. Proficiency in Python, TypeScript, or other gradually-typed backend language.
-Product-Oriented Development:Experience collaborating closely with Product and UX partners to deliver high-quality user experiences.
-Cloud Infrastructure: Experience working in Amazon Web Services (AWS) or similar cloud-hosted environments.
-Agile Execution: Experience delivering work in sprint-based environments with a focus on quality and maintainability.
-Ownership & Communication: Strong sense of ownership, clear communication, and effective cross-functional collaboration.
-Education: Bachelor’s degree in computer science, engineering, or a related field or equivalent practical experience.
+## O que valorizamos
 
-What We Value
+- Clareza de pensamento e bom julgamento acima de soluções “espertas” ou complexas
+- Sistemas manuteníveis e bem estruturados acima de quick fixes
+- Ownership e responsabilidade por resultados, não apenas por tarefas
+- Colaboração cuidadosa e responsabilidade compartilhada entre disciplinas
 
-Clear thinking and sound judgment over clever or complex solutions.
-Maintainable, well-structured systems over quick fixes.
-Ownership and accountability for outcomes, not just tasks.
-Thoughtful collaboration and shared responsibility across disciplines.
+## Como trabalhamos
 
-How We Work
+- Times pequenos e focados, com ownership e responsabilidade claros
+- Colaboração forte entre Engineering, Product e Design, do discovery à entrega
+- Ênfase em requisitos claros, interfaces limpas e práticas sustentáveis de desenvolvimento
+- Preferência por comunicação assíncrona e tempo de foco protegido
+- Reuniões com propósito, em quantidade limitada, desenhadas para apoiar (e não interromper) deep work
 
-Small, focused teams with clear ownership and accountability
-Strong collaboration between Engineering, Product, and Design from discovery through delivery
-Emphasis on clear requirements, clean interfaces, and sustainable development practices
-Preference for asynchronous communication and protected focus time
-Meetings are purposeful, limited, and designed to support, not interrupt, deep work
+## Remuneração
 
-Compensation
+Esta é uma função full-time com base salarial competitiva, equity e benefícios. A remuneração é determinada com base em experiência e escopo do papel. Buscamos pessoas candidatas que possam colaborar com o time de segunda a sexta por 8 horas/dia, com sobreposição entre 9h e 15h no fuso Pacific Time.
 
-This is a full-time role with a competitive base salary, equity, and benefits. Compensation is determined based on experience and role scope. We are seeking applicants who can collaborate with our team Monday-Friday for 8 hours/day overlapping 9 AM to 3 PM Pacific Time.
+A faixa salarial base esperada para esta função é de $130,000–$150,000. Além do salário, a TechSmart oferece participação em equity, benefícios abrangentes e a oportunidade de assumir ownership relevante em uma plataforma greenfield.
 
-The expected base salary range for this role is $130,000–$150,000. In addition to base salary, TechSmart offers equity participation, comprehensive benefits, and the opportunity to take meaningful ownership in a greenfield platform.
+Buscamos pagar de forma justa, transparente e competitiva dentro de cada mercado, revisitando remuneração conforme o papel evolui e as responsabilidades crescem.
 
-We aim to pay fairly, transparently, and competitively within each market, and we revisit compensation as roles evolve and responsibilities grow.
+## Interessado(a) em se juntar a nós?
 
-Interested in Joining Us?
+Para se candidatar, clique no botão Apply to Position acima.
 
-To apply click the Apply to Position button above.
+Queremos ouvir sua voz autêntica.
 
-We want to hear your authentic voice.
+Por favor, envie uma cover letter personalizada contando o que te anima nesta empresa e como sua trajetória se alinha ao papel. Dedicamos tempo para ler cada candidatura e entender a pessoa por trás do resume.
 
-Please provide a personalized cover letter sharing what excites you about this company and how your background aligns with the role. We personally dedicate time to reading every application to understand the individual behind the resume.
+Escreva em suas próprias palavras, sem assistência de AI tools. Buscamos sentimento genuíno e expressão pessoal única, que a AI não consegue replicar.
 
-Please draft this in your own words, without the assistance of AI tools. We are specifically looking for genuine sentiment and unique personal expression that AI cannot replicate.
+Observação: somente candidaturas com cover letter serão analisadas. Para garantir um processo justo baseado em autenticidade, candidaturas com conteúdo gerado por AI serão desclassificadas.
 
-Note: Only applications with a cover letter will be reviewed. To ensure a fair process based on authenticity, applications containing AI-generated content will be disqualified.
+## Próximos passos
+Esta é uma posição prioritária e estamos revisando resumes ativamente. Se sua candidatura passar pelo screening inicial, você receberá um e-mail com um link para um questionnaire que nos ajuda a conhecer você melhor. Acompanhe sua caixa de entrada e complete o questionário no prazo para que possamos avançar para a fase de entrevista.
 
-What to Expect Next This is a high-priority position and we are reviewing resumes actively. If your application passes our initial screening, you will receive an email with a link to a questionnaire which helps us get to know you better. Please monitor your inbox and complete the questionnaire in a timely manner so that we can advance you to the interview phase.
-
-We look forward to reviewing your application and connecting with you soon.
+Estamos ansiosos para revisar sua candidatura e conversar com você em breve.

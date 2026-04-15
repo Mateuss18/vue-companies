@@ -1,5 +1,4 @@
-# About the job
-
+# Sobre a vaga
 ## Sobre a Clicksign
 
 Somos uma empresa brasileira líder em assinaturas eletrônicas. Em essência, facilitamos relações entre pessoas e empresas no ambiente digital. Por trás da nossa tecnologia de ponta e foco em segurança, temos a missão de fazer o mundo crescer, tornando as relações digitais cada vez mais inteligentes.

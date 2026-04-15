@@ -92,10 +92,12 @@
 
   --color-purple: #7c3aed;
   --color-blue: #2563eb;
-  --color-green: #00835a;
+  --color-green: #078300;
   --color-orange: #ca4802;
   --color-red: #a82222;
 
+  --breakpoint-1780: 1780px;
+  --breakpoint-1700: 1700px;
   --breakpoint-xxl: 1550px;
   --breakpoint-lg: 1350px;
   --breakpoint-md: 550px;

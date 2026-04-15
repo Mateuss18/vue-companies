@@ -1,7 +1,5 @@
 # Frontend AEM Developer
-
-## About the job
-
+## Sobre a vaga
 Atividades e Responsabilidades
 
 • Desenvolvimento evolutivo de aplicações na camada de front-end utilizando Vue.JS;
@@ -48,9 +46,9 @@ Diferencial:
 
 • Conhecer sobre os processos de UX
 
-Requirements added by the job poster
+Requisitos adicionados pelo anunciante
 
-• 2+ years of work experience with Adobe Experience Manager (AEM)
+• 2+ anos de experiência de trabalho com Adobe Experience Manager (AEM)
 
 ---
 

@@ -1,63 +1,62 @@
-Laravel & Vue.js Developer
+# Laravel & Vue.js Developer
+## Sobre a vaga
+Trabalhe de qualquer lugar | Time de alta performance | Construa produtos globais
 
-About the job
-🌏 Work From Anywhere | High‑Performance Team | Build Global Products
-
-We’re an Australian market leader expanding worldwide—and we’re looking for ambitious developers who want to grow fast, build amazing products, and work in a culture driven by excellence.
-
-
-If you want to elevate your career, work with modern technologies, and be part of a team striving for 10X growth, we want to meet you.
+Somos líderes de mercado na Austrália e estamos expandindo globalmente — e buscamos pessoas desenvolvedoras ambiciosas que queiram crescer rápido, construir produtos incríveis e trabalhar em uma cultura guiada por excelência.
 
 
-🔧 What You’ll Do
-
-Develop high‑quality applications using Laravel and Vue.js / Nuxt.js
-Build and maintain RESTful APIs with clean, scalable architecture
-Create engaging UI components using HTML, CSS, JavaScript, and Sass
-Collaborate closely with designers and developers to ship polished features
-Improve database performance and optimize MySQL queries
-Participate in deployments and help ensure smooth feature releases
-Take ownership of tasks and occasionally lead small project initiatives
-Adapt quickly in a fast‑moving, high‑performance environment
+Se você quer elevar sua carreira, trabalhar com tecnologias modernas e fazer parte de um time buscando crescimento 10X, queremos te conhecer.
 
 
-🎯 What We’re Looking For
+## O que você vai fazer
 
-Core Technical Skills
-
-
-
-Backend (Laravel)
-
-Strong experience with Laravel 10+
-SQL schema design, SOLID principles, scalable architecture
-MySQL performance optimization
-RESTful API development & documentation (Postman, Bruno, Insomnia)
-Familiarity with AWS or basic server deployments
+- Desenvolver aplicações de alta qualidade usando Laravel e Vue.js / Nuxt.js
+- Construir e manter RESTful APIs com arquitetura limpa e escalável
+- Criar componentes de UI usando HTML, CSS, JavaScript e Sass
+- Colaborar com designers e desenvolvedores para shippar features bem acabadas
+- Melhorar performance de banco de dados e otimizar queries em MySQL
+- Participar de deployments e ajudar a garantir releases suaves
+- Assumir ownership de tarefas e, ocasionalmente, liderar pequenas iniciativas de projeto
+- Se adaptar rapidamente em um ambiente acelerado e de alta performance
 
 
-Frontend (Vue/Nuxt)
+## O que buscamos
 
-Proficient in Vue.js and Nuxt.js
-Strong HTML5, CSS3, JavaScript, and Sass skills
-Understanding of composables, state management, reusable components
-Bonus: Vitest, Cypress/Playwright, TypeScript
+### Habilidades técnicas essenciais
 
 
-General
 
-Proficient with Git
-Ability to write testable, maintainable code (unit tests)
-Experience working with Stripe API
-Understanding of Agile (Scrum or Kanban)
-Reliable internet + your own development‑capable laptop
+#### Back-end (Laravel)
+
+- Experiência sólida com Laravel 10+
+- Design de schema SQL, princípios SOLID e arquitetura escalável
+- Otimização de performance em MySQL
+- Desenvolvimento e documentação de RESTful APIs (Postman, Bruno, Insomnia)
+- Familiaridade com AWS ou deployments básicos em servidores
 
 
-🌟 What You’ll Get
+#### Front-end (Vue/Nuxt)
 
-Fully Flexible Remote Work – perform from anywhere
-Fast Career Growth – performance reviews every 6 months
-Personal & Professional Development – set quarterly goals with a talent coach
-Global Impact – build products used worldwide
-Recognition & Growth Portfolio – track your achievements
-High‑Performance Culture – join a team committed to excellence
+- Proficiência em Vue.js e Nuxt.js
+- Forte conhecimento em HTML5, CSS3, JavaScript e Sass
+- Entendimento de composables, state management e componentes reutilizáveis
+- Diferenciais: Vitest, Cypress/Playwright, TypeScript
+
+
+#### Geral
+
+- Proficiência com Git
+- Capacidade de escrever código testável e manutenível (unit tests)
+- Experiência com Stripe API
+- Entendimento de Agile (Scrum ou Kanban)
+- Internet confiável + notebook próprio com capacidade para desenvolvimento
+
+
+## O que você ganha
+
+- Trabalho remoto totalmente flexível — atue de qualquer lugar
+- Crescimento rápido de carreira — performance reviews a cada 6 meses
+- Desenvolvimento pessoal e profissional — metas trimestrais com apoio de talent coach
+- Impacto global — construa produtos usados no mundo todo
+- Portfolio de reconhecimento e crescimento — acompanhe suas conquistas
+- Cultura de alta performance — faça parte de um time comprometido com excelência

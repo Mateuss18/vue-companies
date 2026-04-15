@@ -1,6 +1,5 @@
 🏡 Frontend Vue / NuxtJS (100% teletrabajo) 🏡
-
-About the job
+Sobre a vaga
 📚Únete a nuestro equipo como Frontend Vue / NuxtJS (100% teletrabajo) 📚
 
 Si tienes experiencia desarrollando aplicaciones web modernas con Vue y NuxtJS, y buscas un nuevo reto profesional en modalidad 100% remoto, ¡esta es tu oportunidad!

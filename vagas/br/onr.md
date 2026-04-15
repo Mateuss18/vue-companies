@@ -1,4 +1,4 @@
-About the job
+Sobre a vaga
 Oportunidade com prioridade para pessoas com deficiência (PCD).
 
 Descrição:

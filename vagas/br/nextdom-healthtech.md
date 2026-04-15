@@ -1,6 +1,4 @@
-
-# About the job
-
+# Sobre a vaga
 **Prazer, nós somos a NEXDOM Healthtech 🤝🏽**
 
 Você está preparado para fazer parte de uma empresa que promove inovação e qualidade na gestão de operadoras de planos de saúde, oferece um completo pacote de benefícios, plano de desenvolvimento e está há mais 20 anos no mercado?

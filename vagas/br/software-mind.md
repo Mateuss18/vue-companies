@@ -1,48 +1,49 @@
-About the job
-Company Description
+## Sobre a vaga
+## Descrição da empresa
 
-Software Mind develops solutions that make an impact for companies around the globe. Tech giants & unicorns, transformative projects, emerging technologies and limitless opportunities – these are a few words that describe an average day for us. Building cross-functional engineering teams that take ownership and crave more means we’re always on the lookout for talented people who bring passion and creativity to every project. Our culture embraces openness, acts with respect, shows grit & guts and combines employment with enjoyment.
+A Software Mind desenvolve soluções que geram impacto para empresas no mundo todo. Tech giants e unicorns, projetos transformadores, tecnologias emergentes e oportunidades sem limite — essas são algumas palavras que descrevem um dia típico por aqui. Construímos times de engenharia cross-functional com ownership e vontade de ir além, por isso estamos sempre buscando pessoas talentosas que tragam paixão e criatividade para cada projeto. Nossa cultura valoriza abertura, respeito, resiliência (grit & guts) e combina trabalho com um ambiente leve.
 
-Job Description
+## Descrição da vaga
 
-Project – the aim you’ll have:
+### Projeto — o objetivo da função
 
-We are looking for a capable and motivated Intermediate Frontend Engineer to support one of our cross-functional product Teams. The role is ideal for someone with solid experience in frontend development who enjoys collaborative work, takes initiative, and is keen to grow further by contributing to complex projects in an agile setup.
+Buscamos uma pessoa Intermediate Frontend Engineer capaz e motivada para apoiar um de nossos product teams cross-functional. A função é ideal para quem tem experiência sólida em desenvolvimento front-end, gosta de trabalho colaborativo, toma iniciativa e quer crescer contribuindo para projetos complexos em um contexto agile.
 
-Position – How You’ll Contribute
+### Posição — como você vai contribuir
 
-The Intermediate Frontend Engineer will:
+A pessoa Intermediate Frontend Engineer irá:
 
-Support the development and maintenance of frontend projects, including migrating legacy solutions and assisting with framework version updates.
-Collaborate closely with our internal client teams and maintain clear communication with stakeholders on both the client and service side to ensure smooth project execution.
-Actively contribute to the team by listening, asking questions, sharing ideas, and being open to new concepts and perspectives.
-Help ensure high-quality standards in our digital products, making decisions based on data and user-centric thinking.
-Share knowledge with team members and support others with specific technical questions. Occasionally, you may organize internal sessions to foster learning and knowledge exchange.
-Identify challenges early
+- Apoiar o desenvolvimento e a manutenção de projetos de front-end, incluindo migração de soluções legadas e atualização de versões de frameworks
+- Colaborar com times internos do cliente e manter comunicação clara com stakeholders (do lado do cliente e do serviço) para garantir execução fluida
+- Contribuir ativamente com o time ouvindo, fazendo perguntas, compartilhando ideias e estando aberto(a) a novos conceitos e perspectivas
+- Ajudar a garantir altos padrões de qualidade nos produtos digitais, tomando decisões orientadas por dados e com foco no usuário
+- Compartilhar conhecimento com o time e apoiar colegas em dúvidas técnicas específicas; ocasionalmente, organizar sessões internas para estimular aprendizado e troca
+- Identificar desafios cedo
 
-Qualifications
+## Qualificações
 
-Expectations – the experience you need:
+### Expectativas — a experiência necessária
 
-We expect the nominated engineer to bring the following qualifications:
+Esperamos que a pessoa traga as seguintes qualificações:
 
-Solid Frontend Knowledge: Proficiency in HTML5, CSS3, ES5/6, and TypeScript. Experience with at least one modern JavaScript framework (e.g. Vue.js/Nuxt, React/Gatsby, or Angular).
-Code Quality & Testing: Understanding of clean code practices and familiarity with writing meaningful test cases using tools like Jest or TestCafé.Toolchain Experience: Confident use of Git, build tools (e.g. NPM), and experience in setting up or working within existing environments.
-Team Collaboration: Comfortable working in agile setups (e.g. Scrum, Kanban), with a proactive and communicative approach.
-Language Skills: Good communication skills in both German and English, written and spoken.
+- Conhecimento sólido de front-end: proficiência em HTML5, CSS3, ES5/6 e TypeScript; experiência com pelo menos um framework JavaScript moderno (ex.: Vue.js/Nuxt, React/Gatsby ou Angular)
+- Code quality & testing: entendimento de práticas de clean code e familiaridade em escrever casos de teste relevantes usando ferramentas como Jest ou TestCafé
+- Toolchain: uso confiante de Git, build tools (ex.: NPM) e experiência configurando ou atuando em ambientes já existentes
+- Colaboração: conforto para trabalhar em setups agile (ex.: Scrum, Kanban), com postura proativa e comunicativa
+- Idiomas: boa comunicação em alemão e inglês, escrito e falado
 
-Additional Information
+## Informações adicionais
 
-Our Offer – Professional Development, Personal Growth
+### O que oferecemos — desenvolvimento profissional e crescimento pessoal
 
-Flexible employment and remote work 
-International projects with leading global clients 
-International business trips 
-Non-corporate atmosphere 
-Language classes 
-Internal & external training 
-Private healthcare and insurance 
-Multisport card 
-Well-being initiatives 
+- Contratação flexível e trabalho remoto
+- Projetos internacionais com clientes globais relevantes
+- Viagens internacionais a trabalho
+- Ambiente não corporativo
+- Aulas de idiomas
+- Treinamentos internos e externos
+- Assistência médica e seguro privados
+- Multisport card
+- Iniciativas de well-being
 
-Position at: Software Mind Poland
+Local da vaga: Software Mind Poland

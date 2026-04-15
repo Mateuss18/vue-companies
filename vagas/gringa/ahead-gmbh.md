@@ -1,62 +1,60 @@
 # Fullstack Developer (Vue.js, Kotlin)
+## Sobre a vaga
+Meio período ou tempo integral
 
-## About the job
+Sobre nós
 
-Teilzeit oder Vollzeit
+Somos a ahead& e seguimos crescendo. Como uma consultoria ágil de IA, que conecta tecnologias criativas com pensamento orientado a dados, apoiamos nossos clientes em desafios diversos. Desenvolvemos soluções inteligentes que geram valor real — de web apps sob medida a automações inteligentes. Nosso time de desenvolvimento trabalha em parceria com pessoas de consultoria, design e especialistas em AI — de forma pragmática, criativa e sempre no mesmo nível.
 
-Über uns
+Suas responsabilidades
 
-Wir sind ahead& und wachsen weiter. Als agile KI-Beratung, die kreative Technologien mit datengetriebenem Denken verbindet unterstützen wir unsere Kunden in unterschiedlichsten Herausforderungen. Wir entwickeln smarte Lösungen, die echten Mehrwert für unsere Kunden schaffen – von individuellen Web-Apps bis zu intelligenten Automatisierungen. Unser Entwicklerteam arbeitet eng mit Berater:innen, Designer:innen und AI-Spezialist:innen zusammen – pragmatisch, kreativ und immer auf Augenhöhe.
+- Desenvolver aplicações web modernas com Vue.js, Vuetify e Kotlin
+- Implementar novas features no front-end e no back-end
+- Integrar interfaces REST e gRPC
+- Colaborar em um time interdisciplinar com consultoria, UX e Tech
+- Garantir qualidade com testing, code reviews e princípios de clean code
+- Atuar de forma opcional em projetos de AI e integrações com GPT & Co.
 
-Deine Aufgaben
+O que você precisa ter
 
-Entwicklung moderner Webanwendungen mit Vue.js, Vuetify und Kotlin
-Umsetzung neuer Features im Front- und Backend
-Integration von REST- und gRPC-Schnittstellen
-Zusammenarbeit im interdisziplinären Team aus Beratung, UX und Tech
-Qualitätssicherung durch Testing, Code Reviews und Clean Code Prinzipien
-Optionale Mitarbeit an KI-Projekten und Schnittstellen zu GPT & Co.
+- Excelente conhecimento em Vue.js e Vuetify
+- Experiência em desenvolvimento com Kotlin (alternativa: Java, com disponibilidade para aprender Kotlin)
+- Boa prática com REST APIs, Git e CI/CD
+- Alemão C1 (oral e escrito) é obrigatório
+- Perfil autônomo, organizado e com vontade de atuar em projetos modernos de tecnologia
 
-Was du mitbringen solltest
+Diferenciais
 
-Sehr gute Kenntnisse in Vue.js und Vuetify
-Erfahrung in der Entwicklung mit Kotlin (alternativ: Java mit Bereitschaft zur Einarbeitung)
-Sicherer Umgang mit REST APIs, Git, CI/CD
-Deutsch C1 in Wort und Schrift sind ein Muss
-Eigenständige, strukturierte Arbeitsweise und Lust auf moderne Tech-Projekte
+- Experiência com TailwindCSS, Nuxt ou ambientes JetBrains
+- Interesse em AI generativa ou aplicações orientadas a dados
+- Conhecimento em cloud, como GCP ou Microsoft Azure
 
-Nice to have
+O que oferecemos
 
-Erfahrung mit TailwindCSS, Nuxt oder JetBrains-Umgebungen
-Interesse an generativer KI oder datengetriebenen Anwendungen
-Kenntnisse in Cloud-Umgebungen wie GCP oder Microsoft Azure
+- Trabalho 100% remoto com horários flexíveis
+- Projetos desafiadores com impacto real
+- Setup moderno e ferramentas state-of-the-art
+- Time próximo, com bastante troca e decisões rápidas
+- Desenvolvimento pessoal em Creative Tech & AI
+- Opcional: dias do time e meet-ups em Düsseldorf
 
-Was wir bieten
+Candidatar-se
 
-100% Remote-Arbeit mit flexiblen Arbeitszeiten
-Anspruchsvolle Projekte mit echtem Impact
-Modernes Tech-Setup & State-of-the-Art Tools
-Enges Team mit viel Austausch und schnellen Entscheidungen
-Persönliche Weiterentwicklung im Bereich Creative Tech & KI
-Optional: Teamtage & Meet-ups in Düsseldorf
+Quer conectar tecnologia e criatividade? Alemão C1 (oral e escrito) é obrigatório.
 
-Jetzt bewerben
+Então envie seu currículo (de preferência com GitHub ou exemplos de projetos), informando pretensão salarial e disponibilidade.
 
-Du hast Lust, Technologie und Kreativität zu verbinden? Deutsch C1 in Wort und Schrift sind ein Muss.
+Tipo de vaga: Contrato permanente
 
-Dann schick uns deinen Lebenslauf (gern inkl. GitHub oder Projektbeispiele) mit Angabe deiner Gehaltsvorstellung und Verfügbarkeit.
+Benefícios:
 
-Art der Stelle: Festanstellung
+Capacitação e treinamentos
 
-Leistungen:
+Idioma:
 
-Betriebliche Weiterbildung
+Alemão C1 (Obrigatório)
 
-Sprache:
-
-Deutsch C1 (Erforderlich)
-
-Arbeitsort: Homeoffice
+Local de trabalho: Home office
 
 ---
 
