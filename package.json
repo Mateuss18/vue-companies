@@ -15,6 +15,7 @@
     "@nuxt/ui": "^4.4.0",
     "@nuxtjs/i18n": "10.2.4",
     "@phosphor-icons/vue": "^2.2.1",
+    "@vercel/analytics": "^2.0.1",
     "flag-icons": "^7.5.0",
     "i18n-iso-countries": "^7.14.0",
     "nuxt": "^4.3.1",

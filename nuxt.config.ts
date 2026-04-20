@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: false },
-  modules: ['@nuxt/eslint', '@nuxt/ui', 'nuxt-gtag', '@nuxtjs/i18n'],
+  modules: ['@vercel/analytics', '@nuxt/eslint', '@nuxt/ui', 'nuxt-gtag', '@nuxtjs/i18n'],
   vite: {
     build: {
       sourcemap: false,
