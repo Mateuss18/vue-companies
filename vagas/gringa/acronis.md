@@ -1,12 +1,11 @@
 # Senior Frontend Developer (Vue)
 
-Acronis is a global cyber protection company looking for a Senior Frontend Developer to work on products related to remote monitoring and management. The role focuses on building reliable frontend experiences with Vue and TypeScript in a hybrid setup based in Istanbul.
+Acronis presents the role as a senior frontend position inside its cyber protection platform, with work centered on secure and high-performance web applications for Acronis RMM. The posting highlights Vue and TypeScript development aimed at improving usability, security, responsiveness, and scalability for products used by millions of users worldwide.
 
-The description highlights responsibility for designing and implementing new UI functionality, improving architecture and performance, reviewing code, mentoring peers, and collaborating with product and backend teams. Strong experience with Vue, TypeScript, testing, and scalable frontend engineering is central to the role.
+The description emphasizes scalable UI delivery, code review, performance optimization, troubleshooting across environments, and ownership over feature development. It also calls out strong experience with Vue.js, TypeScript, HTML/CSS, design patterns, and collaboration in a global product engineering environment.
 
-The company positions the team inside a broader cyber protection platform that combines backup, security, automation, and management capabilities for service providers and IT teams.
+The company positions the opportunity within its broader cybersecurity, data protection, and infrastructure management platform for service providers, SMBs, enterprise IT teams, and home users. The role is remote in Spain and tied to Acronis' wider mission around cyber protection and business continuity.
 
 ---
-Extra?do em: 29/03/2026
-Link: https://www.linkedin.com/jobs/view/4365408060/
-
+Extraído em: 17/04/2026
+Link: https://www.linkedin.com/jobs/view/4365540648/
