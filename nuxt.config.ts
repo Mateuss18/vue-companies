@@ -2,9 +2,9 @@ const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || 'https://vue-companies.verc
   /\/$/,
   '',
 )
-const siteName = 'Vue Companies'
+const siteName = 'Vue Companies | Empresas que usam Vue.js'
 const siteDescription =
-  'Trabalhe onde o Vue.js e valorizado e descubra empresas brasileiras e internacionais que desenvolvem com Vue.'
+  'Trabalhe onde o Vue.js é valorizado e descubra empresas brasileiras e internacionais que desenvolvem com Vue.'
 const socialImageUrl = `${siteUrl}/og-image.png`
 
 export default defineNuxtConfig({
@@ -42,7 +42,18 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: false },
-  modules: ['@vercel/analytics', '@nuxt/eslint', '@nuxt/ui', 'nuxt-gtag', '@nuxtjs/i18n'],
+  modules: [
+    '@nuxtjs/sitemap',
+    '@vercel/analytics',
+    '@nuxt/eslint',
+    '@nuxt/ui',
+    'nuxt-gtag',
+    '@nuxtjs/i18n',
+  ],
+  site: {
+    url: siteUrl,
+    name: siteName,
+  },
   vite: {
     build: {
       sourcemap: false,
