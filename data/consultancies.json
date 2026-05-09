@@ -1793,10 +1793,36 @@
       "description": "Consultoria global de tecnologia que reúne empresas especializadas para entregar IA, cloud, dados e transformação digital em escala.",
       "createdAt": "2026-04-17",
       "descriptionEn": "Global technology consultancy uniting specialized firms to deliver AI, cloud, data, and digital transformation at scale."
+    },
+    {
+      "id": 139,
+      "name": "Novadata",
+      "slug": "novadata",
+      "country": "Brazil",
+      "size": "small",
+      "website": "https://novadata.com.br/",
+      "domain": "novadata.com.br",
+      "linkedin": "https://www.linkedin.com/company/novadatatecnologia/",
+      "description": "Consultoria de desenvolvimento de software que cria squads e soluções sob medida para digitalizar produtos e serviços.",
+      "createdAt": "2026-04-27",
+      "descriptionEn": "Software development consultancy that builds squads and custom solutions to digitize products and services."
+    },
+    {
+      "id": 140,
+      "name": "Techrx Recruiting",
+      "slug": "techrx",
+      "country": "Brazil",
+      "size": "startup",
+      "website": "https://techrx.com.br/",
+      "domain": "techrx.com.br",
+      "linkedin": "https://www.linkedin.com/company/techrx-recruiting/",
+      "description": "Boutique de recrutamento em RH e Tecnologia, conectando talentos a empresas com processos ágeis e humanos.",
+      "createdAt": "2026-04-27",
+      "descriptionEn": "Recruiting boutique focused on HR and tech, connecting talent and companies through agile, human hiring processes."
     }
   ],
   "meta": {
-    "total": 138,
-    "lastUpdate": "2026-04-17"
+    "total": 140,
+    "lastUpdate": "2026-04-27"
   }
 }

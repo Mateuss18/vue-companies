@@ -1658,7 +1658,13 @@
       "domain": "bmwtechworks.ro",
       "linkedin": "https://www.linkedin.com/company/bmw-techworks-romania/",
       "description": "Hub europeu de engenharia de software que cria sistemas para RH, produção, vendas e serviços financeiros do BMW Group.",
-      "tags": ["automotive", "mobility", "software", "enterprise-systems", "digital-transformation"],
+      "tags": [
+        "automotive",
+        "mobility",
+        "software",
+        "enterprise-systems",
+        "digital-transformation"
+      ],
       "workModel": ["hybrid"],
       "createdAt": "2026-04-17",
       "descriptionEn": "European software engineering hub building systems for HR, production, sales, and financial services within BMW Group."
@@ -1710,10 +1716,74 @@
       "workModel": ["remote"],
       "createdAt": "2026-04-17",
       "descriptionEn": "iGaming technology company building B2B products and services focused on performance, SEO, and international scale."
+    },
+    {
+      "id": 107,
+      "name": "GitLab",
+      "slug": "gitlab",
+      "country": "United States",
+      "city": "San Francisco",
+      "size": "large",
+      "website": "https://about.gitlab.com/",
+      "domain": "about.gitlab.com",
+      "linkedin": "https://www.linkedin.com/company/gitlab-com/",
+      "description": "Plataforma DevSecOps completa em uma única aplicação para planejar, desenvolver, proteger e entregar software mais rápido.",
+      "tags": ["devsecops", "devops", "saas", "developer-tools", "ci-cd"],
+      "workModel": ["remote"],
+      "createdAt": "2026-04-26",
+      "descriptionEn": "Single-application DevSecOps platform to plan, build, secure, and deliver software faster."
+    },
+    {
+      "id": 108,
+      "name": "Hotmart",
+      "slug": "hotmart",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "size": "large",
+      "website": "https://www.hotmart.com/",
+      "domain": "hotmart.com",
+      "linkedin": "https://www.linkedin.com/company/hotmart/",
+      "description": "Empresa global de tecnologia líder na Creator Economy, com plataforma para criar, vender e escalar produtos digitais.",
+      "tags": ["creator-economy", "plataforma", "produto-digital", "saas", "marketing"],
+      "workModel": ["hybrid"],
+      "createdAt": "2026-04-27",
+      "descriptionEn": "Global technology company leading the Creator Economy with a platform to create, sell, and scale digital products."
+    },
+    {
+      "id": 109,
+      "name": "InMeta",
+      "slug": "inmeta",
+      "country": "Brazil",
+      "city": "Criciúma",
+      "size": "startup",
+      "website": "https://www.inmeta.com.br/",
+      "domain": "inmeta.com.br",
+      "linkedin": "https://www.linkedin.com/company/inmeta/",
+      "description": "Plataforma SaaS para gestão de obras com indicadores em tempo real, redução de desperdícios e controle de custos na construção civil.",
+      "tags": ["construcao-civil", "saas", "gestao-de-obras", "b2b", "dados"],
+      "workModel": ["remote"],
+      "createdAt": "2026-04-27",
+      "descriptionEn": "SaaS platform for construction project management with real-time indicators, cost control, and reduced waste."
+    },
+    {
+      "id": 110,
+      "name": "Doclio",
+      "slug": "doclio",
+      "country": "Brazil",
+      "city": "São Paulo",
+      "size": "startup",
+      "website": "https://www.doclio.com.br/",
+      "domain": "doclio.com.br",
+      "linkedin": "https://www.linkedin.com/company/docliomed/",
+      "description": "Plataforma SaaS para médicos autônomos, com agenda, cobrança integrada e comunicação para reduzir faltas e organizar a operação.",
+      "tags": ["healthtech", "saas", "software", "pagamentos", "agenda"],
+      "workModel": ["remote"],
+      "createdAt": "2026-04-27",
+      "descriptionEn": "SaaS platform for independent doctors with scheduling, integrated billing, and communication to reduce no-shows."
     }
   ],
   "meta": {
-    "total": 106,
-    "lastUpdate": "2026-04-17"
+    "total": 110,
+    "lastUpdate": "2026-04-27"
   }
 }
