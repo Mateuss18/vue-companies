@@ -1780,10 +1780,42 @@
       "workModel": ["remote"],
       "createdAt": "2026-04-27",
       "descriptionEn": "SaaS platform for independent doctors with scheduling, integrated billing, and communication to reduce no-shows."
+    },
+    {
+      "id": 111,
+      "name": "Atlas Technologies",
+      "slug": "atlas-technologies",
+      "country": "Brazil",
+      "city": "Pelotas",
+      "size": "medium",
+      "website": "https://www.atlastechnol.com/",
+      "domain": "atlastechnol.com",
+      "linkedin": "https://www.linkedin.com/company/atlas-technol/",
+      "description": "Empresa de serviços de TI que desenvolve soluções e produtos digitais com foco em qualidade, colaboração e evolução técnica.",
+      "tags": ["servicos-ti", "consultoria", "software", "produto-digital", "desenvolvimento"],
+      "workModel": ["remote"],
+      "createdAt": "2026-05-08",
+      "descriptionEn": "IT services company building digital products and solutions with a focus on quality, collaboration, and technical excellence."
+    },
+    {
+      "id": 112,
+      "name": "respond.io",
+      "slug": "respond-io",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "size": "small",
+      "website": "https://respond.io/",
+      "domain": "respond.io",
+      "linkedin": "https://www.linkedin.com/company/respondio/",
+      "description": "Plataforma SaaS de mensagens para unificar canais e automatizar atendimento, marketing e vendas em escala para empresas.",
+      "tags": ["saas", "b2b", "mensageria", "customer-support", "automacao"],
+      "workModel": ["hybrid"],
+      "createdAt": "2026-05-08",
+      "descriptionEn": "SaaS messaging platform that unifies channels and automates support, marketing, and sales conversations for businesses."
     }
   ],
   "meta": {
-    "total": 110,
-    "lastUpdate": "2026-04-27"
+    "total": 112,
+    "lastUpdate": "2026-05-08"
   }
 }

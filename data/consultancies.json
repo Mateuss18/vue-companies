@@ -1819,10 +1819,75 @@
       "description": "Boutique de recrutamento em RH e Tecnologia, conectando talentos a empresas com processos ágeis e humanos.",
       "createdAt": "2026-04-27",
       "descriptionEn": "Recruiting boutique focused on HR and tech, connecting talent and companies through agile, human hiring processes."
+    },
+    {
+      "id": 141,
+      "name": "ART IT - Intelligent Technology",
+      "slug": "art-it-intelligent-technology",
+      "country": "Brazil",
+      "size": "medium",
+      "website": "http://www.artit.com.br/",
+      "domain": "artit.com.br",
+      "linkedin": "https://www.linkedin.com/company/artitbrasil/",
+      "description": "Consultoria de software e design com squads ágeis para criar e evoluir produtos, apps e integrações digitais.",
+      "createdAt": "2026-05-08",
+      "descriptionEn": "Software and design consultancy building agile squads to create and evolve digital products, apps, and integrations."
+    },
+    {
+      "id": 142,
+      "name": "NTT DATA Europe & Latam",
+      "slug": "ntt-data-europe-latam",
+      "country": "Spain",
+      "size": "enterprise",
+      "website": "https://es.nttdata.com/",
+      "domain": "es.nttdata.com",
+      "linkedin": "https://www.linkedin.com/company/ntt-data-europe-latam/",
+      "description": "Consultoria global de TI que entrega soluções de negócio, cloud e dados, com desenvolvimento e operação de aplicações em escala.",
+      "createdAt": "2026-05-08",
+      "descriptionEn": "Global IT consultancy delivering business solutions in cloud and data, with application development and operations at scale."
+    },
+    {
+      "id": 143,
+      "name": "Flexon Technologies Talent360.ai",
+      "slug": "flexon-technologies-talent360-ai",
+      "country": "United States",
+      "size": "small",
+      "website": "https://www.flexontechnologies.com/",
+      "domain": "flexontechnologies.com",
+      "linkedin": "https://www.linkedin.com/company/flexon-technologies-inc/",
+      "description": "Consultoria e staffing de tecnologia com desenvolvimento sob demanda, migração para cloud e times dedicados para clientes.",
+      "createdAt": "2026-05-08",
+      "descriptionEn": "Technology consulting and staffing firm offering custom development, cloud migration, and dedicated teams for clients."
+    },
+    {
+      "id": 144,
+      "name": "Talent Group",
+      "slug": "talent-group",
+      "country": "Brazil",
+      "size": "small",
+      "website": "https://www.talentgroup.com.br/",
+      "domain": "talentgroup.com.br",
+      "linkedin": "https://www.linkedin.com/company/talentgroupbr/",
+      "description": "Consultoria de staffing e recrutamento, com alocação de profissionais de TI e foco em qualidade, fundada em 1995 em São Paulo.",
+      "createdAt": "2026-05-11",
+      "descriptionEn": "Staffing and recruiting consultancy providing IT talent allocation and hiring support, founded in 1995 and based in São Paulo."
+    },
+    {
+      "id": 145,
+      "name": "FourHands",
+      "slug": "four-hands",
+      "country": "Brazil",
+      "size": "startup",
+      "website": "https://fourhandsbrasil.com.br/",
+      "domain": "fourhandsbrasil.com.br",
+      "linkedin": "https://www.linkedin.com/company/four-hands-brasil/",
+      "description": "Consultoria de active hunting e outsourcing, apoiando RH na contratação de profissionais de TI e gestão de projetos, sediada no ES.",
+      "createdAt": "2026-05-11",
+      "descriptionEn": "Active hunting and outsourcing consultancy supporting HR to hire ICT and project management professionals, based in Brazil."
     }
   ],
   "meta": {
-    "total": 140,
-    "lastUpdate": "2026-04-27"
+    "total": 145,
+    "lastUpdate": "2026-05-11"
   }
 }
