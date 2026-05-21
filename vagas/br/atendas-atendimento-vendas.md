@@ -1,5 +1,7 @@
 # Desenvolvedor Front-End (Vue.js) – Nível Pleno
 
+empresa: Atendas - Atendimento & Vendas
+
 Buscamos um(a) Desenvolvedor(a) Front-End Pleno apaixonado(a) por criar interfaces fluidas e performáticas. Você atuará na evolução da nossa plataforma, utilizando boas práticas de componentização e garantindo a qualidade do código entregue. As atividades diárias incluirão a colaboração com a equipe de design e back-end para implementar soluções eficientes e de qualidade.
 
 Principais Responsabilidades
@@ -37,5 +39,6 @@ Remuneração: R$ 5.000,00 mensais
 Incentivos: 50% de desconto na assinatura do portal Alura
 
 ---
+
 Extraído em: 26/03/2026
 Link: https://www.linkedin.com/jobs/view/4382785614/

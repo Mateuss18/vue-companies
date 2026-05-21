@@ -7,6 +7,7 @@ Como parte do time da Oowlish, você vai colaborar com clientes de referência n
 Oferecemos a conveniência do trabalho remoto, permitindo construir um equilíbrio entre vida pessoal e profissional que se encaixe nas suas necessidades. Buscamos pessoas apaixonadas por tecnologia, com bom nível de inglês, e animadas para colaborar remotamente com alcance global.
 
 ## Sobre a função
+
 Buscamos um(a) Full Stack Engineer com experiência sólida em NestJS e Vue para ajudar a construir, escalar e evoluir aplicações web modernas. Esta função é ideal para quem gosta de assumir ownership de features de ponta a ponta, entende como as diferentes camadas da stack interagem e toma decisões técnicas bem fundamentadas em ambientes dinâmicos.
 
 Você vai atuar em sistemas de back-end e front-end, trabalhando de perto com os founders e com o time para desenhar soluções escaláveis, otimizar performance e melhorar continuamente o produto. Esta posição exige equilíbrio entre profundidade técnica, visão de produto e pragmatismo — especialmente em contextos com restrição de custos, onde trade-offs importam.
@@ -39,28 +40,8 @@ Você vai atuar em sistemas de back-end e front-end, trabalhando de perto com os
 - Experiência modernizando sistemas legados ou MVPs visando escalabilidade
 - Experiência em startups ou empresas em estágio inicial
 
-## Benefícios
-
-- Home office;
-
-- Remuneração competitiva de acordo com experiência;
-
-- Planos de carreira com foco em crescimento dentro da empresa;
-
-- Projetos internacionais;
-
-- Programa de inglês da Oowlish (Technical e Conversational);
-
-- Oowlish Fitness com Total Pass;
-
-- Jogos e competições;
-
 ## Você também pode se candidatar aqui
 
 Website: https://www.oowlish.com/work-with-us/
 
 LinkedIn: https://www.linkedin.com/company/oowlish/jobs/
-
-Instagram: https://www.instagram.com/oowlishtechnology/
-
-Podemos usar ferramentas de artificial intelligence (AI) para apoiar partes do processo seletivo, como revisar candidaturas, analisar currículos ou avaliar respostas. Essas ferramentas ajudam o time de recrutamento, mas não substituem o julgamento humano. As decisões finais de contratação são tomadas por pessoas. Para mais informações sobre como seus dados são processados, entre em contato conosco.

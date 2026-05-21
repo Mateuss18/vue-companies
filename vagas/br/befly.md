@@ -1,16 +1,9 @@
 # Analista de Desenvolvimento Sr - BeFly
+
+empresa: BeFly
+região: br
+
 ## Sobre a vaga
-Descrição da vaga
-
-Somos o ecossistema de turismo mais transformador na vida de cada pessoa! A paixão por viagens está em nosso DNA.
-
-Nossos escritórios proporcionam um ambiente moderno e pensado para uma melhor experiência de trabalho presencial. Somos múltiplos e diversos, gostamos de trabalhar com gente do bem, de forma inteligente, prática, ousada, inovadora e com tudo isso, buscamos o extraordinário.
-
-Valorizamos as conexões reais e ambientes leves, seja através do cafezinho no meio de expediente ou aquele papo, que sempre gera novas ideias.
-
-O que nos move é a transformação e nosso lema é criar caminhos além do imaginável! Isso nos torna BeFly. E aí, você vem com a gente?
-
-#VemSerBeFly 
 
 Responsabilidades e atribuições
 
@@ -25,8 +18,6 @@ Aplicar conhecimento sólido em linguagens como Python e Kotlin no desenvolvimen
 Garantir a aplicação de boas práticas de versionamento, integração contínua e desenvolvimento orientado a testes (TDD);
 Participar ativamente de revisões de código, mentorias técnicas e discussões de arquitetura;
 Estar constantemente atualizado com tendências e tecnologias do setor, promovendo a melhoria contínua dos processos de desenvolvimento.
-
-Requisitos e qualificações
 
 Requisitos e Qualificações
 
@@ -47,41 +38,6 @@ Vivência tanto em startups quanto em grandes corporações;
 Conhecimento em práticas de desenvolvimento sustentável e escalável;
 Experiência em cloud computing (AWS, GCP ou Azure);
 Participação em comunidades técnicas ou projetos open source.
-
-Informações adicionais
-
-Quais os benefícios de ser BeFly?
-
-VR iFood Benefícios | Para que você se alimente bem.
-Vale-transporte | Para facilitar sua locomoção.
-Assistência médica Bradesco | Mensalidade 100% paga pela BeFly ao colaborador titular e 50% para dependentes, com coparticipação.
-Seguro de vida | Sem custo para o colaborador.
-Assistência odontológica | OdontoPrev.
-Wellhub | Para você cuidar da sua saúde física.
-Day off de aniversário | Um dia de descanso no seu aniversário.
-Programa de maternidade | Pacote com diversos cuidados para uma gestação tranquila.
-Programa Oriente-me | Sessões de terapia sem custo adicional.
-Estacionamento na sede | Desconto exclusivo para colaboradores.
-Convênios educacionais | Descontos em instituições de ensino parceiras.
-BeFlyers Travel | Agência de lazer interna com condições especiais para colaboradores.
-
-E muito mais!
-
-﻿Atuação remota para residentes fora do estado de São Paulo
-
-Atuação 100% presencial para residentes no estado de São Paulo com flexday (home office a cada 15 dias)
-
-#BeFly
-
-Criamos caminhos além do imaginável — e o próximo pode ser o seu!
-
-A BeFly é um ecossistema de empresas de turismo e tecnologia, fundado em outubro de 2021, que reúne marcas com mais de 40 anos de história. Estamos presentes em todo o Brasil, com cerca de 2.000 colaboradores e soluções que atendem viajantes individuais, empresas e eventos, conectando pessoas, tecnologia e propósito.
-
-Somos apaixonados por clientes, resultados e por criar experiências que marcam para sempre. Aqui, inovação e desenvolvimento caminham juntos. Nosso ambiente é dinâmico, acolhedor e cheio de oportunidades para quem quer crescer e fazer a diferença no futuro do turismo.
-
-Se você busca uma jornada com significado, espaço para aprender e transformar, a BeFly é o seu lugar.
-
-🚀 Clique aqui e explore o universo BeFly.
 
 ---
 

@@ -9,6 +9,6 @@ The role centers on building and evolving modern web interfaces with VueJS, work
 Required experience includes VueJS or React, Git, and a passion for the web. Nice to have items mentioned in the job include NuxtJS or NextJS, publishing NPM packages, and strong Tailwind CSS skills.
 
 ---
+
 Extra?do em: 29/03/2026
 Link: https://www.linkedin.com/jobs/view/4391589172/
-

@@ -1,15 +1,10 @@
-Sobre a vaga
-Descrição da vaga
-
-Nosso time é composto por pessoas inquietas com foco no resultado e que se interessem pelo ambiente de transformação e inovação digital. 
+Nosso time é composto por pessoas inquietas com foco no resultado e que se interessem pelo ambiente de transformação e inovação digital.
 
 Aqui na Vertigo Tecnologia ajudamos a melhorar a vida dos nossos clientes e dos cidadãos como um todo.
 
 Procuramos por uma Desenvolvedor(a) Front-end Sênior Vue que queira se desenvolver com a Vertigo!
 
 #GoVertigo 🚀
-
-
 
 Responsabilidades e atribuições
 
@@ -20,7 +15,6 @@ Trabalhar com equipes multidisciplinares (backend, design, produto) para entrega
 Garantir a performance, testabilidade, responsividade e usabilidade das aplicações;
 Participar de code reviews, sugerindo e garantindo aplicação de boas práticas;
 Contribuir para a evolução técnica do time, mentorando outros desenvolvedores quando necessário.
-
 
 Requisitos e qualificações
 
@@ -36,14 +30,12 @@ Conhecimento em testes unitários com Jest, Vue Test Utils ou similares;
 Conhecimento em ferramentas modernas de build como Webpack ou Vite;
 Conhecimento em padrões de segurança para aplicações web (ex: tratamento de CORS, autenticação com JWT).
 
-
 Diferenciais
 
 Experiência em uso de TypeScript com Vue;
 Conhecimento em TailwindCSS, Vuetify, BootstrapVue ou outros frameworks de UI;
 Conhecimento em Cypress ou outras ferramentas de testes end-to-end;
 Conhecimento em práticas de DevOps (CI/CD, Docker, deploy em Vercel/Netlify/AWS).
-
 
 Você quer fazer parte do nosso time?
 

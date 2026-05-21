@@ -1,4 +1,5 @@
 # Sobre a vaga
+
 ## Sobre a Clicksign
 
 Somos uma empresa brasileira líder em assinaturas eletrônicas. Em essência, facilitamos relações entre pessoas e empresas no ambiente digital. Por trás da nossa tecnologia de ponta e foco em segurança, temos a missão de fazer o mundo crescer, tornando as relações digitais cada vez mais inteligentes.
@@ -53,11 +54,3 @@ Estamos em busca de uma pessoa **Front End Sênior**, com forte domínio técnic
 - Autonomia e protagonismo, em um ambiente cheio de colaboração e empatia.
 - Cultura de feedback e 1:1 com uma liderança humana e sem microgerenciamento.
 - Benefícios completos como: vale refeição/alimentação, auxílios creche, home office, saúde, educação e cultura, gympass, day-off de aniversário, descontos em terapia e cursos de inglês, entre outras parcerias.
-
-
-
-// 11-50 funcionários → startup
-// 200 funcionários → small
-// 1.000 funcionários → medium
-// 5.000 funcionários → large
-// 10.000+ funcionários → enterprise

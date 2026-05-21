@@ -32,14 +32,5 @@ Ninguém marca todas as caixas. Se você tem bons fundamentos, curiosidade e von
 - Comunicação clara em inglês
 - Formação: graduação em Computer Science ou experiência prática equivalente
 
-## Benefícios
-
-- Offsites com o time em locais interessantes
-- Horários flexíveis em uma empresa remote-first
-- Produto empolgante em um mercado muito dinâmico
-- Cultura de startup guiada por valores
-- Muitas oportunidades para desenvolvimento e networking com pessoas engajadas
-- Hierarquia horizontal
-
 Somos uma empresa remote-first e construímos nosso time central de desenvolvimento em torno do Central European Time. Para viabilizar colaboração em tempo real, buscamos pessoas que consigam trabalhar dentro de ±3 horas do CET. O salário bruto anual para esta função é €40.000–€65.000, dependendo de localização e experiência.
 Vamos construir juntos a próxima camada de confiança para digital assets.

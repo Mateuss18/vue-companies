@@ -1,5 +1,8 @@
 # Pessoa Desenvolvedora Front-end Sênior (Vue.js) - Home Office
 
+empresa: Atlas Technologies
+região: br
+
 Estamos em busca de uma Pessoa Desenvolvedora Front-end Sênior (Vue.js) para atuar na construção, evolução e sustentação de produtos digitais de alto impacto.
 
 Buscamos alguém com forte senso de qualidade técnica, visão de produto, autonomia e capacidade de atuar em ambientes de alta complexidade técnica e de negócio.
