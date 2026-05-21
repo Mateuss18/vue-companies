@@ -1,0 +1,7269 @@
+{
+  "jobs": [
+    {
+      "company": "A4PM Soluções Inteligentes",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "nestjs",
+          "displayName": "NestJS",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "mariadb",
+          "displayName": "MariaDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "bullmq",
+          "displayName": "BullMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "rabbitmq",
+          "displayName": "RabbitMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "azure-devops",
+          "displayName": "Azure DevOps",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "react-native",
+          "displayName": "React Native",
+          "category": "mobile",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "Aliare",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "composition-api",
+          "displayName": "Composition API",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "primevue",
+          "displayName": "PrimeVue",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "ci-cd",
+          "displayName": "CI/CD",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "azure-devops",
+          "displayName": "Azure DevOps",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "micro-frontends",
+          "displayName": "Micro Frontends",
+          "category": "frontend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "Atendas - Atendimento & Vendas",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "version": "4",
+          "displayName": "Nuxt 4",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "figma",
+          "displayName": "Figma",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "Atlas Technologies",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "angular",
+          "displayName": "Angular",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "storybook",
+          "displayName": "Storybook",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "BeFly",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "python",
+          "displayName": "Python",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "kotlin",
+          "displayName": "Kotlin",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "gcp",
+          "displayName": "GCP",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "belvo",
+      "position": "Backend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "python",
+          "displayName": "Python",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "datadog",
+          "displayName": "Datadog",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "django",
+          "displayName": "Django",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "asyncio",
+          "displayName": "asyncio",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "fastapi",
+          "displayName": "FastAPI",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "go",
+          "displayName": "Go",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "rust",
+          "displayName": "Rust",
+          "category": "language",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "bling",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "go",
+          "displayName": "Go",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "dynamodb",
+          "displayName": "DynamoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "documentdb",
+          "displayName": "DocumentDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "less",
+          "displayName": "Less",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "kafka",
+          "displayName": "Kafka",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "amq",
+          "displayName": "AMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "sqs",
+          "displayName": "SQS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "sns",
+          "displayName": "SNS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "clickhouse",
+          "displayName": "ClickHouse",
+          "category": "database",
+          "importance": "preferred"
+        },
+        {
+          "name": "ci-cd",
+          "displayName": "CI/CD",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "terraform",
+          "displayName": "Terraform",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "bravi",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "dotnet",
+          "displayName": ".NET Core",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "sql-server",
+          "displayName": "SQL Server",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "rabbitmq",
+          "displayName": "RabbitMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "entity-framework",
+          "displayName": "Entity Framework",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "nhibernate",
+          "displayName": "NHibernate",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "github",
+          "displayName": "GitHub",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "gitlab",
+          "displayName": "GitLab",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "ci-cd",
+          "displayName": "CI/CD",
+          "category": "tooling",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "bussola-social",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "bootstrap",
+          "displayName": "Bootstrap",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "jquery",
+          "displayName": "jQuery",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "figma",
+          "displayName": "Figma",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "adobe-xd",
+          "displayName": "Adobe XD",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "clicksign",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "github-copilot",
+          "displayName": "GitHub Copilot",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "claude",
+          "displayName": "Claude",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "github-actions",
+          "displayName": "GitHub Actions",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "go",
+          "displayName": "Go",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "rails",
+          "displayName": "Rails",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "hotmart",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "sentry",
+          "displayName": "Sentry",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "datadog",
+          "displayName": "Datadog",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "new-relic",
+          "displayName": "New Relic",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "github-actions",
+          "displayName": "GitHub Actions",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "gitlab-ci",
+          "displayName": "GitLab CI",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "doclio",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "junior",
+      "technologies": [
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "nestjs",
+          "displayName": "NestJS",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "asaas",
+          "displayName": "Asaas",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "pagarme",
+          "displayName": "Pagar.me",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "stripe",
+          "displayName": "Stripe",
+          "category": "tooling",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "sos-docs",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "java",
+          "version": "8+",
+          "displayName": "Java 8+",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "spring",
+          "displayName": "Spring",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "jpa",
+          "displayName": "JPA",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "hibernate",
+          "displayName": "Hibernate",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "oracle",
+          "displayName": "Oracle",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "elasticsearch",
+          "displayName": "Elasticsearch",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "opensearch",
+          "displayName": "OpenSearch",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "nuxeo",
+          "displayName": "Nuxeo",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "fone-ninja",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "version": "12",
+          "displayName": "Laravel 12",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "sqs",
+          "displayName": "SQS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "sns",
+          "displayName": "SNS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "gcp",
+          "displayName": "GCP",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "compass-uol",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "less",
+          "displayName": "Less",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "sonarqube",
+          "displayName": "SonarQube",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "conta-azul",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "npm",
+          "displayName": "npm",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "yarn",
+          "displayName": "Yarn",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "styled-components",
+          "displayName": "Styled Components",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "figma",
+          "displayName": "Figma",
+          "category": "tooling",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "contabilizei",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": []
+    },
+    {
+      "company": "craf-tech",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "primevue",
+          "displayName": "PrimeVue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "echarts",
+          "displayName": "ECharts",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "deliver-it-servicos-tecnologia",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-cli",
+          "displayName": "Vue CLI",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "filament",
+          "displayName": "Filament",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "livewire",
+          "displayName": "Livewire",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "inertia",
+          "displayName": "Inertia.js",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "linux",
+          "displayName": "Linux",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "phpunit",
+          "displayName": "PHPUnit",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "pest",
+          "displayName": "Pest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "ecossistema-seller-pro",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "junior",
+      "technologies": [
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "linux",
+          "displayName": "Linux",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "enghouse-interactive",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "less",
+          "displayName": "Less",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "rabbitmq",
+          "displayName": "RabbitMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "sql",
+          "displayName": "SQL",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "quarkus",
+          "displayName": "Quarkus",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "eyecare-health",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "gcp",
+          "displayName": "GCP",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "facil-consulta",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "bootstrap",
+          "displayName": "Bootstrap",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "fcamara",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "version": "3",
+          "displayName": "Nuxt 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "cloudfront",
+          "displayName": "CloudFront",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "flagler-health",
+      "position": "Frontend Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "mongoose",
+          "displayName": "Mongoose",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "express",
+          "displayName": "Express",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "gcp",
+          "displayName": "GCP",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "turborepo",
+          "displayName": "Turborepo",
+          "category": "tooling",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "gooroo-credito",
+      "position": "Backend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "gx2-tecnologia",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vue-test-utils",
+          "displayName": "Vue Test Utils",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "metamask",
+          "displayName": "MetaMask",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "walletconnect",
+          "displayName": "WalletConnect",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "ethers",
+          "displayName": "Ethers.js",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "web3",
+          "displayName": "Web3.js",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "storybook",
+          "displayName": "Storybook",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "figma",
+          "displayName": "Figma",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "tradingview",
+          "displayName": "TradingView",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "chartjs",
+          "displayName": "Chart.js",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "d3",
+          "displayName": "D3.js",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "lightweight-charts",
+          "displayName": "Lightweight Charts",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "sentry",
+          "displayName": "Sentry",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "logrocket",
+          "displayName": "LogRocket",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "datadog",
+          "displayName": "Datadog",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "harmoniza-pro",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "n8n",
+          "displayName": "n8n",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "supabase",
+          "displayName": "Supabase",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "hays",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "hubstrom",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "gcp",
+          "displayName": "GCP",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "firebase",
+          "displayName": "Firebase",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "igo-eventos",
+      "position": "Frontend Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "github-copilot",
+          "displayName": "GitHub Copilot",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "cursor",
+          "displayName": "Cursor",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "mercado-bitcoin",
+      "position": "Frontend Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "sentry",
+          "displayName": "Sentry",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "datadog",
+          "displayName": "Datadog",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "linux",
+          "displayName": "Linux",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "mizui",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "github-copilot",
+          "displayName": "GitHub Copilot",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "cursor",
+          "displayName": "Cursor",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "nitro",
+          "displayName": "Nitro",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "new-rizon",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "quasar",
+          "displayName": "Quasar",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "nextdom-healthtech",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "spring",
+          "displayName": "Spring",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "spring-boot",
+          "displayName": "Spring Boot",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "oracle",
+          "displayName": "Oracle",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "sql",
+          "displayName": "SQL",
+          "category": "language",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "omie",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "python",
+          "displayName": "Python",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "fastapi",
+          "displayName": "FastAPI",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "sqlalchemy",
+          "displayName": "SQLAlchemy",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "onfly",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "quasar",
+          "displayName": "Quasar",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "bootstrapvue",
+          "displayName": "BootstrapVue",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "onr",
+      "position": "Frontend Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "babel",
+          "displayName": "Babel",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "npm",
+          "displayName": "npm",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "yarn",
+          "displayName": "Yarn",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "enzyme",
+          "displayName": "Enzyme",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "csharp",
+          "displayName": "C#",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "dotnet",
+          "displayName": ".NET",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "petlove",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "flutter",
+          "displayName": "Flutter",
+          "category": "mobile",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "pilar",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "preferred"
+        },
+        {
+          "name": "s3",
+          "displayName": "S3",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "cloudfront",
+          "displayName": "CloudFront",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "playwright",
+          "displayName": "Playwright",
+          "category": "testing",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "positivelinks-asia",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "laravel",
+          "version": "10",
+          "displayName": "Laravel 10",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "postman",
+          "displayName": "Postman",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "bruno",
+          "displayName": "Bruno",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "insomnia",
+          "displayName": "Insomnia",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "stripe",
+          "displayName": "Stripe",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "playwright",
+          "displayName": "Playwright",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "privacy",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "sql-server",
+          "displayName": "SQL Server",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "rabbitmq",
+          "displayName": "RabbitMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "sectra-sistemas",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "csharp",
+          "displayName": "C#",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "bootstrap",
+          "displayName": "Bootstrap",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "primevue",
+          "displayName": "PrimeVue",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "shift-inc",
+      "position": "Frontend Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "aem",
+          "displayName": "AEM",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "bootstrap",
+          "displayName": "Bootstrap",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "ant-design",
+          "displayName": "Ant Design",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "buefy",
+          "displayName": "Buefy",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "adobe-target",
+          "displayName": "Adobe Target",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "adobe-campaign",
+          "displayName": "Adobe Campaign",
+          "category": "tooling",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "Software Mind",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "gatsby",
+          "displayName": "Gatsby",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "angular",
+          "displayName": "Angular",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "testcafé",
+          "displayName": "TestCafé",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "npm",
+          "displayName": "NPM",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "starían",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "nestjs",
+          "displayName": "NestJS",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "single-spa",
+          "displayName": "single-spa",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "argocd",
+          "displayName": "ArgoCD",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "solfacil",
+      "position": "Staff Software Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "cloudflare",
+          "displayName": "cloudflare",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "kubernetes",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "startup-sa",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "junior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "supranet",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "version": "3",
+          "displayName": "Nuxt 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "bun",
+          "displayName": "Bun",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "version": "16",
+          "displayName": "PostgreSQL 16",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "prisma",
+          "version": "7",
+          "displayName": "Prisma 7",
+          "category": "database",
+          "importance": "preferred"
+        },
+        {
+          "name": "primevue",
+          "version": "4",
+          "displayName": "PrimeVue 4",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "preferred"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "traefik",
+          "displayName": "Traefik",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "portainer",
+          "displayName": "Portainer",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "jwt",
+          "displayName": "JWT",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "bcryptjs",
+          "displayName": "bcryptjs",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "mariadb",
+          "displayName": "MariaDB",
+          "category": "database",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "techsmart",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "python",
+          "displayName": "Python",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "django",
+          "displayName": "Django",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "sanic",
+          "displayName": "Sanic",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "trust-group",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "technologies": [
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "linux",
+          "displayName": "Linux",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "grafana",
+          "displayName": "Grafana",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "zabbix",
+          "displayName": "Zabbix",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "pm2",
+          "displayName": "PM2",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "primevue",
+          "displayName": "PrimeVue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "agno",
+          "displayName": "Agno",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "llama",
+          "displayName": "LLaMA",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "sql-server",
+          "displayName": "SQL Server",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "jira",
+          "displayName": "Jira",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "notion",
+          "displayName": "Notion",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "slack",
+          "displayName": "Slack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "oracle",
+          "displayName": "Oracle",
+          "category": "database",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "valesoft-tecnologia",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "spring-boot",
+          "displayName": "Spring Boot",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "angular",
+          "displayName": "Angular",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "vertigo",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vue-test-utils",
+          "displayName": "Vue Test Utils",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "jwt",
+          "displayName": "JWT",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "preferred"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "bootstrap-vue",
+          "displayName": "BootstrapVue",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "vercel",
+          "displayName": "Vercel",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "netlify",
+          "displayName": "Netlify",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "vhl-sistemas",
+      "position": "Fullstack Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "spring-boot",
+          "displayName": "Spring Boot",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "spring-data",
+          "displayName": "Spring Data",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "spring-security",
+          "displayName": "Spring Security",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "jenkins",
+          "displayName": "Jenkins",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "watch-brasil",
+      "position": "Frontend Developer",
+      "region": "br",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "next",
+          "displayName": "Next.js",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "ahead-gmbh",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "kotlin",
+          "displayName": "Kotlin",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "grpc",
+          "displayName": "gRPC",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "preferred"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "jetbrains",
+          "displayName": "JetBrains",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "gcp",
+          "displayName": "GCP",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "acronis",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "aristea",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet",
+          "displayName": ".NET",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "flutter",
+          "displayName": "Flutter",
+          "category": "mobile",
+          "importance": "required"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "ambition-guru",
+      "position": "Fullstack Developer",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "nginx",
+          "displayName": "Nginx",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "ankix",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "jira",
+          "displayName": "Jira",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "aubay-portugal",
+      "position": "Frontend Developer",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "avvoka",
+      "position": "Frontend Developer",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "ayesa",
+      "position": "Frontend Developer",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "python",
+          "displayName": "Python",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "betterportrait-ag",
+      "position": "Frontend Developer",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "bmw-techworks-romania",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "capitole",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "java",
+          "version": "17",
+          "displayName": "Java 17",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "spring-boot",
+          "version": "3",
+          "displayName": "Spring Boot 3",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "oauth",
+          "displayName": "OAuth 2.0",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vault",
+          "displayName": "Vault",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "gke",
+          "displayName": "GKE",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "datadog",
+          "displayName": "Datadog",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "carelancer",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "jquery",
+          "displayName": "jQuery",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "quasar",
+          "displayName": "Quasar",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "capacitor",
+          "displayName": "Capacitor",
+          "category": "mobile",
+          "importance": "required"
+        },
+        {
+          "name": "cordova",
+          "displayName": "Cordova",
+          "category": "mobile",
+          "importance": "required"
+        },
+        {
+          "name": "jira",
+          "displayName": "Jira",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "cinepostproduction-gmbh",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "element-plus",
+          "displayName": "Element+",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "yii2",
+          "displayName": "Yii2",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "ffmpeg",
+          "displayName": "FFmpeg",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "digiplus-interactive-corp",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "babel",
+          "displayName": "Babel",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "eslint",
+          "displayName": "ESLint",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "comeen",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "gcp",
+          "displayName": "GCP",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "electron",
+          "displayName": "Electron",
+          "category": "tooling",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "corporate-tools",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "SASS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "mocha",
+          "displayName": "Mocha",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt.js",
+          "category": "frontend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "css-zone",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "nuxt",
+          "version": "3",
+          "displayName": "Nuxt 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "express",
+          "displayName": "Express",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "deel",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "csharp",
+          "displayName": "C#",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet",
+          "displayName": ".NET",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet-core",
+          "displayName": ".NET Core",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "entity-framework",
+          "displayName": "Entity Framework",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "mssql",
+          "displayName": "MS-SQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "azure-devops",
+          "displayName": "Azure DevOps",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "dilitrust",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "mariadb",
+          "displayName": "MariaDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "terraform",
+          "displayName": "Terraform",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "gcp",
+          "displayName": "GCP",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "dyflexis",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "ionic",
+          "displayName": "Ionic",
+          "category": "mobile",
+          "importance": "required"
+        },
+        {
+          "name": "capacitor",
+          "displayName": "Capacitor",
+          "category": "mobile",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "elligint-health",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "jquery",
+          "displayName": "jQuery",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "postcss",
+          "displayName": "PostCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "version": "5",
+          "displayName": "Webpack 5",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "rollup",
+          "displayName": "Rollup",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "babel",
+          "displayName": "Babel",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "esbuild",
+          "displayName": "ESbuild",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "eslint",
+          "displayName": "ESLint",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "prettier",
+          "displayName": "Prettier",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "stylelint",
+          "displayName": "Stylelint",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "mocha",
+          "displayName": "Mocha",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "e-pubby",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "equate-media",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "express",
+          "displayName": "Express",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "socketio",
+          "displayName": "Socket.IO",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "webrtc",
+          "displayName": "WebRTC",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "twilio",
+          "displayName": "Twilio",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "rabbitmq",
+          "displayName": "RabbitMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "pm2",
+          "displayName": "PM2",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "sentry",
+          "displayName": "Sentry",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "givecard",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "exadel",
+      "position": "Backend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "spring-boot",
+          "displayName": "Spring Boot",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "spring",
+          "displayName": "Spring",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "hibernate",
+          "displayName": "Hibernate",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "oracle",
+          "displayName": "Oracle",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "sqlserver",
+          "displayName": "SQL Server",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "junit",
+          "displayName": "JUnit",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "cucumber",
+          "displayName": "Cucumber",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "selenium",
+          "displayName": "Selenium",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "maven",
+          "displayName": "Maven",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "jenkins",
+          "displayName": "Jenkins",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "soapui",
+          "displayName": "SoapUI",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "forte-group",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "csharp",
+          "displayName": "C#",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet",
+          "displayName": ".NET",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet-core",
+          "displayName": ".NET Core",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "mssql",
+          "displayName": "MSSQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "frontiers",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "dotnet",
+          "displayName": ".NET",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "gitlab",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "kotlin",
+          "displayName": "Kotlin",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "insider-one",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "jquery",
+          "displayName": "jQuery",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "go",
+          "displayName": "Go",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "head-on-solutions",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "hinted",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "immocloud",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "spring-boot",
+          "displayName": "Spring Boot",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "indt-innovation",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "csharp",
+          "displayName": "C#",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet-core",
+          "displayName": ".NET Core",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "aspnet-webforms",
+          "displayName": "ASP.NET Web Forms",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "aspnet-mvc",
+          "displayName": "ASP.NET MVC",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "splunk",
+          "displayName": "Splunk",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "dynatrace",
+          "displayName": "Dynatrace",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "flutter",
+          "displayName": "Flutter",
+          "category": "mobile",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "inno-tech",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "jsp",
+          "displayName": "JSP",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "leetchi",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "aspnet",
+          "displayName": "ASP.NET",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet-core",
+          "displayName": ".NET Core",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "iqvia",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "redux",
+          "displayName": "Redux",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "mui",
+          "displayName": "MUI",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "single-spa",
+          "displayName": "single-spa",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "storybook",
+          "displayName": "Storybook",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "jayapay-official",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "k2united",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "junior",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "angular",
+          "displayName": "Angular",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "knowmad-mood",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "korelinside",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "mocha",
+          "displayName": "Mocha",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "babel",
+          "displayName": "Babel",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "motion-recruitment",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "dotnet",
+          "displayName": ".NET",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        { "name": "sql", "displayName": "SQL", "category": "database", "importance": "preferred" }
+      ]
+    },
+    {
+      "company": "musky",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "javascript",
+          "displayName": "JavaScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "NodeJS",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "fastify",
+          "displayName": "Fastify",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "mongoose",
+          "displayName": "Mongoose",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "cursor",
+          "displayName": "Cursor",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "claude",
+          "displayName": "Claude Code",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "codex",
+          "displayName": "Codex",
+          "category": "tooling",
+          "importance": "required"
+        },
+        { "name": "gcp", "displayName": "GCP", "category": "infra", "importance": "preferred" },
+        { "name": "aws", "displayName": "AWS", "category": "infra", "importance": "preferred" },
+        {
+          "name": "jira",
+          "displayName": "Jira",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "figma",
+          "displayName": "Figma",
+          "category": "tooling",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "magellan-technology-research-institute-mtri",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "python",
+          "displayName": "Python",
+          "category": "language",
+          "importance": "required"
+        },
+        { "name": "vue", "displayName": "Vue", "category": "frontend", "importance": "required" },
+        {
+          "name": "django",
+          "displayName": "Django",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "fastapi",
+          "displayName": "FastAPI",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "flask",
+          "displayName": "Flask",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "maincare",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue.js",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "openid-connect",
+          "displayName": "OpenID Connect",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "oauth2",
+          "displayName": "OAuth2",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "metrica",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue.js 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue.js 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        { "name": "scss", "displayName": "SCSS", "category": "styles", "importance": "required" },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "preferred"
+        },
+        {
+          "name": "arcgis",
+          "displayName": "ArcGIS API for JavaScript",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "angular",
+          "displayName": "Angular",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "jira",
+          "displayName": "JIRA",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "nordhealth",
+      "position": "Technical Support Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "laravel",
+          "version": "10",
+          "displayName": "Laravel 10",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "version": "8",
+          "displayName": "MySQL 8",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "bootstrap",
+          "displayName": "Bootstrap",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "tailwindcss",
+          "displayName": "TailwindCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "category": "database",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "omnilojo",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "oowlish",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nestjs",
+          "displayName": "NestJS",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "mongoose",
+          "displayName": "Mongoose",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "tanstack",
+          "displayName": "TanStack",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "vercel",
+          "displayName": "Vercel",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "supabase",
+          "displayName": "Supabase",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "optomi",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vue-test-utils",
+          "displayName": "Vue Test Utils",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "yarn",
+          "displayName": "Yarn",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "eslint",
+          "displayName": "ESLint",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "sonarlint",
+          "displayName": "SonarLint",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "psychology-today",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "appsync",
+          "displayName": "AWS AppSync",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "apigateway",
+          "displayName": "API Gateway",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "lambda",
+          "displayName": "AWS Lambda",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "eventbridge",
+          "displayName": "EventBridge",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "go",
+          "displayName": "Golang",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "dynamodb",
+          "displayName": "DynamoDB",
+          "category": "database",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "qube-markets",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "github-copilot",
+          "displayName": "GitHub Copilot",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "cursor",
+          "displayName": "Cursor",
+          "category": "tooling",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "paessler-gmbh",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "particula",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "version": "3",
+          "displayName": "Nuxt 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "TailwindCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "playwright",
+          "displayName": "Playwright",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "storybook",
+          "displayName": "Storybook",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "s3",
+          "displayName": "S3",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "cloudfront",
+          "displayName": "CloudFront",
+          "category": "infra",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "plannr-technologies-limited",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "react",
+          "displayName": "React",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "sporty-group",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "statscore",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "seniority": "mid",
+      "technologies": [
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nestjs",
+          "displayName": "NestJS",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "redis",
+          "displayName": "Redis",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "mysql",
+          "displayName": "MySQL",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "rabbitmq",
+          "displayName": "RabbitMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "Sass",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "github-actions",
+          "displayName": "GitHub Actions",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "switch-software",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "csharp",
+          "displayName": "C#",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "dotnetcore",
+          "displayName": ".NetCore",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "2",
+          "displayName": "Vue 2",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "devextreme",
+          "displayName": "DevExtreme",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "devexpress",
+          "displayName": "DevExpress",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "azure",
+          "displayName": "Azure DevOps",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "vue-router",
+          "displayName": "Vue Router",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "oracle",
+          "displayName": "Oracle",
+          "category": "database",
+          "importance": "preferred"
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "category": "database",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "telus-digital",
+      "position": "Fullstack Engineer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "ruby",
+          "displayName": "Ruby",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "rails",
+          "displayName": "Ruby on Rails",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "quinstreet",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "razer",
+      "position": "Software Engineer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "bootstrap",
+          "displayName": "Bootstrap",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "SASS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "less",
+          "displayName": "LESS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "webpack",
+          "displayName": "Webpack",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "playwright",
+          "displayName": "Playwright",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "respond-io",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "express",
+          "displayName": "Express",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "vuetify",
+          "displayName": "Vuetify",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "required"
+        },
+        {
+          "name": "astro",
+          "displayName": "Astro",
+          "category": "frontend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "ria-money-transfer",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "snowrelic-inc",
+      "position": "UI Engineer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "kafka",
+          "displayName": "Kafka",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "rabbitmq",
+          "displayName": "RabbitMQ",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "selenium",
+          "displayName": "Selenium",
+          "category": "testing",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "cloudfront",
+          "displayName": "CloudFront",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "sql",
+          "displayName": "SQL",
+          "category": "database",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "unilog",
+      "position": "Senior UI Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "scss",
+          "displayName": "SCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "redux",
+          "displayName": "Redux",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "zustand",
+          "displayName": "Zustand",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "graphql",
+          "displayName": "GraphQL",
+          "category": "backend",
+          "importance": "preferred"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "tillo",
+      "position": "Fullstack Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "tailwind",
+          "displayName": "Tailwind CSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "storybook",
+          "displayName": "Storybook",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "aws",
+          "displayName": "AWS",
+          "category": "infra",
+          "importance": "preferred"
+        },
+        {
+          "name": "datadog",
+          "displayName": "DataDog",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "sql",
+          "displayName": "SQL",
+          "category": "database",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "ttg-technology",
+      "position": "Software Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "csharp",
+          "displayName": "C#",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet",
+          "displayName": ".NET",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "servicestack",
+          "displayName": "ServiceStack",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "sqlserver",
+          "displayName": "SQL Server",
+          "category": "database",
+          "importance": "required"
+        },
+        {
+          "name": "docker",
+          "displayName": "Docker",
+          "category": "infra",
+          "importance": "required"
+        },
+        {
+          "name": "kubernetes",
+          "displayName": "Kubernetes",
+          "category": "infra",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "unameit",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "dotnet",
+          "displayName": ".NET",
+          "category": "backend",
+          "importance": "preferred"
+        }
+      ]
+    },
+    {
+      "company": "yearnings-inc",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "upstars",
+      "position": "Senior Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "nuxt",
+          "displayName": "Nuxt",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "node",
+          "displayName": "Node.js",
+          "category": "backend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "valgrupo",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "laravel",
+          "displayName": "Laravel",
+          "category": "backend",
+          "importance": "required"
+        },
+        {
+          "name": "php",
+          "displayName": "PHP",
+          "category": "language",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "wagner-ecommerce-group-gmbh",
+      "position": "Frontend Developer",
+      "region": "international",
+      "technologies": [
+        {
+          "name": "vue",
+          "version": "3",
+          "displayName": "Vue 3",
+          "category": "frontend",
+          "importance": "required"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "required"
+        }
+      ]
+    },
+    {
+      "company": "xe-com",
+      "position": "Frontend Developer",
+      "region": "international",
+      "seniority": "senior",
+      "technologies": [
+        {
+          "name": "vue",
+          "displayName": "Vue",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "typescript",
+          "displayName": "TypeScript",
+          "category": "language",
+          "importance": "required"
+        },
+        {
+          "name": "postcss",
+          "displayName": "PostCSS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "sass",
+          "displayName": "SASS",
+          "category": "styles",
+          "importance": "required"
+        },
+        {
+          "name": "vuex",
+          "displayName": "Vuex",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "pinia",
+          "displayName": "Pinia",
+          "category": "frontend",
+          "importance": "preferred"
+        },
+        {
+          "name": "csharp",
+          "displayName": "C#",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "java",
+          "displayName": "Java",
+          "category": "language",
+          "importance": "preferred"
+        },
+        {
+          "name": "vitest",
+          "displayName": "Vitest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "jest",
+          "displayName": "Jest",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "playwright",
+          "displayName": "Playwright",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "cypress",
+          "displayName": "Cypress",
+          "category": "testing",
+          "importance": "preferred"
+        },
+        {
+          "name": "vite",
+          "displayName": "Vite",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "rollup",
+          "displayName": "Rollup",
+          "category": "tooling",
+          "importance": "preferred"
+        },
+        {
+          "name": "storybook",
+          "displayName": "Storybook",
+          "category": "frontend",
+          "importance": "preferred"
+        }
+      ]
+    }
+  ]
+}
