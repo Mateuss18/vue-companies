@@ -1812,10 +1812,27 @@
       "workModel": ["hybrid"],
       "createdAt": "2026-05-08",
       "descriptionEn": "SaaS messaging platform that unifies channels and automates support, marketing, and sales conversations for businesses."
+    },
+    {
+      "id": 113,
+      "name": "n8n",
+      "slug": "n8n",
+      "logo": "/imgs/logos/n8n.webp",
+      "country": "Germany",
+      "city": "Berlin",
+      "size": "small",
+      "website": "https://n8n.io",
+      "domain": "n8n.io",
+      "linkedin": "https://www.linkedin.com/company/n8n",
+      "description": "Plataforma de automação de workflows que combina IA com código, integrando 400+ apps com licença fair-code e opção de self-host.",
+      "descriptionEn": "Workflow automation platform combining AI with code, integrating 400+ apps under a fair-code license with self-hosting support.",
+      "tags": ["automation", "saas", "b2b", "ai", "no-code", "open-source", "devtools"],
+      "workModel": ["remote"],
+      "createdAt": "2026-05-21"
     }
   ],
   "meta": {
-    "total": 112,
-    "lastUpdate": "2026-05-08"
+    "total": 113,
+    "lastUpdate": "2026-05-21"
   }
 }
