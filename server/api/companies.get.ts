@@ -1,7 +1,7 @@
 import { defineEventHandler, getQuery } from 'h3'
-import companiesData from '~~/data/companies.json'
+import { companiesRepository } from '~~/server/repositories/companiesRepository'
 
-const companies = companiesData.companies
+const companies = companiesRepository.findAll()
 
 export default defineEventHandler((event) => {
   const query = getQuery(event)
